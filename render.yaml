@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: railassist-api
+    runtime: python
+    buildCommand: "pip install -r requirements.txt && python -m backend.app.seed"
+    startCommand: "uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: railassist-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "1440"
+      - key: PYTHON_VERSION
+        value: "3.12.0"
+
+databases:
+  - name: railassist-db
+    databaseName: railassist_db
+    user: postgres
+    plan: free

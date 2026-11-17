@@ -1,0 +1,99 @@
+{
+  "model_name": "RailAssist AI Text Classifier",
+  "primary_algorithm": "RandomForestClassifier",
+  "baseline_algorithm": "LogisticRegression",
+  "training_timestamp_utc": "2026-10-25T10:47:28.229151+00:00",
+  "random_seed": 42,
+  "test_size": 0.2,
+  "train_rows": 1559,
+  "test_rows": 390,
+  "total_rows": 1949,
+  "raw_dataset": {
+    "source_url": "https://huggingface.co/datasets/faizmubeen/indian_railways_complaint_tweets/resolve/main/inidian_railway_complaint_tweets.csv",
+    "huggingface_repo_id": "faizmubeen/indian_railways_complaint_tweets",
+    "revision_sha": "f2a3e5f9491324a9acaf4210558ad413583860c5",
+    "license": "MIT",
+    "sha256_hash": "cf8fb6b9743e7cfdb51d26358149799cc1719770e89979992de2dfe5c9ad891c"
+  },
+  "category_mapping_version": "2.0.0",
+  "active_categories": [
+    "Catering",
+    "Coach Maintenance",
+    "Electrical",
+    "Housekeeping",
+    "Operations & Traffic",
+    "Passenger Grievance",
+    "Security",
+    "Water & Sanitation"
+  ],
+  "all_target_categories": [
+    "Operations & Traffic",
+    "Passenger Grievance",
+    "Housekeeping",
+    "Security",
+    "Electrical",
+    "Catering",
+    "Coach Maintenance",
+    "Water & Sanitation"
+  ],
+  "unsupported_categories": [],
+  "insufficient_data_categories": [],
+  "pipeline_configuration": {
+    "tfidf": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "max_features": 5000,
+      "sublinear_tf": true,
+      "min_df": 2,
+      "stop_words": "english"
+    },
+    "random_forest": {
+      "n_estimators": 200,
+      "random_state": 42,
+      "class_weight": "balanced_subsample",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "n_jobs": -1
+    },
+    "logistic_regression": {
+      "class_weight": "balanced",
+      "max_iter": 1000,
+      "random_state": 42,
+      "C": 1.0
+    }
+  },
+  "model_files": {
+    "primary_rf": "railassist_rf_pipeline.joblib",
+    "baseline_lr": "railassist_lr_pipeline.joblib"
+  },
+  "evaluation_results": {
+    "primary_rf": {
+      "accuracy": 0.7538,
+      "macro_f1": 0.567,
+      "weighted_f1": 0.7255,
+      "confidence_stats": {
+        "mean_confidence": 0.6004,
+        "median_confidence": 0.5725,
+        "min_confidence": 0.225,
+        "max_confidence": 0.985,
+        "pct_above_50": 59.23,
+        "pct_above_70": 36.92
+      }
+    },
+    "baseline_lr": {
+      "accuracy": 0.8051,
+      "macro_f1": 0.6827,
+      "weighted_f1": 0.7957,
+      "confidence_stats": {
+        "mean_confidence": 0.3915,
+        "median_confidence": 0.3604,
+        "min_confidence": 0.164,
+        "max_confidence": 0.8714,
+        "pct_above_50": 22.05,
+        "pct_above_70": 4.36
+      }
+    }
+  }
+}

@@ -1,0 +1,752 @@
+{
+  "Housekeeping": {
+    "department": "Environment & Housekeeping Management (EnHM) / OBHS",
+    "samples": [
+      {
+        "text": "The bio-toilet in coach S4 is severely clogged, overflowing with dirty water and emitting foul smell.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "53.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Coach B2 is full of cockroaches crawling under the seats and trash has not been cleaned.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "57.0%",
+        "matches_target": true
+      },
+      {
+        "text": "The bedsheet and blanket provided in 2AC were dirty, stained, and smelled like unwashed linen.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "78.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Garbage bin near the coach door is overflowing with paper cups, food packets and bad odor.",
+        "predicted_category": "Catering",
+        "mapped_department": "Catering & Vending Services Department (IRCTC / Commercial)",
+        "confidence": "38.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Washbasin in coach S1 is stained with pan spit and full of filth, no cleaning staff attended.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "58.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Floor of the sleeper compartment is full of dust and mud, please send housekeeping staff.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "71.0%",
+        "matches_target": false
+      },
+      {
+        "text": "The pillow cover provided in 3AC was torn and soiled, request fresh bedroll linen urgently.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "48.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Toilets are extremely unhygienic with urine on the floor and foul stink throughout the coach.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "62.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Cleaning staff did not clean the compartment or toilets since train departed source station.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "54.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Unpleasant foul odor coming from the toilet vent throughout coach S6, need air freshener.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "40.5%",
+        "matches_target": true
+      }
+    ]
+  },
+  "Operations & Traffic": {
+    "department": "Operating Department (Traffic & Scheduling)",
+    "samples": [
+      {
+        "text": "Train 12951 Rajdhani Express is delayed by 5 hours with zero updates from station master.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "88.0%",
+        "matches_target": true
+      },
+      {
+        "text": "The train is stranded at the outer signal for more than 2 hours without moving.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "84.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Why has train 12301 been held up at the crossing while freight trains are given priority?",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "65.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Train running 6 hours late and missed connecting train at Mughalsarai junction.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "95.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Unscheduled halt at small station for over 90 minutes without any announcement.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "44.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Train delayed by 4 hours, no information displayed on platform digital screen.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "92.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Train 14005 is incessantly running late every single day, causing huge schedule disruption.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "95.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Stuck in the train outside Kanpur for 3 hours without signal clearance.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "85.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Train reached 7 hours after scheduled arrival time, complete punctuality failure.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "88.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Train cancelled at the last minute without prior SMS notification to passengers.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "59.5%",
+        "matches_target": true
+      }
+    ]
+  },
+  "Electrical": {
+    "department": "Electrical Engineering Department (Train Lighting & AC)",
+    "samples": [
+      {
+        "text": "Air conditioning in coach B3 is not working and passengers are suffocating in heat.",
+        "predicted_category": "Electrical",
+        "mapped_department": "Electrical Engineering Department (Train Lighting & AC)",
+        "confidence": "46.5%",
+        "matches_target": true
+      },
+      {
+        "text": "The mobile charging socket near berth 45 is not working and has no electric power supply.",
+        "predicted_category": "Electrical",
+        "mapped_department": "Electrical Engineering Department (Train Lighting & AC)",
+        "confidence": "56.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Coach lights are flickering continuously and two reading lamps are fused.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "45.0%",
+        "matches_target": false
+      },
+      {
+        "text": "AC is not working in coach B4, temperature is very high and fans are also stopped.",
+        "predicted_category": "Electrical",
+        "mapped_department": "Electrical Engineering Department (Train Lighting & AC)",
+        "confidence": "86.0%",
+        "matches_target": true
+      },
+      {
+        "text": "The electrical charging points in the entire bay are dead, mobile phone cannot be charged.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "61.0%",
+        "matches_target": false
+      },
+      {
+        "text": "AC cooling is completely ineffective in coach B5, blowing hot air instead of cool air.",
+        "predicted_category": "Electrical",
+        "mapped_department": "Electrical Engineering Department (Train Lighting & AC)",
+        "confidence": "36.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Night lamp and main tube lights are not working in coach A1, coach is totally dark.",
+        "predicted_category": "Electrical",
+        "mapped_department": "Electrical Engineering Department (Train Lighting & AC)",
+        "confidence": "51.5%",
+        "matches_target": true
+      },
+      {
+        "text": "No power in laptop charging sockets throughout coach B4.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "45.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Fan is not working above berth 18 in sleeper coach S2, very hot and suffocating.",
+        "predicted_category": "Electrical",
+        "mapped_department": "Electrical Engineering Department (Train Lighting & AC)",
+        "confidence": "56.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Air conditioner stopped working over two hours ago in 3AC compartment.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "41.5%",
+        "matches_target": false
+      }
+    ]
+  },
+  "Catering": {
+    "department": "Catering & Vending Services Department (IRCTC / Commercial)",
+    "samples": [
+      {
+        "text": "Food was tremendous poor quality and tea served was cold, stale and sour.",
+        "predicted_category": "Catering",
+        "mapped_department": "Catering & Vending Services Department (IRCTC / Commercial)",
+        "confidence": "82.0%",
+        "matches_target": true
+      },
+      {
+        "text": "The dinner packet served by pantry staff was spoiled and rotten with bad pungent smell.",
+        "predicted_category": "Catering",
+        "mapped_department": "Catering & Vending Services Department (IRCTC / Commercial)",
+        "confidence": "49.0%",
+        "matches_target": true
+      },
+      {
+        "text": "IRCTC vendor overcharged 150 rupees for standard veg thali with MRP of 80.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "71.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Breakfast packet was stale, bread was hard and butter packet was melted.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "68.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Pantry car vendor refused to provide bill for bottled water and meals.",
+        "predicted_category": "Catering",
+        "mapped_department": "Catering & Vending Services Department (IRCTC / Commercial)",
+        "confidence": "26.5%",
+        "matches_target": true
+      },
+      {
+        "text": "The dinner served by catering staff had cockroaches inside the food packet.",
+        "predicted_category": "Catering",
+        "mapped_department": "Catering & Vending Services Department (IRCTC / Commercial)",
+        "confidence": "77.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Unhygienic catering staff serving food without gloves or hair nets in pantry car.",
+        "predicted_category": "Catering",
+        "mapped_department": "Catering & Vending Services Department (IRCTC / Commercial)",
+        "confidence": "64.0%",
+        "matches_target": true
+      },
+      {
+        "text": "No dinner served in train 22414, pantry staff refused meals saying stock is over.",
+        "predicted_category": "Catering",
+        "mapped_department": "Catering & Vending Services Department (IRCTC / Commercial)",
+        "confidence": "57.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Overcharging on food and cold meals served in Rajdhani express.",
+        "predicted_category": "Catering",
+        "mapped_department": "Catering & Vending Services Department (IRCTC / Commercial)",
+        "confidence": "72.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Pantry vendor charging 30 rupees for 15 rupees Rail Neer water bottle.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "33.5%",
+        "matches_target": false
+      }
+    ]
+  },
+  "Security": {
+    "department": "Security Department (Railway Protection Force - RPF)",
+    "samples": [
+      {
+        "text": "My laptop backpack and luggage were stolen from upper berth while I was sleeping, need RPF.",
+        "predicted_category": "Security",
+        "mapped_department": "Security Department (Railway Protection Force - RPF)",
+        "confidence": "69.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Unauthorized men entered the ladies coach and are harassing female passengers, send police.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "34.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Drunk and unruly passengers drinking alcohol and threatening passengers in coach S3.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "39.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Pickpockets snatched gold chain near coach door when train started moving.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "31.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Suspicious unknown persons entered reserved coach and threatening passengers with weapons.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "42.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Luggage stolen from under berth 21 between Bhopal and Itarsi, request RPF assistance.",
+        "predicted_category": "Security",
+        "mapped_department": "Security Department (Railway Protection Force - RPF)",
+        "confidence": "56.5%",
+        "matches_target": true
+      },
+      {
+        "text": "A group of men abusing passengers and creating nuisance, please send RPF urgently.",
+        "predicted_category": "Security",
+        "mapped_department": "Security Department (Railway Protection Force - RPF)",
+        "confidence": "49.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Passenger bag snatched at station platform while boarding sleeper coach.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "43.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Unauthorized hawkers and aggressive beggars harassing families inside compartment.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "67.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Theft reported in coach A2, purse containing cash and jewelry stolen at night.",
+        "predicted_category": "Security",
+        "mapped_department": "Security Department (Railway Protection Force - RPF)",
+        "confidence": "41.0%",
+        "matches_target": true
+      }
+    ]
+  },
+  "Water & Sanitation": {
+    "department": "Water Supply & Sanitation Department",
+    "samples": [
+      {
+        "text": "The toilet washbasin and flush tanks in coach S7 have no water since morning.",
+        "predicted_category": "Water & Sanitation",
+        "mapped_department": "Water Supply & Sanitation Department",
+        "confidence": "29.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Water tank is completely empty in coach B2, cannot use washroom.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "34.0%",
+        "matches_target": false
+      },
+      {
+        "text": "No water in taps throughout all toilets in coach S3, acute water problem.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "33.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Taps in the toilet are completely dry, passengers unable to use washroom due to no water.",
+        "predicted_category": "Water & Sanitation",
+        "mapped_department": "Water Supply & Sanitation Department",
+        "confidence": "34.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Flush tank not working due to lack of water in train toilet compartment.",
+        "predicted_category": "Water & Sanitation",
+        "mapped_department": "Water Supply & Sanitation Department",
+        "confidence": "37.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Water availability is zero in sleeper coach S5, please refill water tank at next station.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "30.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Train departed source station with dry water tanks, no water in washroom.",
+        "predicted_category": "Water & Sanitation",
+        "mapped_department": "Water Supply & Sanitation Department",
+        "confidence": "38.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Both western and Indian toilets in coach B1 have no water supply.",
+        "predicted_category": "Water & Sanitation",
+        "mapped_department": "Water Supply & Sanitation Department",
+        "confidence": "36.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Washroom taps have run dry, water not available in coach S9.",
+        "predicted_category": "Water & Sanitation",
+        "mapped_department": "Water Supply & Sanitation Department",
+        "confidence": "44.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Please arrange water filling in coach S8 at next junction, tanks have no water.",
+        "predicted_category": "Water & Sanitation",
+        "mapped_department": "Water Supply & Sanitation Department",
+        "confidence": "28.5%",
+        "matches_target": true
+      }
+    ]
+  },
+  "Passenger Grievance": {
+    "department": "Commercial Department (Public Grievance Cell)",
+    "samples": [
+      {
+        "text": "TTE demanded extra money and bribe for allocating vacant berth in 3AC.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "79.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Ticket cancelled 5 days ago but refund amount has not been credited to bank account.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "92.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Ticket booking counter clerk closed window 1 hour before scheduled time.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "51.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Unreserved passengers illegally occupying reserved seats and TTE refusing to help.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "55.5%",
+        "matches_target": true
+      },
+      {
+        "text": "TTE behaving very rudely and misbehaved with senior citizen passengers.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "74.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Paid for confirmed Tatkal ticket but seat already occupied by unauthorized passengers.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "76.0%",
+        "matches_target": true
+      },
+      {
+        "text": "Cancellation fee deducted illegally on train cancelled by railways.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "57.5%",
+        "matches_target": false
+      },
+      {
+        "text": "TTE taking cash without issuing official EFT receipt in coach S2.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "54.5%",
+        "matches_target": true
+      },
+      {
+        "text": "UTS mobile app money deducted twice from account but ticket not generated.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "87.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Station staff at inquiry counter extremely unhelpful and arrogant with travelers.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "60.0%",
+        "matches_target": true
+      }
+    ]
+  },
+  "Coach Maintenance": {
+    "department": "Mechanical Engineering Department (Carriage & Wagon - C&W)",
+    "samples": [
+      {
+        "text": "Window pane in coach S3 is cracked and cold wind is rushing inside continuously.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "47.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Coach roof is leaking water heavily during rain and dripping right on berth 32.",
+        "predicted_category": "Coach Maintenance",
+        "mapped_department": "Mechanical Engineering Department (Carriage & Wagon - C&W)",
+        "confidence": "37.5%",
+        "matches_target": true
+      },
+      {
+        "text": "Continuous hammering noise from the wall and loose panels making it impossible to sleep.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "52.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Berth chain is broken and upper berth is hanging unsafely in coach S5.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "43.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Coach door latch is broken and sliding door is jamming, safety hazard.",
+        "predicted_category": "Housekeeping",
+        "mapped_department": "Environment & Housekeeping Management (EnHM) / OBHS",
+        "confidence": "31.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Emergency window lock is defective and rattling loudly throughout journey.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "66.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Middle berth hinge is damaged and wobbling when passenger climbs up.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "69.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Coach exterior window glass is broken and glass shards are falling on passengers.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "32.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Toilet door hinges are detached and cannot be closed from inside.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "38.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Mechanical noise and coach vibration is severe due to broken carriage suspension.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "34.5%",
+        "matches_target": false
+      }
+    ]
+  },
+  "Medical Assistance": {
+    "department": "Medical & Health Services Department",
+    "samples": [
+      {
+        "text": "Passenger is vomiting continuously and suffering from acute dehydration, need doctor at next station.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "36.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Fellow passenger having very high fever and breathing difficulty, please provide medical assistance.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "31.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Elderly passenger suffered sudden severe chest pain in coach B2, need urgent doctor and stretcher.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "35.0%",
+        "matches_target": false
+      },
+      {
+        "text": "A small child in coach S4 is having high fever and convulsions, urgent pediatric medicines needed.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "39.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Passenger fell down from berth and suffered bleeding head injury, arrange first aid immediately.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "59.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Need anti-vomiting medicine and doctor support in train 12702 for sick family member.",
+        "predicted_category": "Operations & Traffic",
+        "mapped_department": "Operating Department (Traffic & Scheduling)",
+        "confidence": "31.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Pregnant lady feeling acute abdominal pain in coach A1, arrange ambulance and doctor at station.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "35.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Passenger suffering from severe asthma attack and inhaler is empty, need urgent medical help.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "42.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Wheelchair and medical assistance required for disabled passenger at arrival platform.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "53.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Dog bite reported at railway station platform, passenger requires rabies injection and dressing.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "52.0%",
+        "matches_target": false
+      }
+    ]
+  },
+  "Engineering": {
+    "department": "Civil & Track Engineering Department (Permanent Way & Bridges)",
+    "samples": [
+      {
+        "text": "Track ballast is severely displaced near kilometer 142, track stability looks compromised.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "57.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Noticed a visible crack on the rail joint near the bridge approach before station.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "48.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Overhead catenary traction wire is hanging loose dangerously close to the rail track.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "67.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Severe track vibration and uneven rail alignment noticed on the down line curve.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "67.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Railway bridge pillar shows visible structural concrete spalling and cracks under the river bed.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "43.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Fishplate bolts appear missing on the outer rail curve near the junction signal.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "51.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Signal post foundation has sunk into loose soil, causing signal alignment distortion.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "81.0%",
+        "matches_target": false
+      },
+      {
+        "text": "Level crossing gate mechanical barrier gear is jammed and broken, endangering road traffic.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "60.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Permanent-way track geometry feels rough and jerking severely on the mainline section.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "64.5%",
+        "matches_target": false
+      },
+      {
+        "text": "Embankment soil erosion noticed near railway culvert after heavy rainfall.",
+        "predicted_category": "Passenger Grievance",
+        "mapped_department": "Commercial Department (Public Grievance Cell)",
+        "confidence": "53.5%",
+        "matches_target": false
+      }
+    ]
+  }
+}

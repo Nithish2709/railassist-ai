@@ -1,0 +1,17 @@
+{
+  "dataset_name": "Indian Railways Complaint Tweets",
+  "huggingface_repo_id": "faizmubeen/indian_railways_complaint_tweets",
+  "source_url": "https://huggingface.co/datasets/faizmubeen/indian_railways_complaint_tweets/resolve/main/inidian_railway_complaint_tweets.csv",
+  "revision_sha": "f2a3e5f9491324a9acaf4210558ad413583860c5",
+  "license": "MIT",
+  "download_date_utc": "2026-10-25T09:15:39.564409+00:00",
+  "raw_filename": "inidian_railway_complaint_tweets.csv",
+  "file_size_bytes": 1217398,
+  "sha256_hash": "cf8fb6b9743e7cfdb51d26358149799cc1719770e89979992de2dfe5c9ad891c",
+  "total_records": 4535,
+  "column_names": [
+    "Tweet",
+    "Label",
+    "Type"
+  ]
+}

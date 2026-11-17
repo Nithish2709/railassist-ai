@@ -1,0 +1,405 @@
+{
+  "Operations & Traffic": {
+    "department": "Operating Department (Traffic & Scheduling)",
+    "sample_count": 10,
+    "samples": [
+      {
+        "confidence": "100.0%",
+        "text": "Train No. 12067 (Jansatabdi Exp from Guwahati to Jorhat) is running too late and had flushed all our scheduled programme. Who is responsible? #IndianRailways #AshwiniVaishnaw #NErailway"
+      },
+      {
+        "confidence": "100.0%",
+        "text": "Train number 20654... waiting in ubl station from the last 2.5 hours.. only update that its late.. waiting rooms packed #IndianRailways #RailwayMinister_HelpCCAA"
+      },
+      {
+        "confidence": "100.0%",
+        "text": "What so special in special train, train no 12833 running 54 min late and I have to catch connecting train from Jharsuguda to talcher #IndianRailways suggest what to do !! @RailwaySeva @IRCTCofficial @RailMinIndia"
+      },
+      {
+        "confidence": "100.0%",
+        "text": "Why train is so late from actual time. Train no. 13009. It has stopped at so many stations, without stopage to the respective stations. #IndianRailways #ministryofrailways #PMModi"
+      },
+      {
+        "confidence": "99.5%",
+        "text": "#IndianRailways Gondia barauni always running late from 4 hours to its late by 9.55 can we reach on time with sad"
+      },
+      {
+        "confidence": "99.5%",
+        "text": "The Train is running late by 06:48 hrs from the last destination station. It is likely to make up. #IndianRailways #railway #Trending #NEWS"
+      },
+      {
+        "confidence": "99.5%",
+        "text": "@RailMinIndia #IndianRailways 02563 BJU NDLS Running late by 4:30 hrs , bad service . I am in this train and I need to recieve my wife and Kid from Nizamuddin station at 9:55 am ."
+      },
+      {
+        "confidence": "99.5%",
+        "text": "@nerailwaygkp Train No. 12067 (Jansatabdi Exp from Guwahati to Jorhat) is running too late and had flushed all our scheduled programme. Who is responsible? #IndianRailways #AshwiniVaishnaw #NErailway"
+      },
+      {
+        "confidence": "99.5%",
+        "text": "#IndianRailways The Train is running late by 09:55 hrs from the last destination is likely to make up. it's so sad to see this msg again and again.they don't understand value of time .This train run late daily."
+      },
+      {
+        "confidence": "99.5%",
+        "text": "@SCRailwayIndia @RailMinIndia only promising upgrade the train speed. But they are failed to run current train on time. 12704 already 25 min late. Didn't start from source station. #railway #IndianRailways"
+      }
+    ]
+  },
+  "Housekeeping": {
+    "department": "Environment & Housekeeping Management (EnHM) / OBHS",
+    "sample_count": 10,
+    "samples": [
+      {
+        "confidence": "96.0%",
+        "text": "PNR-2455074391 Trn:15657 Dt:17-02-23 Frm DLI to KYQ Cls:2A Washroom very dirty before starting from source station #RailMinIndia #IndianRailways"
+      },
+      {
+        "confidence": "96.0%",
+        "text": "Travelling to Pune from Secunderabad by Train No. 11020 Konark Express, Coach No. B2. Seat No. 58. Would like to bring to notice that toilets are not at all clean. Need cleaning big time. @IRCTCofficial #IndianRailways"
+      },
+      {
+        "confidence": "95.0%",
+        "text": "Dear @RailMinIndia I'm travelling on 12382 purva express.. Train is yet to leave from New Delhi but toilets are dirty and blocked in B4. I'm in B4 please send your cleaner and let them clean the toilets.. @RailwaySeva #indianrailways"
+      },
+      {
+        "confidence": "95.0%",
+        "text": "@IRCTCofficial I fail to understand what it takes to keep the washrooms in the compartments clean. Absolutely stinking in the train no. 12774. Coach B15. @RailMinIndia unfortunately we did not learn anything from the pandemic. #indianrailways"
+      },
+      {
+        "confidence": "94.5%",
+        "text": "#IndianRailways PNR-2256392120 Trn:22902 Dt:19-02-23 Frm UDZ to BDTS Cls:SL P1-S4,22 P2-S4,24 Washbasin n Toilet are dirty from Starting point Udaipur n still not cleaned"
+      },
+      {
+        "confidence": "93.5%",
+        "text": "I am travelling in rajdhani from Delhi to Guwahati #train12424 #PNR2148220182 #IndianRailways #ashwanivaishnav #PMOIndia the train washroom are very much dirty no cleaning happening please look into make it clean as soon as possible."
+      },
+      {
+        "confidence": "92.5%",
+        "text": "Travelling from New Jalpaiguri to Howrah by train No. 02308 PNR No. 6501193051. Coach B3 is so dirty. Despite repeated complaints no cleaning is done. Kindly see #indianrailway #IndianRailways #IRCTC"
+      },
+      {
+        "confidence": "92.5%",
+        "text": "#IndianRailways 12346 Saraighat express coach B3 toilets are totally clogged and unusable with no attendants. Even after asking help from TT no action is taken at NJP. Train is not cleaned after starting. PNR number 6600796903 #RailwayStation"
+      },
+      {
+        "confidence": "92.0%",
+        "text": "#IndianRailways I'm traveling in train number 20394 from Pandit Dindayal Upadhyay to coach is A1 /41 and toilet is very dirty."
+      },
+      {
+        "confidence": "92.0%",
+        "text": "@RailMinIndia Travelling in 20915. Washrooms are not clean from the start of the train and half way through the journey there hasn\u00e2\u20acTMt been any action from cleaning staff or TTE despite alerting them of situation. #IndianRailways #railways #Travel"
+      }
+    ]
+  },
+  "Passenger Grievance": {
+    "department": "Commercial Department (Public Grievance Cell)",
+    "sample_count": 10,
+    "samples": [
+      {
+        "confidence": "99.0%",
+        "text": "tried booked ticket from irctc offical app on 22December . My payment got deducted from my account but transaction failed and my ticket not booked . What should I do? Where is my refund? #IRCTC @IRCTCofficial #IndianRailways"
+      },
+      {
+        "confidence": "99.0%",
+        "text": "There are no general tickets for common public in #IndianRailways from Tatanagar to Howrah Junction. Where TTE's are booking tickets inside the platform illegally and asking for extra fare...What is this ??#SER #IRCTC"
+      },
+      {
+        "confidence": "97.5%",
+        "text": "I want refund (85/-) as I didn't got ticket inspite of money deduction from my bank account due to ticket vending machine failure at Mathura junction. #IndianRailways #ministryofrailways @AshwiniVaishnaw #Railways @RailMinIndia"
+      },
+      {
+        "confidence": "96.5%",
+        "text": "@warikoo #IndianRailways, #AirtelDown and #irctc ticket booking website during tatkal tkt booking. I am trying since last 4 days but didn't get a confirm tkt. In the end, booked from another station in this peak summer which is 125 km far away."
+      },
+      {
+        "confidence": "96.5%",
+        "text": "My PNR no is 6712204523 and i have booked my tatkal ticket from prayagraj to new delhi. Due to some i hav cancelled this this ticket nd i hv received a mail from #IRCTC no amount shall be refunded against this cancellation #IRCTC #IndianRailways"
+      },
+      {
+        "confidence": "96.0%",
+        "text": "#IndianRailways I have booked purba express ticket (train no 12303,Date-01/05/2023) today from Howrah to money has been deducted from my account (transaction id-303217462138) but no ticket has been issued. please arrange to refund my money."
+      },
+      {
+        "confidence": "95.0%",
+        "text": "My long-term goal is to book a ticket from the IRCTC website without the website getting crashed over and over. @IRCTCofficial @RailMinIndia @PMOIndia #Indian #IndianRailways #railways #ashwinivaishnav #IRCTC"
+      },
+      {
+        "confidence": "95.0%",
+        "text": "#IndianRailways good morning dear I booked 2 ticket from #bandra to #Andheri and I paid but i didn't get tickets. so please send me my money refund. Thank you"
+      },
+      {
+        "confidence": "95.0%",
+        "text": "Tatkal ticket from IRCTC is an art and i m an artist \u00f0\u0178 \u0303a\u00f0\u0178 \u0303\u201a #IndianRailways #IRCTC #achiever"
+      },
+      {
+        "confidence": "95.0%",
+        "text": "Hello @IRCTCofficial @RailMinIndia @AshwiniVaishnaw @NWRailways since yesterday I am unable to book my ticket from #IRCTC website yday money deducted but ticket not booked it\u00e2\u20acTMs really frustrating #irctcdown #irctc #IndianRailways"
+      }
+    ]
+  },
+  "Catering": {
+    "department": "Catering & Vending Services Department (IRCTC / Commercial)",
+    "sample_count": 10,
+    "samples": [
+      {
+        "confidence": "96.5%",
+        "text": "Bhaiya ji agar esa khana dena ho to agle war se dejieaga nahi. Isse bhadiya to hostel ka khana hai. Please improve the quality of the food from other vendor's. Not acceptable. #IndianRailways @IRCTCofficial @eCateringIRCTC"
+      },
+      {
+        "confidence": "90.0%",
+        "text": "#IndianRailways #Trainno- 12032 Today I have travelled from Amritsar to New delhi in Shatabdi express. Food quality served in train was very poor, I feel unhealty after eaten the food in train. Please improve the quality of food."
+      },
+      {
+        "confidence": "88.0%",
+        "text": "I sincerely request IRCTC to please improve your food quality I was traveling from Kolkata to Ahmedabad and i really got to know about your fake appreciation Food are very expensive and not in eatable condition #irctc #IndianRailways"
+      },
+      {
+        "confidence": "84.5%",
+        "text": "#IndianRailways travelling from Howrah to Njp by Shatabdi express (PNR 6305218868) C7 35,36,37,38,39, food was tremendous poor quality and we don't deserve this after paying what was asked. Please upgrade the quality."
+      },
+      {
+        "confidence": "84.5%",
+        "text": "I am travelling from the train Patna to New Delhi (12309) in B11 coach. Caterers gave dinner. Too much bad quality of the food. Even chapati is too hard to digest. Please look into it. #IndianRailways #AshwiniVaishnaw #NarendraModi"
+      },
+      {
+        "confidence": "83.0%",
+        "text": "@IRCTCofficial @eCateringIRCTC @RailMinIndia #IndianRailways #duronto #suncaterer pathetic food...pungent smell from sabji...whole boogie complaining same..Train no: 12293 (B1) 1st July 2022."
+      },
+      {
+        "confidence": "82.5%",
+        "text": "#Bullettrain Ordered veg but got non veg food delivered instead this morning on the Rajdhani Express from Lukhnow to Delhi. @RailMinIndia @IRCTCofficial @ndtv @TOIIndiaNews. @TheQuint @ScoopWhoop #indianrailways #giglife"
+      },
+      {
+        "confidence": "82.0%",
+        "text": "@RailMinIndia @RailwaySeva @WesternRly no dinner served in Rajdhani, around 9.30 they said we will only get breakfast. Train number 22414, on the way to mao from bsr. #rajdhaniexpress #IndianRailways"
+      },
+      {
+        "confidence": "81.5%",
+        "text": "Coffee, Tea, Soups served in Trains Made From Dirty Water : CAG Report #1ShotNews | #Food | #TrainFood | #CAGReport | #IndianRailways | #Railways"
+      },
+      {
+        "confidence": "81.5%",
+        "text": "#IndianRailways In shatabdi even after paying full charges for meals..they are not serving tea etc.. staff told that only dinner will be served??? Is this correct ? We are traveling right now in 12016 from jaipur to Delhi"
+      }
+    ]
+  },
+  "Electrical": {
+    "department": "Electrical Engineering Department (Train Lighting & AC)",
+    "sample_count": 10,
+    "samples": [
+      {
+        "confidence": "95.5%",
+        "text": "#IndianRailways PNR No 2337561349 I travel in AC second class from Gorakhpur to Banaras and train AC is not working it's really too hot please resolve immediately... Mobile no 7355421503"
+      },
+      {
+        "confidence": "94.5%",
+        "text": "#IndianRailways #ashwanivaishnaw train no.19226 B4 jammu to jodhpur AC not working from jammu . please do something"
+      },
+      {
+        "confidence": "94.5%",
+        "text": "My Mother &Father are travelling to Allahabad from Howrah Via 12175 on AC2 seat no 25,27 and the AC is not working at all . please help us #Railwayminister_Helpus #IndianRailways #pmoffice"
+      },
+      {
+        "confidence": "92.5%",
+        "text": "@ohrashi @IRCTCofficial @AshwiniVaishnaw Travelling from the same train and in the same coach and I\u00e2\u20acTMm frustrated since AC is not working in this hot summer. #IndianRailways #irctc"
+      },
+      {
+        "confidence": "92.5%",
+        "text": "Ac is not working from 21:00hrs till now (22:16) in B2 coach of 15054 .when we contact the attendant he didnt replied . Pnr 2510437678 #IndianRailways @RailMinIndia @indianrailway__ @AshwiniVaishnaw @nerailwaygkp"
+      },
+      {
+        "confidence": "92.0%",
+        "text": "Extremely Disappointed. Travelling from Indore to Chandigarh, Train no. 19307 and AC is not working in our coach A1 since morning except for 15 odd minutes. @RailMinIndia @AshwiniVaishnaw #IndianRailways #poorservice"
+      },
+      {
+        "confidence": "92.0%",
+        "text": "#railways #ashwinivaishnaw #IndianRailways PNR No 2337561349 I travel in AC second class from Gorakhpur to Banaras and train AC is not working it's really too hot please resolve immediately... Mobile no 7355421503"
+      },
+      {
+        "confidence": "91.5%",
+        "text": "@AshwiniVaishnaw AC not working in Nanda Devi AC express 2 tier coach A1 right from the source station. Highly uncomfortable and stuffy environment in the coach. Might cause health issues. #IndianRailways"
+      },
+      {
+        "confidence": "89.0%",
+        "text": "@SCRailwayIndia AC Not Working in Train No. 17016 Visakha Express from Secunderabad to Bhubaneswar near Coach & Seat No. B3 49,50,51,52. Kindly look into it.#Railways #aswinivaishnaw #IndianRailways #railwaycomplaint"
+      },
+      {
+        "confidence": "89.0%",
+        "text": "#indianrailways PNR no 6613125767 train no 22307 second AC A K DAGA. AC not working from 3 to 4 hour.... Attended also not in touch.... Travelling on d way"
+      }
+    ]
+  },
+  "Security": {
+    "department": "Security Department (Railway Protection Force - RPF)",
+    "sample_count": 10,
+    "samples": [
+      {
+        "confidence": "92.5%",
+        "text": "This is Indian train from DLI to Jodhpur PNR-2508615337 Trn:22995 Dt:09-09-22 Cls:SL Seat -S8,1 More local passenger. I have questions to Indian railways ministry that where are security of reservation passenger??? #IndianRailways #PMOIndia #rpf"
+      },
+      {
+        "confidence": "86.5%",
+        "text": "Laptop bag stolen from #train no 15632 at Patna junction @dm_patna, no TT available, no RPF personnel available, no complaint book available #IndianRailways, #easternrailways @RailMinIndia @RPF_INDIA"
+      },
+      {
+        "confidence": "84.0%",
+        "text": "It is 2023! and still extortion and harassment is happening, rather increasing. It shows how much we lag behind from developed countries. @RailMinIndia @IRCTCofficial @PiyushGoyalOffc #indianrailway #IndianRailways"
+      },
+      {
+        "confidence": "81.0%",
+        "text": "One of the person in bokara steel city in train number 13351 S1 seat no 33 makeing issue and scarring people by saying I am from crpf #crpf #IndianRailways #aswanivishav #railway #RPF"
+      },
+      {
+        "confidence": "80.0%",
+        "text": "Trolley Bags, Briefcase got stolen from multiple Passenger in 3rd AC - 18625 Saharsa Ranchi Koshi express. No RPF help yet. No police person available on train #IndianRailways #ashwinivaishnaw @RailMinIndia"
+      },
+      {
+        "confidence": "79.5%",
+        "text": "Why railway is not taking action regarding these types of disturbances in trains .from morning to night they start chanting and they won't care about there fellow passengers. #IndianRailways #RPF #ministryofrailway #PMOIndia"
+      },
+      {
+        "confidence": "79.5%",
+        "text": "Some one snatched mobile from my uncle in train when it was in bellary(karnataka). Rpf railway police denied to log complaint by asking bill. Mail was sent on 2/2/2023 but still no response. #IndianRailways #ashwinivaishnaw"
+      },
+      {
+        "confidence": "79.0%",
+        "text": "Fomily member's 2 mobile phone stolen from berth. Finding rpf in whole train for than 1 hour. Pnr - 2239708512 #IndianRailways"
+      },
+      {
+        "confidence": "79.0%",
+        "text": "My old parents are currently travelling in this train from LTT to GHY. There's been some issues with their Co-passengers and the TC is nowhere to be found nor any RPF personnel. Please Help! @IRCTCofficial #IRCTC #IndianRailways #railwaypolice"
+      },
+      {
+        "confidence": "78.5%",
+        "text": "Respected Sir/Madam M traveling in train no. 22945. From Ahmedabad in all Sleeper coaches S1 - S8 general public (holding unreserved tickets) are bothering all reserved passengers. #IRCTC #WESTERNRAILWAY #IndianRailways #indianrailway #RPF"
+      }
+    ]
+  },
+  "Water & Sanitation": {
+    "department": "Water Supply & Sanitation Department",
+    "sample_count": 10,
+    "samples": [
+      {
+        "confidence": "80.0%",
+        "text": "@NWRailways no water in train 14888, since night, toilet not usable without water, train just departed from roorkee #IndianRailways #ashwinivaishnaw"
+      },
+      {
+        "confidence": "79.5%",
+        "text": "#IndianRailways train no. 12772 B3, Train just started from source station and water is not there in the toilet.. @indianrailway @Central_Railway @RailMinIndia"
+      },
+      {
+        "confidence": "79.0%",
+        "text": "No water in S-8 coach Train no. - 12809 From nagpur onwards. Most of people informed to TTE but no action taken yet. About to reach JHARSUGUDA. #IndianRailways #Railways #irctc"
+      },
+      {
+        "confidence": "77.0%",
+        "text": "No water supply in the toilets of Train number 22471- Bkn Dee Exp. Do we deserve some respectful travel? 50% of passengers in this train are women and senior citizens. Expect some sincere effects from #IndianRailways @AshwiniVaishnaw @RailMinIndia"
+      },
+      {
+        "confidence": "76.5%",
+        "text": "There is no water available in Brahmaputra mail 15657 DLI to PRYJ....pathetic condition of toilet ...no water from Aligarh... How people can manage... Worst services #IndianRailways #AshwaniVaishnav #PMOIndia"
+      },
+      {
+        "confidence": "76.5%",
+        "text": "Train no 11058 bogie no S2 there is no water in the train from last 3 hrs kindly look and provide the solution as it very in convince and creating a huge problem with hygiene also #IndianRailways #railminindia @RailMinIndia"
+      },
+      {
+        "confidence": "76.5%",
+        "text": "Water is not available in taps in the train #17005.. The travellers are suffering from the shortage of water.. #Indianrailways #Railministery #ashwinivaishnaw_ji_humari_suno"
+      },
+      {
+        "confidence": "75.5%",
+        "text": "I am traveling from Delhi to Mumbai by 12910-BDTS Garibrath train and my coach is G -1. There is no water in the toilets here, the situation is bad, Railway Ministry should pay attention to this. #AshwiniVaishnaw #IndianRailways #aajtak"
+      },
+      {
+        "confidence": "75.0%",
+        "text": "#IndianRailways @IndianRailMedia @RailwaySeva @indianrailway__ @WesternRly Travelling to Ujjain from Howrah (Train No. 22912) Coach B2 (Seat No. 7) & water supply is not available in washrooms. Can you please look into it."
+      },
+      {
+        "confidence": "74.5%",
+        "text": "#IndianRailways #IRCTC there is no water in B1, B2 and B3 coaches in d train 11301 from CSMT to KSR Bangalore on 4th February 2023. Can you provide us water? \u00f0\u0178\u00a4\u0090\u00f0\u0178\u00a4\u0090"
+      }
+    ]
+  },
+  "Coach Maintenance": {
+    "department": "Mechanical Engineering Department (Carriage & Wagon - C&W)",
+    "sample_count": 10,
+    "samples": [
+      {
+        "confidence": "83.0%",
+        "text": "I am traveling from 02570, train ndls to mfp ,B8 berth 2 Here gate is in bad condition and passenger is facing problem .#irctc #ministryrailway #IndianRailways #railsewa"
+      },
+      {
+        "confidence": "80.5%",
+        "text": "#IndianRailways #1stAC #1stclasstickets #waterdrippingfromAC #waterdripping #indianrail This is our Indian railway having water dripping from Roof in the first class of Shri Shakti Express at 7:10am"
+      },
+      {
+        "confidence": "79.0%",
+        "text": "Train no. 16585 SBC MAQ EXP, S7 coach, there is water leak and water dripping from the roof #indianrailways \u00c3\u00a2\u00c2\u00a6@RailwaySeva\u00c3\u00a2\u00c2\u00a9 \u00c3\u00a2\u00c2\u00a6@RailMinIndia\u00c3\u00a2\u00c2\u00a9, please resolve the issue. Thank you"
+      },
+      {
+        "confidence": "73.0%",
+        "text": "the coach no. 4 in 05835 train from mandsaur to udaipur is not in well condition. the wheels are making too much noise looks very uncomfortable and risky.please look in this matter #IndianRailways #drmajmer"
+      },
+      {
+        "confidence": "72.5%",
+        "text": "#IndianRailways suffered a lot during a journey from Delhi to Patna. The roof of train compartment was leaking due to which I unable take rest in whole journey. Very much dissatisfied with service."
+      },
+      {
+        "confidence": "72.0%",
+        "text": "Pathetic condition of 12840 train, B4 coach, running from Chennai to Howrah (Chennai Howrah Mail), both the doors are broken, AC is not working properly due to broken doors, bad smell coming, horrible... #IndianRailways #IndianRailMinistry"
+      },
+      {
+        "confidence": "71.5%",
+        "text": "The water is coming from window #IndianRailways please \u00c3\u00b0\u00c5 \u0327\u00e2\u201e\u00a2 do something about it . I was not able to sleep at night. I hope that railways will do something about it."
+      },
+      {
+        "confidence": "70.5%",
+        "text": "In Train (16536 golbumbaz express) coach no S10 there is continuous noise coming from wheel while moving train . Which is irritating and not able to sleep comfortably pls take quick action #IndianRailways #ashwinivaishnvaw #southwesternrailway"
+      },
+      {
+        "confidence": "70.5%",
+        "text": "@RailwaySeva @RailMinIndia 11302 udyaan express running from KSR Bengaluru station having a huge leakage at B2 coach which making a coach getting filled with deep water kindly do the needful and seal that leakage please #IndianRailways"
+      },
+      {
+        "confidence": "70.0%",
+        "text": "20822 Humsafar express started on 2 June from santra gachi - poor condition. Water entering the boggie #IndianRailways #indianrail #ashwinivaishnaw #AshwaniVaishnav"
+      }
+    ]
+  },
+  "Medical Assistance": {
+    "department": "Medical & Health Services Department",
+    "sample_count": 6,
+    "samples": [
+      {
+        "confidence": "69.5%",
+        "text": "Urgent need of Medicine: Anti Vomiting Tablets( Vomikind or Ondestrom) Train No. 12702 From Hyderabad to Delhi Current Station: Bhopal. #IndianRailways #helprailway #medicine"
+      },
+      {
+        "confidence": "68.5%",
+        "text": "I am travelling from Adi To Dbg,my train no.19165,PNR: 8758479373. My one family member is suffering from vomiting and we have no medicine. I request @IRCTCofficial @AshwiniVaishnaw to provide us medicine #IndianRailways"
+      },
+      {
+        "confidence": "66.5%",
+        "text": "mother in AC and my daughter is unwell and under medication. Please help urgently. Such people should be removed from govt posts who can't empathize with public. #IndianRailways #harassment"
+      },
+      {
+        "confidence": "66.0%",
+        "text": "My wife and 7 year old daughter is traveling. My daughter is suffering from fever since last night. PNR 4761358416 PLS send some help URGENTLY @RailMinIndia @RailMadad #IndianRailways @AshwiniVaishnaw"
+      },
+      {
+        "confidence": "61.5%",
+        "text": "#IndianRailways my name is ravi mobile number 7206588694, A dog bites me on gorakhpur railway station, uttar pradesh, please provide me medical assistance on bettiah railway station, currently I am traveling in 14010 champaran satyagrah exp"
+      },
+      {
+        "confidence": "53.5%",
+        "text": "Dear @AshwiniVaishnaw ji, My mother traveled from Nagpur to Hazrat Nizamuddin by the Bangaluru Rajdhani today. She needs a wheelchair these days, if there are long stretches of to cross/climb 1/n #IndianRailways / #Nagpur / #HazratNizamuddin"
+      }
+    ]
+  },
+  "Engineering": {
+    "department": "Civil & Track Engineering Department (Permanent Way & Bridges)",
+    "sample_count": 0,
+    "samples": []
+  }
+}

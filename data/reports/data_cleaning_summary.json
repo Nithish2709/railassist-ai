@@ -1,0 +1,20 @@
+{
+  "raw_total_records": 4535,
+  "non_complaint_records_excluded": 1920,
+  "ambiguous_types_excluded": 657,
+  "empty_texts_dropped": 0,
+  "duplicate_texts_dropped": 9,
+  "final_retained_records": 1949,
+  "total_active_categories": 8,
+  "class_distribution": {
+    "Operations & Traffic": 785,
+    "Passenger Grievance": 401,
+    "Housekeeping": 328,
+    "Security": 141,
+    "Electrical": 95,
+    "Catering": 88,
+    "Coach Maintenance": 66,
+    "Water & Sanitation": 45
+  },
+  "cleaned_file": "C:\\Users\\surendar\\OneDrive\\Documents\\Projects\\im project\\railassist-ai-text-classifier\\data\\processed\\cleaned_complaints.csv"
+}

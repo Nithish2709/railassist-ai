@@ -1,0 +1,3464 @@
+{
+  "total_records": 4535,
+  "total_columns": 3,
+  "columns": [
+    "Tweet",
+    "Label",
+    "Type"
+  ],
+  "missing_values": {
+    "Tweet": 0,
+    "Label": 0,
+    "Type": 0
+  },
+  "unique_tweets": 4490,
+  "duplicate_rows_to_drop": 45,
+  "label_counts": {
+    "complaint": 2615,
+    "non_complaint": 1920
+  },
+  "type_counts_all": {
+    "punctuality": 900,
+    "others": 414,
+    "cleanliness": 276,
+    "miscellaneous": 240,
+    "service": 198,
+    "facility": 196,
+    "security": 196,
+    "informational": 188,
+    "electrical equipment": 170,
+    "staff behaviour": 138,
+    "corruption / bribery": 128,
+    "information": 115,
+    "appreciation": 111,
+    "bed roll": 111,
+    "crowding": 85,
+    "ticket booking": 77,
+    "catering & vending service": 72,
+    "maintenance": 67,
+    "water availability": 59,
+    "refund": 55,
+    "political": 55,
+    "safety": 34,
+    "news": 28,
+    "medical assistance": 27,
+    "suggestion": 23,
+    "food": 22,
+    "positive feedback": 15,
+    "loss/found": 15,
+    "general": 14,
+    "general information": 11,
+    "news/information": 11,
+    "announcement": 10,
+    "financial": 9,
+    "travel experience": 9,
+    "experience": 8,
+    "news/update": 8,
+    "other": 7,
+    "promotion": 6,
+    "positive experience": 6,
+    "data breach": 6,
+    "general update": 5,
+    "information sharing": 5,
+    "infrastructure": 5,
+    "news/announcement": 5,
+    "update": 5,
+    "informational/news": 4,
+    "information/news": 4,
+    "information/advertisement": 4,
+    "facilities": 4,
+    "service update": 4,
+    "appreciation/positive": 4,
+    "service quality": 4,
+    "service feedback": 4,
+    "service/facilities management": 3,
+    "indian railways": 3,
+    "inauguration": 3,
+    "covid guidelines": 3,
+    "information/entertainment": 3,
+    "question": 3,
+    "informational/update": 3,
+    "news article link about floods in assam": 3,
+    "advertisement": 3,
+    "train delay": 3,
+    "awareness": 3,
+    "schedule update": 3,
+    "heritage run": 3,
+    "train schedule": 3,
+    "warning": 3,
+    "announcement of new train": 3,
+    "informational/positive": 3,
+    "photography": 3,
+    "stock market": 3,
+    "development/progress": 3,
+    "service/infrastructure": 3,
+    "request for improved infrastructure": 3,
+    "crime": 3,
+    "service/operational": 3,
+    "historical": 3,
+    "indian railways revenue from freight transportation": 2,
+    "earnings": 2,
+    "general comment": 2,
+    "service improvement": 2,
+    "event announcement": 2,
+    "service issue": 2,
+    "general praise": 2,
+    "positive": 2,
+    "assistance/help": 2,
+    "informational/neutral": 2,
+    "historical information": 2,
+    "ticket purchase": 2,
+    "compliment": 2,
+    "service request": 2,
+    "informational/advertisement": 2,
+    "ticket fraud": 2,
+    "celebration": 2,
+    "railtel order": 2,
+    "spotting/photography": 2,
+    "new tourist train": 2,
+    "assistance": 2,
+    "request for new train route": 2,
+    "cargo transport": 2,
+    "opinion/request": 2,
+    "appreciation/opinion": 2,
+    "incident": 2,
+    "personal": 2,
+    "sustainability": 2,
+    "achievement": 2,
+    "informational/opinion": 2,
+    "reservation system": 2,
+    "service announcement": 2,
+    "positive news": 2,
+    "celebrations": 2,
+    "lost and found": 2,
+    "innovation": 2,
+    "personal opinion": 2,
+    "suggestion/feedback": 2,
+    "noncomplaint": 2,
+    "news article": 2,
+    "general comment/suggestion": 2,
+    "service disruption": 2,
+    "speed": 2,
+    "covid awareness": 2,
+    "announcement/update": 1,
+    "appreciation for food quality": 1,
+    "schedule": 1,
+    "co": 1,
+    "covid measures": 1,
+    "positive review": 1,
+    "mathura junction station": 1,
+    "availability": 1,
+    "request for new railway facilities": 1,
+    "natural disaster": 1,
+    "business news about titagarh wagons order from indian railways": 1,
+    "service information": 1,
+    "rail enthusiasm": 1,
+    "advice/tip": 1,
+    "travel content": 1,
+    "experience/opinion": 1,
+    "service complaint": 1,
+    "safety advice": 1,
+    "tourism": 1,
+    "new train experience": 1,
+    "information/achievement": 1,
+    "historical info": 1,
+    "information about indian railways": 1,
+    "appointment/announcement": 1,
+    "unavailability of ac trains": 1,
+    "event": 1,
+    "sharing video/experience/photo": 1,
+    "livery": 1,
+    "criminal case involving a railway employee": 1,
+    "opinion/feedback": 1,
+    "information sharing/heritage": 1,
+    "service/schedule": 1,
+    "awareness/informational": 1,
+    "green initiatives": 1,
+    "facility upgrade": 1,
+    "initiative/program": 1,
+    "news article link about senior citizen concession": 1,
+    "tourist train": 1,
+    "information/sharing": 1,
+    "misinformation": 1,
+    "lost item": 1,
+    "train journey": 1,
+    "advertisement for exhibition": 1,
+    "fact check": 1,
+    "fine collection by western railways from ticketless driver": 1,
+    "opinion/experience": 1,
+    "environment awareness": 1,
+    "first commercial run of train": 1,
+    "comfort/convenience of the travel": 1,
+    "missing person during train journey": 1,
+    "change in preferred transport mode": 1,
+    "booking/refund": 1,
+    "new service announcement": 1,
+    "marketing": 1,
+    "train spotting": 1,
+    "greetings": 1,
+    "retrospective photo of a retiring train driver": 1,
+    "train cancellation": 1,
+    "opinion": 1,
+    "organizational chart": 1,
+    "not applicable": 1,
+    "fac": 1,
+    "patriotism and promotion": 1,
+    "service complaint  train service suspended temporarily": 1,
+    "general comment/announcement": 1,
+    "information/update": 1,
+    "procurement": 1,
+    "theft": 1,
+    "train photo": 1,
+    "sharing experience/photo": 1,
+    "pol": 1,
+    "festive trains": 1,
+    "lower than expected service for increased prices": 1,
+    "suggestion/request for new train": 1,
+    "special trains": 1,
+    "speed trial": 1,
+    "request/feedback": 1,
+    "suggestion for train name change": 1,
+    "schedule/route": 1,
+    "appreciation for response": 1,
+    "fire accident": 1,
+    "information/announcement": 1,
+    "travel option": 1,
+    "chennai egmore station redevelopment": 1,
+    "safety/accident": 1,
+    "management/lack of communication": 1,
+    "service/punctuality": 1,
+    "general tweet about indian railways": 1,
+    "news article link about ticket concession revenue": 1,
+    "development": 1,
+    "inspection": 1,
+    "modernization": 1,
+    "train video": 1,
+    "generosity": 1,
+    "development expansion": 1,
+    "facility for women with special needs": 1,
+    "appreciation of vistadome jan shatabdi express": 1,
+    "travel": 1,
+    "transformation/progress": 1,
+    "station upgrade": 1,
+    "opinion/suggestion": 1,
+    "procurement of power": 1,
+    "instructions on how to reach a destination by train": 1,
+    "appreciation for event": 1,
+    "change of boarding station": 1,
+    "general comment/achievement": 1,
+    "missing curtain in train compartment": 1,
+    "smooth and comfortable ride": 1,
+    "news announcement": 1,
+    "personal account of train journey": 1,
+    "business news": 1,
+    "unprofessional behavior": 1,
+    "error/anomaly": 1,
+    "business revenue generation": 1,
+    "no confirmed seat for family on train": 1,
+    "revenue": 1,
+    "logistics": 1,
+    "ticket/ seat availability": 1,
+    "ticket booking charge": 1,
+    "difficulty in booking tickets": 1,
+    "food quality": 1,
+    "fare charges": 1,
+    "poor condition": 1,
+    "request/suggestion": 1,
+    "child labor and begging on train": 1,
+    "promotion of railway signaling solutions": 1,
+    "travel observations": 1,
+    "marketing/promotion": 1,
+    "enquiry service": 1,
+    "appreciation for indian railways digitalization efforts": 1,
+    "train crossing": 1,
+    "inauguration of bharat gaurav tourist train": 1,
+    "tweet with photo of a delayed train": 1,
+    "petrol theft during vehicle parceling": 1,
+    "opposition to the silverline project and ecological impact": 1,
+    "employee": 1,
+    "bed": 1,
+    "criticism": 1,
+    "cancelled train": 1,
+    "delay": 1,
+    "query": 1,
+    "appreciation for indian railways achievement tweet": 1,
+    "request": 1,
+    "revenue generation": 1,
+    "environmental/sustainability": 1,
+    "occupancy rate": 1,
+    "age relaxation": 1,
+    "crime prevention": 1,
+    "event coverage": 1,
+    "information request": 1,
+    "general info": 1,
+    "covid awareness message": 1,
+    "appreciation/experience sharing": 1,
+    "information/opinion": 1,
+    "feedback mechanism": 1,
+    "compensation": 1,
+    "travel feedback": 1,
+    "good service": 1,
+    "rail news/update": 1,
+    "servicerelated": 1,
+    "technological achievement": 1,
+    "travel inquiry": 1,
+    "reservation system improvement": 1,
+    "thanking rpf and indian railways for recovering lost item": 1,
+    "feedback": 1,
+    "humorous": 1,
+    "ngo volunteers promoting nature conservation": 1,
+    "interesting railway station fact": 1,
+    "hygiene issue": 1,
+    "governance/policy decision": 1,
+    "seat allocation": 1,
+    "fraud/fake news": 1,
+    "freight traffic": 1,
+    "positive experience/ appreciation": 1,
+    "introduction of new train with pilgrimage tour": 1,
+    "safety reminder": 1,
+    "news/crime/suicide": 1,
+    "departure": 1,
+    "historical facts": 1,
+    "lost and found request for a passengers coatpant and color description with train details given": 1,
+    "reservation issue": 1,
+    "suggestion/request": 1,
+    "news about vista dome coaches": 1,
+    "ticket availability": 1,
+    "request for service": 1,
+    "pricing": 1,
+    "informational content": 1,
+    "praise": 1,
+    "appreciation for rpf action": 1,
+    "request for direct train connectivity": 1,
+    "ticket": 1,
+    "fun": 1,
+    "scenic photo of train journey": 1,
+    "parcel booking inquiry": 1,
+    "appreciation for rail route": 1
+  },
+  "type_counts_complaint_only": {
+    "punctuality": 783,
+    "cleanliness": 227,
+    "service": 180,
+    "miscellaneous": 177,
+    "facility": 142,
+    "security": 129,
+    "bed roll": 102,
+    "corruption / bribery": 101,
+    "electrical equipment": 95,
+    "staff behaviour": 86,
+    "crowding": 85,
+    "ticket booking": 75,
+    "catering & vending service": 71,
+    "others": 68,
+    "maintenance": 64,
+    "refund": 55,
+    "political": 52,
+    "water availability": 45,
+    "food": 16,
+    "loss/found": 14,
+    "safety": 13,
+    "medical assistance": 11,
+    "facilities": 3,
+    "train delay": 2,
+    "ticket booking charge": 1,
+    "ticket/ seat availability": 1,
+    "logistics": 1,
+    "food quality": 1,
+    "difficulty in booking tickets": 1,
+    "poor condition": 1,
+    "fare charges": 1,
+    "child labor and begging on train": 1,
+    "service feedback": 1,
+    "service quality": 1,
+    "request/suggestion": 1,
+    "petrol theft during vehicle parceling": 1,
+    "opposition to the silverline project and ecological impact": 1,
+    "bed": 1,
+    "employee": 1,
+    "criticism": 1,
+    "cancelled train": 1,
+    "delay": 1,
+    "service issue": 1
+  },
+  "type_samples": {
+    "achievement": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "West Central Railway has increased its originating earnings by 40.62%\u00c2\u00a0 from April to November this year as compared to the same period of the previous year. \n#IndianRailways @drmjabalpur https://t.co/1nBtS5c4sA",
+        "Our Chairman Sh L C TRIVEDI, addressing top government officials from Ivory Coast in IIM INDORE. \nHe spoke about advancement in Railway Technology in India and how countries of the world can gain from Indian technology.\n#YSN #yugsanskritinyas #ysnchairman #IndianRailways https://t.co/ohQoZc61qw"
+      ]
+    },
+    "advertisement": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "over the next five or six months &amp; the work is expected to be completed by May end.\n\nRead more from https://t.co/wgKza0CXQo\n\n#UtkarshIndia #CrashBarrier #CattleFencing #IndianRailways #VandeBharat #MetalBeamCrashBarriers #RailwayFencing #NewsAlert #railwaybudget2023 #Budget2023",
+        "Whether you\u00e2\u20ac\u2122re onboarding a train or waiting for one to arrive, know the location of your transport from anywhere in the country with our simple live status tracker for your rides.\n#ConfirmTkt #IncredibleIndia #TrainTravel  #RailwayTourism #IndianRailways #IndianTravelStories https://t.co/beuwF15UAm",
+        "Eat Something Special in Train Every Time.\n.\nOrder Food food from Dibrail\nOrder from website: https://t.co/TExk0UHVtB\nOrder via Call: 8263-940-940\n.\n#food #FoodInTrain #dibrailblog #dibrail #healthyfood #fastdeliveries #indianfood #foodie #southindianfood #pizza #IndianRailways https://t.co/pVgs3XWJqA"
+      ]
+    },
+    "advertisement for exhibition": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Experience our Smart Solutions. We are exhibiting our smart #RailwaySignaling Solutions in IRSE International Technical Seminar &amp; Exhibition 2022 as a #goldsponsor  from 30th June - 2nd July in New Delhi.#efftronics #seminar  #indianrailways #engineering #railwaysignaling #Delhi https://t.co/eAILyGVtGv"
+      ]
+    },
+    "advice/tip": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Be careful from strangers while traveling. #ResponsibleRailYatri #IndianRailways \n @BhopalDivision @wc_railway @drmjabalpur https://t.co/IjZjyjg4yl"
+      ]
+    },
+    "age relaxation": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Respected sir,\n                          Please increase age relaxation for RPF notification for 5 years last notification is 2018..it's a reasonable request from all asparents kindly consider our request\n@PMOIndia @narendramodi @AshwiniVaishnaw @RPF_INDIA #IndianRailways \nTq sir"
+      ]
+    },
+    "announcement": {
+      "total_count": 10,
+      "label_distribution": {
+        "non_complaint": 10
+      },
+      "samples": [
+        "#IRCTC will be India's first agency to connect two countries through tourist train under the #BharatGauravScheme of #IndianRailways as the train will depart on the #ShriRamayanaYatraCircuit from #NewDelhi on June 21, according to an official statement by the IRCTC.\n\n#tourism https://t.co/QmZf5yEGK7",
+        "Vande Bharat train between Vijayawada, Sec'bad from Jan 19 #IndianRailways #NarendraModi #VandeBharattrain #AndhraPradeshnews https://t.co/BmWdC3aC9P",
+        "Mumbai: Railways to introduce 10 more AC local trains on main line from tomorrow #AClocalinMumbai #CentralRailway #indianrailways #mumbainews #NewAclocalinMumbai #Trainnews #westernrailway https://t.co/V54KQDTiaz\nhttps://t.co/X98Ftf35vQ"
+      ]
+    },
+    "announcement of new train": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Good news for the people of West Bengal. Vande Bharat express train will launch in West Bengal on 30-12-2022. The train will run from Howrah to Jalpaiguri.  Prime Minister Narendra Modi will inaugurate the train on 30-12-2022... \n\n#India #IndianRailways #vandebharatexpress",
+        "Centre to introduce direct train from Kakinada to Varanasi\n\nClick Here: https://t.co/4oZ0920zAU\n\n#IndianRailways #ashwinivaishnaw #vangageetha #Kakinada #Varanasi #Railway #news #ybrantnews https://t.co/VQvGGQjDmC",
+        "So East India gets its first #VandeBharat train - from Howrah to New Jalpaiguri! So we touch 6 Vande Bharat trains by the end of 2022! #IndianRailways #vandebharatexpress"
+      ]
+    },
+    "announcement/update": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "The Indian Railways has announced that the Vande Bharat Express from Delhi to Katra would serve solely vegetarian meals, making it the country's first vegetarian train.\n\n#briflynews #delhikatravandebharatexpress #vegetarianmeals #IRCTC #IndianRailways  \nhttps://t.co/U7PDxYfWdI"
+      ]
+    },
+    "appointment/announcement": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Shri Anil Kumar Lahoti appointed as Chairman &amp; Chief Executive Officer of Railway Board from January 1st, 2023 onwards.\n\nRead more: https://t.co/zRDgUrR66p\n\n#congratulations #appointment #CEO #indianrailways #railwayboard https://t.co/3DubM8DpYa"
+      ]
+    },
+    "appreciation": {
+      "total_count": 111,
+      "label_distribution": {
+        "non_complaint": 111
+      },
+      "samples": [
+        "SILIGURI JUNCTION \u00f0\u0178\u2019\u2122\n\nCaptured From 15777 NJP - APDJ Tourist Express \n\n#IndianRailways \n\n@drm_kir \n@RailNf \n@RailMinIndia https://t.co/vcy7RXxcgM",
+        "@AshwiniVaishnaw Had a chance to board in Tejas Express #82502 from new delhi to Kanpur where in found the crew service impeccable and very responsive. #IndianRailways",
+        "An excellent service from Indian railways' Karnavati Express. The cleanliness and catering services are the auspicious part of its service. \nI am very thankful to Indian Railway\n@RailMinIndia @AshwiniVaishnaw @DarshanaJardosh @WesternRly\n#IndianRailways \n#WesternRailways \n#IRCTC https://t.co/VT0R0priAJ"
+      ]
+    },
+    "appreciation for event": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "We had the traditional boiling of rice and preparation of Pongal as well as the traditional performers from rural Tamil Nadu giving us a wonderful performance. We performed the traditional Arati and some entertainment as well. #Pongal2023 #IndianRailways https://t.co/Wa3f2QoOAf"
+      ]
+    },
+    "appreciation for food quality": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@RailMinIndia @IRCTCofficial @AshwiniVaishnaw Thank you #IndianRailways for serving us. Today I'm travelling from Pune to Jhasi, Train no 12629 PNR: 4554652050. In this Train PC food Quality is superb. But 5paratha nd kadahi Paneer cost \u00e2\u201a\u00b9150. \u00e0\u00a4\u00ae\u00e0\u00a4\u00b9\u00e0\u00a4\u201a\u00e0\u00a4\u2014\u00e0\u00a4\u00be\u00e0\u00a4\u02c6 \u00e0\u00a4\u00a1\u00e0\u00a4\u00be\u00e0\u00a4\u00af\u00e0\u00a4\u00a8 \u00e0\u00a4\u2013\u00e0\u00a4\u00be\u00e0\u00a4\u008f \u00e0\u00a4\u0153\u00e0\u00a4\u00be\u00e0\u00a4\u00a4 \u00e0\u00a4\u00b9\u00e0\u00a5\u02c6\u00f0\u0178\u00a4\u00a8\u00f0\u0178\u00ab\u00a5\u00f0\u0178\u02dc\u201d"
+      ]
+    },
+    "appreciation for indian railways achievement tweet": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Indian Railways 3.5 KM long  goods train Super Vasuki , 27000 tons coal in 295 wagons/containers from Korba to Nagpur in 11.20 hrs, longest ever with heaviest load .Kudos #IndianRailways \u00f0\u0178\u2018\u008f\u00f0\u0178\u2018\u008f\u00f0\u0178\u2018\u008f\n\n https://t.co/qkyx6rPLvc"
+      ]
+    },
+    "appreciation for indian railways digitalization efforts": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "From printed charts to handheld digital device. Indian Railways \u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b3\u00f0\u0178\u0161\u0160 have come long way! Captured today. @SCRailwayIndia\n@RailMinIndia @IRCTCofficial @AshwiniVaishnaw @narendramodi @_DigitalIndia #IndianRailways #DigitalIndia https://t.co/hR5L8mWn1E"
+      ]
+    },
+    "appreciation for rail route": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways\n\nRail route from Erode to Palani via Dharapuram!  \u00f0\u0178\u2018\u0152\n\nThanks,\n#Modi_Sarkar! https://t.co/hmDI5ktpNi"
+      ]
+    },
+    "appreciation for response": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways Thank you so much for your quick and kind response for my complain.  \nDay before yesterday I was traveling from Pune to Rjt in Pune -Veraval Exp Train. During travelling, there were big group who were traveling in same bogie with me. Some around 11pm"
+      ]
+    },
+    "appreciation for rpf action": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@RailwaySeva @DrmChennai Thanks RPF for your quick action \n\nI surprised to see these much response from RPF \u00f0\u0178\u2018\u008f take a bow\n\n#IndianRailways \n#Irctc\n#railway \n\n@RailMinIndia \n@RailwaySeva \n@GMSRailway"
+      ]
+    },
+    "appreciation of vistadome jan shatabdi express": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "En route from Ahmedabad Junction Railway Station to Ekta Nagar Station on the #Vistadome Jan Shatabdi Express to visit the Statue of India @souindia. What a great way to travel! @RailMinIndia @IRCTCofficial #IndianRailways https://t.co/ye5ULv8hZ7"
+      ]
+    },
+    "appreciation/experience sharing": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Privileges of being from M.P. \u00f0\u0178\u02dc\u2026\nI have a lot of M.P. wale friends who can pack their bags any day and reach their homes in 12 hours, no matter where we are! \u00f0\u0178\u02dc\u201a\n#madhyapradesh \n#indianrailways #directtrains\n#directbuses #sastitickets https://t.co/W5Xiwur8gR"
+      ]
+    },
+    "appreciation/opinion": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "@Ananth_IRAS Unfortunate that initially everyone was either without a clue or just wanting to 'stay away' from stepping forward to assist the #TTE who had fallen upon the #Railways tracks ..\u00f0\u0178\u02dc\u00a2\n\nGood to know that he survived and is under treatment &amp; hopefully recovering too.\n\n#IndianRailways",
+        "Oh this Voice\u00f0\u0178\u00a4\u00a9...My Ears were in search of it from past a month\n.\n.\n.\nMe....Here after \"30\" Janams\u00f0\u0178\u00a4\u00aa\u00f0\u0178\u02dc\u0081\n\n#IndianRailways #trains #Railway #TravelToEarn #traveling #himachalpradesh #Uttrakhand #UttarPradesh #solotravel #India #Indians #indian https://t.co/LU9Lc3XT4K"
+      ]
+    },
+    "appreciation/positive": {
+      "total_count": 4,
+      "label_distribution": {
+        "non_complaint": 4
+      },
+      "samples": [
+        "Gift from railways, those who scared to take bath\u00f0\u0178\u0161\u00bf\n#IndianRailways https://t.co/ep8JmBrnMa",
+        "Thank u #IndianRailways #ministeryrailway #ashwinivaishnav running 11 hrs train late running from Anand vihar to Madhupur . 16 hrs journey is going to take 27to 30 hrs Thank u so much \u00f0\u0178\u02dc\u20ac\u00f0\u0178\u02dc\u20ac\u00f0\u0178\u02dc\u20ac\u00f0\u0178\u02dc\u0160\u00f0\u0178\u02dc\u0160 https://t.co/U3KzmyXprP",
+        "Snow-Clad Indian Railways in Kashmir Valley\n\nFew of my frames from my yesterday journey from Banihal to Baramulla\n\n#indianrailways #IncredibleIndia \n@AshwiniVaishnaw @RailMinIndia @DarshanaJardosh @incredibleindia https://t.co/8qhthFjBzz"
+      ]
+    },
+    "assistance": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "I need help train number 12565 seat no 57 SE #IndianRailways\nOne women and two childrens are coming from siwan to delhi.\nKindly assist them by giving there reserved seat. She is alone and really need help.",
+        "I have had to catch train from Saharanpur at 00:20 Train no. 14631 Ddn Asr Express, but due to this technical failure i am unable to catch that train PNR 2826977507.\nPlease help, its very important for me to reach Ludhiana on time\n@RailMinIndia @AshwiniVaishnaw \n#IndianRailways"
+      ]
+    },
+    "assistance/help": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "@RailMinIndia @AshwiniVaishnaw My father-in-law is traveling in Train #12551 from Bangalore to Ghy (B8/17). Need to send pressure medicines (Cartel A). Is it possible to get it to him? He will be on the train till Monday 2:30 PM #IndianRailways @RPF_INDIA",
+        "Dear Sir,\nI am travelling from Indore to Pune in train number 22944. A baby boy of around 3 months is crying to much in coach B6. Maybe he needs some medical help. Seeking help here!\nThanks!\n@RailMinIndia @WesternRly \n#needhelp #IndianRailways"
+      ]
+    },
+    "availability": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "1 ticket available from Hyderabad to Vizag for today (11-01-2023)..Godavari Express\u00e2\u20ac\u00a6#IndianRailways #Sankranti2023 #Thunivu #Thegimpu #Varisu #Varasudu"
+      ]
+    },
+    "awareness": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Corona is still alive!\nEven after getting vaccinated, you still need to take precautions to protect yourself, family, and friends from coronavirus.\n#Unite2FiightCorona #awareness #SafetyFirst #IndianRailways @RailMinIndia @gmwcrailway @wc_railway @drmkota @drmjabalpur https://t.co/FNeP9C0Gbn",
+        "Corona is still alive!\n\nEven after getting vaccinated, you still need to take precautions to protect yourself, family, and friends from coronavirus.\n#Unite2FiightCorona #awareness #SafetyFirst #IndianRailways @gmwcrailway @wc_railway @drmkota @drmjabalpur @AshwiniVaishnaw https://t.co/iLjB1Cc48p",
+        "Corona is still alive!\n\nEven after getting vaccinated, you still need to take precautions to protect yourself, family, and friends from coronavirus.\n#Unite2FiightCorona #awareness #SafetyFirst  #IndianRailways @RailMinIndia @gmwcrailway @wc_railway @drmkota @drmjabalpur https://t.co/vYVxpH0gO6"
+      ]
+    },
+    "awareness/informational": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Corona is still alive!\n\nEven after getting vaccinated, you still need to take precautions to protect yourself, family, and friends from coronavirus.\n#Unite2FiightCorona #awareness #SafetyFirst #IndianRailways https://t.co/ARs7SAWdSl"
+      ]
+    },
+    "bed": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "#IndianRailways \nI'm traveling from ahemdabad to jodhpur by Suryanagri super fast express (12480) there is durty coach and blankets and sheet are not good,"
+      ]
+    },
+    "bed roll": {
+      "total_count": 111,
+      "label_distribution": {
+        "complaint": 102,
+        "non_complaint": 9
+      },
+      "samples": [
+        "@IRCTCofficial I am travelling from bangalore to Mumbai train no. 11302 Coach no. M1, PNR -4760399048 the bed sheet given was not clean and full of wrinkles as it\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s used\n#hygiene\n#issue \n#notclean\n#IndianRailways",
+        "#IndianRailways sir, I\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2m travelling in train no. 22213 from Shalimar to patna. My hearth no. A1 16. \nI\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2ve seen a news that bed and blanket will be provided in train. Have reached with customer care on 139 and they too confirmed but now that is not provided. Kindly help plz \u00c3\u00b0\u00c5\u00b8\u00e2\u201e\u00a2\u00c2\u008f",
+        "This message received from railmadad..\nTill time the problem is not resolved..\nYet they did not provided fresh bedsheets. \n#ANI #IndianRailways #EasternRailways https://t.co/iXyTQudBUw"
+      ]
+    },
+    "booking/refund": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@IRCTCofficial My PNR is 6207936045 , Actually my train is from Gondia to CSMT , but due to certain reasons , I\u00e2\u20ac\u2122ll not be able to board the train from Gondia ! Kindly change my boarding station viz. Nagpur ! As my reservation is RAC so this might concern you! \n#IndianRailways"
+      ]
+    },
+    "business news": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Oriental Foundry Pvt Ltd receives orders from Indian Railways for 2964 wagons\n\n#OrientalRailInfrastructure #INE457G01029 #OrientalFoundry #OrderWin #RailwayWagons #IndianRailways\n\nhttps://t.co/kIhtvHRdBu https://t.co/MhirLp9Z2B"
+      ]
+    },
+    "business news about titagarh wagons order from indian railways": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Titagarh Wagons Gets Largest Ever Order Worth Over Rs 7,800 Crore From #IndianRailways For 24,177 Freight Wagons . https://t.co/T9FesaeWGB"
+      ]
+    },
+    "business revenue generation": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Metro Railway earns Rs 7.30 crore from non-fare revenue during April 1 to November 30, 2022.\n\n@metrorailwaykol\n\n#MetroRailway #Business #IndianRailways #Revenue #Kolkata #MyKolkata #TheTelegraph\nhttps://t.co/ie1vY6W61s"
+      ]
+    },
+    "cancelled train": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "#IndianRailways @RailwaySeva #Railway #RailwaySeva @drm_dli @DRMDELHIDIVN @indianrail\nI am traveling in Poorva exp. (12382), from New Delhi to Howrah. They don't have food menu. Request you to send me the menu card. Thank you"
+      ]
+    },
+    "cargo transport": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "In a major development, #IndianRailways has achieved a significant milestone by transporting another rake of passenger buses from Doddaballapur in Bengaluru, Karnataka to Chandigarh.\n\nhttps://t.co/qR6Ehrz80R",
+        "Railways transporting Buses!\n\nIndian Railways has transported another rake(2nd) of Passenger Buses from Doddaballapur of Bengaluru, Karanataka to Chandigarh.\n#IndianRailways #HungryForCargo https://t.co/5zPnR6Bkpa https://t.co/ycpKrIpRdb"
+      ]
+    },
+    "catering & vending service": {
+      "total_count": 72,
+      "label_distribution": {
+        "complaint": 71,
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways today I am suffering from New Delhi to Pryagraj in Rajdhani with PNR no 2154364195 train no is 22812 BBS Rajdhani with sheat no B5  50 middle birth I want to say that breakfast has not serve to me because they told me it is chargeable.",
+        "@Central_Railway @AshwiniVaishnaw @PMOIndia  I request indian railway stop giving food in rails, worst food ever eat, don\u00e2\u20ac\u2122t make fool of public in name of food, at least they can take from home #worstfood #IndianRailways @Western Travelling in Rajdhani 222222",
+        "Traveling in 22440/SVDK VANDEBHARAT from SHMATA to NDLS. PNR no is 2509175727 &amp; seat no us C2/77. Paid around 1800 for travel.#irctc isn't distributing the full evening snacks as per the menu. #PMOIndia #IndianRailways #irctc #IRCTC #NarendraModi #vandebharatexpress #VandeBharat"
+      ]
+    },
+    "celebration": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Indian Railways Celebrates 95 Years of Electric Traction on 3rd February.\nOn 3rd February 1925, the first electric train ran from Victoria Terminus to Kurla on harbour line of Bombay.\nThe motorman was Jahangir Framji Daruwala.\n#IndianRailways   #EelctricTraction  #Bombay_Kurla https://t.co/TEzCZf8YSS",
+        "Ms Archana Joshi, GM/SER takes part in Azadi Ka Amrit Mahotsav by pinning the National Flag on portal https://t.co/sZ3XnecGmp\n\nSER celebrates \n\"Har Ghar Tiranga\"\nFrom 13th to 15th August, 2022\n\u00f0\u0178\u0178\u00a7\u00f0\u0178\u0178\u00a9\u00f0\u0178\u0178\u00a7\u00f0\u0178\u0178\u00a9\u00f0\u0178\u0178\u00a7\u00f0\u0178\u0178\u00a9\u00f0\u0178\u0178\u00a7\u00f0\u0178\u0178\u00a9\u00f0\u0178\u0178\u00a7\u00f0\u0178\u0178\u00a9\n#AzadiKaAmritMahotsav #IndianRailways \n#HarGharTiranga\n#ser https://t.co/3QVrrzuJDr"
+      ]
+    },
+    "celebrations": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "#IndianRailways to organize week long celebrations from 18th July-23rd July\nChairman and CEO/Railway Board inaugurates Iconic Week Celebrations of \u00e2\u20ac\u02dcAzadi Ki Rail Gadi aur Stations\u00e2\u20ac\u2122\n#AzadiKaAmritMahotsav \n#AzadiKiRail \n@PIB_India \n\nhttps://t.co/qJn0Jzkzc3",
+        "Indian Railways is celebrating 'Azadi Ka Amrit Mahotsav' from 4 pm onwards.\n\nWatch Live: https://t.co/slkSGynTpM\n\n#IndianRailways #AzadiKiRail #AzadiKaAmritMahotsav"
+      ]
+    },
+    "change in preferred transport mode": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "After 6 years traveling in #IndianRailways \u00e2\u20ac\u00a6.. suddenly realising air travel is becoming more convenient and preferred choice for the people from social circle in #India \u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b3 \u00e2\u20ac\u00a6 question is your mode of public transport is changed in recent years?"
+      ]
+    },
+    "change of boarding station": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Sir/Ma'am I request you to please change our boarding station to Khandwa (KNW), from Vidisha.\nPNR - 2613648255\nTrain - 12138\nContact No. 7021477967\nNot able to change as chart is already prepared. Sorry for the inconvenience.\n#RailwayMinister_HelpCCAA\n#railmadad #IndianRailways"
+      ]
+    },
+    "chennai egmore station redevelopment": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Today's newspapers in #Chennai are all talking about the Chennai Egmore station redevelopment project. Did you get to read about how the pace of work at the work site is picking up? We hope to create a world class station in less than 3 years from now. #IndianRailways #projects https://t.co/lFuHjQ8J2S"
+      ]
+    },
+    "child labor and begging on train": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "Not first time we all see this, But need to change the scenario across India : Kharagpur station , platform number 7, underage boy, cleaning inside train AC coach,train no 18628 and begging money from passengers #IndianRailways  #aswinivaishnaw #southeasternrailways #childlabour https://t.co/UZWUExJybx"
+      ]
+    },
+    "cleanliness": {
+      "total_count": 276,
+      "label_distribution": {
+        "complaint": 227,
+        "non_complaint": 49
+      },
+      "samples": [
+        "My parents travelled by #garibrath train from Raipur to Lucknow after 3 years and were extremely disgusted by the state of #biotoilets\nWe have travelled by garib rath so many times earlier but never seen such bad condition \n#IndianRailways",
+        "Stopped travelling in #IndianRailways way back... It stinks right from the Sec station all the way thru the boarding station with garbage allover the trains n shit all over the toilets \u00f0\u0178\u00a4\u00ae\u00f0\u0178\u00a4\u00ae\u00f0\u0178\u00a4\u00ae\u00f0\u0178\u00a4\u00ae",
+        "@GMNWRailway @RailMinIndia @NWRailways  Such dirty condition of Train number 12413 2nd AC coach A2 from origin station Ajmer\u00e2\u20ac\u00a6. \u00f0\u0178\u00a4\u201d\u00f0\u0178\u00a4\u201d #IndianRailways https://t.co/jEeteP67dM"
+      ]
+    },
+    "co": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Don\u00e2\u20ac\u2122t participate in #fake lucky draw scheme message from Indian Railways where it claims to give you rs. 6000. ITS FAKE \n#IndianRailways"
+      ]
+    },
+    "comfort/convenience of the travel": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Traveling in vande bharat express\" from NDLS to Varanasi, its pride of nation, Seats didn't recline a inch, feels like I'm sitting in Delhi Metro\n\n#IndianRailways\n#PiyushGoyal\n#PMO \n#PMOIndia \n#ministryofindianrailways\n#irctc \n#irctcprivatization \n#mohitkhanna \n#rohitgupta"
+      ]
+    },
+    "compensation": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Indian Railways is requested that the passengers who suffer due to train delay should get compensation from the Railways.#IndianRailways https://t.co/X1gfpeyMe1"
+      ]
+    },
+    "compliment": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "It's been an great experience to travel on #VandeBharatexpress from #Durg to #Nagpur \nFood quality was good and hygiene that I can give them 9/10\nTrain neatness -9/10\nStaff behaviour - 10/10\nSeat comfort - 7/10 \nToilet - 10/10\n#IRCTC \n#IndianRailways \n#indianrailwaycatering https://t.co/QTKQiBZN1s",
+        "@AshwiniVaishnaw traveled via vande bharat ( 22448 )  from anandpur sahib to ndls, it was a wonderful experience, and special thanks to your staff Neetu who made sure we faced no difficulty as we were traveling with a 3 month old baby. #IndianRailways"
+      ]
+    },
+    "corruption / bribery": {
+      "total_count": 128,
+      "label_distribution": {
+        "complaint": 101,
+        "non_complaint": 27
+      },
+      "samples": [
+        "There are no general tickets for common public in #IndianRailways from Tatanagar to Howrah Junction.\nWhere TTE's are booking tickets inside the platform illegally and asking for extra fare...What is this ??#SER",
+        "@MinistryofRail #IndianRailways #railway I am travelling in 18101 (seat no 46,PNR6609768411) I had ordered food from IRCTC Catering boy.\nHowever a local vendor from SOPAN retraunt falsely disguised as a member of IRCTC delivered us the wrong items at a higher price.",
+        "@gmwcrailway #IndianRailways @RailMinIndia @wc_railway @BhopalDivision @AshwiniVaishnaw The cost on government board for AC waiting room is written as INR 10 but these people are charging INR 12 instead of INR 11.7 from each traveller for their poor services."
+      ]
+    },
+    "covid awareness": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Corona is still alive!\n\nEven after getting vaccinated, you still need to take precautions to protect yourself, family, and friends from coronavirus.\n#Unite2FiightCorona #awareness #SafetyFirst #IndianRailways @RailMinIndia @gmwcrailway\n @wc_railway @drmkota @drmjabalpur https://t.co/axpa3wFG2t",
+        "Corona is still alive!\n\nEven after getting vaccinated, you still need to take precautions to protect yourself, family, and friends from coronavirus.\n#Unite2FiightCorona #awareness #SafetyFirst #IndianRailways \n@gmwcrailway https://t.co/TEaGHDGDd7"
+      ]
+    },
+    "covid awareness message": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Corona is still alive!\n\nEven after getting vaccinated, you still need to take precautions to protect yourself, family, and friends from coronavirus.\n#Unite2FiightCorona #awareness #SafetyFirst  #IndianRailways https://t.co/qrrGoNAwAd"
+      ]
+    },
+    "covid guidelines": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Following COVID Appropriate Behaviour Makes Staying Safe from COVID Easier #IndianRailways @RailMinIndia @gmwcrailway @wc_railway @drmkota @drmjabalpur @AshwiniVaishnaw @DarshanaJardosh @raosahebdanve https://t.co/hio017uvom",
+        "Three Golden Rules that help break the chain of #corona.\n\n1. Always wear a mask \n2. Wash hands thoroughly and frequently with soap and water\n3. Maintain a 2-meter distance from others \n#Unite2FightCorona\n#IndiaFightsCorona   #HarGharTringa #IndianRailways https://t.co/RQLGaFGbxR",
+        "Three Golden Rules that help break the chain of Corona.\n\n1. Always wear a mask \n2. Wash hands thoroughly and frequently with soap and water\n3. Maintain a 2-meter distance from others \n#Unite2FightCorona #IndianRailways @RailMinIndia @gmwcrailway @wc_railway @drmkota @drmjabalpur https://t.co/fxXPB0osNN"
+      ]
+    },
+    "covid measures": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Corona is still alive!\nEven after getting vaccinated, you still need to take precautions to protect yourself, family, and friends from coronavirus.\n#Unite2FiightCorona #awareness #SafetyFirst #MomentsWithTiranga #IndianRailways #HarGharTiranga #MainBharatHoon https://t.co/RM61v4aCPx"
+      ]
+    },
+    "crime": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "#CBI probing the alleged bribes paid to #IndianRailways' Additional Divisional Manager, Guwahati, Jitendra Pal Singh, has reportedly seized Rs 1.28 crore from residences of railway contractors under scanner at Siliguri and Cooch Behar districts in West Bengal. https://t.co/9QTtpmzCn4",
+        "The CBI has seized 17kgs of gold worth Rs 9.5 crore and Rs 1.57 crore in cash from the possession of a retired Indian Railway Traffic Service (IRTS) officer in Bhubaneswar, the agency said on Tuesday.\n.\n.\n#hindustanherald #cbi #india #indianrailways #railway #heraldnews https://t.co/CNV7Fv24nr",
+        "Railways bribery case: CBI seizes Rs 1.28 crore from Siliguri, Cooch Behar #Railwaysbriberycase #CentralBureauofInvestigation #IndianRailways #WestBengal https://t.co/5EJ0c5drZX"
+      ]
+    },
+    "crime prevention": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways \u00e0\u00a4\u2022\u00e0\u00a5\u2039 \u00e0\u00a4\u00b9\u00e0\u00a4\u00ae \u00e0\u00a4\u2026\u00e0\u00a4\u00aa\u00e0\u00a4\u00b0\u00e0\u00a4\u00be\u00e0\u00a4\u00a7 \u00e0\u00a4\u00ae\u00e0\u00a5\u0081\u00e0\u00a4\u2022\u00e0\u00a5\u008d\u00e0\u00a4\u00a4 \u00e0\u00a4\u2022\u00e0\u00a4\u00b0\u00e0\u00a4\u00a8\u00e0\u00a5\u2021 \u00e0\u00a4\u2022\u00e0\u00a5\u2021 \u00e0\u00a4\u00b2\u00e0\u00a4\u00bf\u00e0\u00a4\u008f  \u00e0\u00a4\u00b8\u00e0\u00a4\u201a\u00e0\u00a4\u2022\u00e0\u00a4\u00b2\u00e0\u00a5\u008d\u00e0\u00a4\u00aa\u00e0\u00a4\u00bf\u00e0\u00a4\u00a4 \u00e0\u00a4\u00b9\u00e0\u00a5\u02c6\u00e0\u00a4\u201a I \nBuying tickets from the touts can Put you in trouble.   \nCrime Inteligence branch of #RPF Jabalpur arrested  the tout with thier accesaries ,FIR Launched #OperationUplabdh\n@RPF_INDIA @rpfwcr @drmjabalpur @gmwcrailway https://t.co/3BUvAAGhsV"
+      ]
+    },
+    "criminal case involving a railway employee": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Bio of a #Criminal ...\n#ABMathur : Public Servant in #IndianRailways !\n1. In 2009 was saved by #DLChaudhari from being arrested by #MrMakwana Inspector under @SPBhavnagar \n2. Paid #MrChaudhari DySP black money for escaping jail in March 2010.\n@dgpgujarat @IR_CRB @Gmwrly @DRM_BVP https://t.co/3jbJ9wcSFH"
+      ]
+    },
+    "criticism": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "Has @ZeeNews won online marketing contract for #indianrailways ?! Every week there is exclusive *dhansu announcement* from ZeeNews but the ground reality remains pathetic! https://t.co/hOh3eFuz7B"
+      ]
+    },
+    "crowding": {
+      "total_count": 85,
+      "label_distribution": {
+        "complaint": 85
+      },
+      "samples": [
+        "@sharan_warrior1 @IndianRailMedia #IndianRailways  worst management for controlling this unethical traveling guys from north.",
+        "There are too many UNAUTHORISED people in 2S Coaches of 13114 Hazarduari Express on working days!\nEven It's so tough to get my own sit after boarding. This can't be expected from #IndianRailways \n@drmsdah please take required action ASAP.@EasternRailway @ErRpf @RailMinIndia",
+        "#railsewa #IndianRailways #jhelumexpress travelling in 2nd AC coach and witnessing lot of passengers boarding without valid ticket. The train has just started from Pune\u00e2\u20ac\u00a6 long way to go!"
+      ]
+    },
+    "data breach": {
+      "total_count": 6,
+      "label_distribution": {
+        "non_complaint": 6
+      },
+      "samples": [
+        "The Union Ministry of Railways has denied media reports about a potential breach of Indian Railway Catering and Tourism Corporation (IRCTCT) data, and said that the data breach was not from the IRCTC servers.\n\n#IRCTC #India #IndianRailways #dataBreach #Railways https://t.co/Ge75Ds4XYD",
+        "IRCTC Data 'Hacking': Railway Ministry Denies Reports of Information Leak, Says Suspected Breach Not From IRCTC Servers\nhttps://t.co/ZQ2m8xJDFz\n#IRCTC #IndianRailways #RailwayMinistry #DataBreach #Servers @RailMinIndia @IRCTCofficial #Hacking #InformationLeak",
+        "#IndianRailways denies data breach, but orders checks. This after a #hackers forum claims to have accessed 3 crore users data from the #IRCTC site https://t.co/aw6wuG4KlK"
+      ]
+    },
+    "delay": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "#Ashvini_Vaishnav_Railway_minister \n#IndianRailways \nDear sir \nI am travelling by train no. 02134\nThis train standing at rani kamlapati railway station from last 1 and half hour \nPlz inform what happend why this train getting late\nPNR no. 8833897188"
+      ]
+    },
+    "departure": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Magadh Express departing from Etawah junction at early morning #shorts #trains #indianrailways - https://t.co/vqjRzUrQ8E https://t.co/8HjJbA6AHq"
+      ]
+    },
+    "development": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "The 111 km #Jiribam to #Imphal railway project will connect the remote North-Eastern state with the rest of India by rail. The railway line will reduce the travel time between #Assam and #Manipur to two-and-half hours from the current 12 hours\u00e2\u20ac\u2122 drive.\n#IndianRailways #railways"
+      ]
+    },
+    "development expansion": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Nagaland Chief Minister Neiphiu Rio officially flagged off the first passenger train service- the Donyi Polo Express from Shokhuvi Railway station on August 26. Quite a historic moment in the development and expansion of the network of #IndianRailways in the #NorthEast! https://t.co/wTIZzQmEUG"
+      ]
+    },
+    "development/progress": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "#IndianRailways is reportedly in talks to make travel between #Bengaluru and #Hyderabad more accessible. This involves a semi high-speed railway track that will shuttle passengers from either metro cities in about three hours.\n\nhttps://t.co/gfZ1KfjhoE",
+        "#IndianRailways \u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b3\u00f0\u0178\u2018\u008d\u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b3This is for the 1st time in Indian Railways history, carrying 27000 tonnes of coal in 288 racks train with 6 high powered Electric engines, from  Chattisgarh/Bhilai to Korba",
+        "#Railyatri .. #IndianRailways ' journey from trains with smoke-blowing steam engines to electric motors, semi-high speed train #VandeBharat, has reached. In next few years, you will be able to travel by bullet train. \n#KiaraAdvani #VickyKaushal, #SidKiara  \n@RailMinIndia https://t.co/AqCeBNwnfT"
+      ]
+    },
+    "difficulty in booking tickets": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "Dear @IRCTCofficial @RailMinIndia \nAre you making booking through irctc web a challenge to pass ?\nLike at every important place from 'typing captcha to confirm booking' your ads and disha2.0 making it ridiculous to get a ticket.\n#IndianRailways https://t.co/4K4r8486oC"
+      ]
+    },
+    "earnings": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "#IndianRailways\u00e2\u20ac\u2122 earnings from freight increases by 16% compared to last year [Automated tweet] https://t.co/PuQYO4oqdg",
+        "Railways earns Rs 1,20,478 crores from freight loading till December in the Financial Year 2022-23\n\nRead more...https://t.co/tfxr3dCtjv\n \n#indianrailways #railway #infrastructure #stations #financialyear #freight #parcel #goods #loading #project https://t.co/P4tOKLawES"
+      ]
+    },
+    "electrical equipment": {
+      "total_count": 170,
+      "label_distribution": {
+        "complaint": 95,
+        "non_complaint": 75
+      },
+      "samples": [
+        "@RailMinIndia Today my father (@LalitBi57894984 ) travelled in train no.15044 from Haldwani to Lucknowin Chair Car but no AC was working at all. Everyone sweated even after paying for AC Chair Car &amp; technician on duty told  passengers that 'system has gone old'.\n#IndianRailways",
+        "I'm travelling in SDAH-KANCHANJUNGHA Express(13174)from guwahati in S6 coach.There is no provision of mobile charging in this coach.The journey will end tomorrow night. How all the people manage this.Please look into this matter\n#aswinivaishnav \n#railwayminister \n#IndianRailways https://t.co/PeSASXJli3",
+        "#IndianRailways #Railway Ministry,  Travelling from DDU to Ajmer from Sialdah super fast train (12987) ..Third ac coach no B-6 ac is  not working Last more than one hour , no technician is avilable, worst service given by the Indian Railways ....passengers are in problem..."
+      ]
+    },
+    "employee": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "After booking tickets at Gyanpur Road railway station located in Bhadohi district of Uttar Pradesh, the remaining money was forced not to be returned.When asked for money from him, he himself asks for loose money whereas he himself has loose money @AshwiniVaishnaw #IndianRailways"
+      ]
+    },
+    "enquiry service": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Dear @IRCTCofficial please help us to know when r we going to reach Delhi from this never ending train journey of Karnataka Express - 12627\n\n#IndianRailways #railway #Rails #railministry #bharatyatra https://t.co/KbNQdF00B1"
+      ]
+    },
+    "environment awareness": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Did You Know?\nThe following  plastic Items are Banned from July 2022.\nSay No to Plastic Items. Save Environment.\n#Environment #IndianRailways https://t.co/yxadw0oaZi"
+      ]
+    },
+    "environmental/sustainability": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Over Rs 118 crore diesel cost saved from April-November by using environment-friendly tech\n\nhttps://t.co/kq8BAU21nV\n\n#IndianRailways https://t.co/epDhOztHfk"
+      ]
+    },
+    "error/anomaly": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "In a bizarre incident, a passenger who boarded a train from Lucknow to Varanasi found that he had been allotted a seat that did not exist. #UttarPradesh #IndianRailways https://t.co/Bba8puZJPI"
+      ]
+    },
+    "event": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Good news for book lovers!\n\nMetro to run 120 services on weekdays and 80 services on\n\nSundays on East-West Corridor(Green Line) from 31/01/2023 to 12/02/2023 during 46th #KolkataBookFair.\n\n#MetroRailway\n#TransformingKolkata #youngkolkatans\n#MetroRail #indianrailways #Kolkata https://t.co/vhu9TcTaco"
+      ]
+    },
+    "event announcement": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "#Sankranti gift to #Telugu people: #PrimeMinister  #NarendraModi to virtually flag off #VandeBharat Train on January 15. Modi will flag-off the 8th VandeBharat train at 10 am from #Secunderabad #Railway Station @NewIndianXpress @xpressandhra \n@narendramodi \n#IndianRailways",
+        "A week from now on January 19, #PrimeMinister\u00c2\u00a0#NarendraModi\u00c2\u00a0will flag off India\u00e2\u20ac\u2122s 8th and South India\u00e2\u20ac\u2122s 2nd\u00c2\u00a0#VandeBharatExpress\u00c2\u00a0train. \nAn empty rake of the semi-high-speed #VandeBharatexpress train reached #Visakhapatnam on Wednesday.\n#IndianRailways \nhttps://t.co/WHS2gKi2Hn"
+      ]
+    },
+    "event coverage": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Hon\u00e2\u20ac\u2122ble Minister Shri Suvendu Adhikari and Shri Jagannath Sarkar flag off Ranaghat-Bangaon new EMU train from Ranaghat Station\n\nRead more...https://t.co/Yeq8NA2lWr\n \n#easternrailway #indianrailways #railway #stations #infrastructure #safety #security #EMUtrain #flagoff https://t.co/Qam2LxaZD9"
+      ]
+    },
+    "experience": {
+      "total_count": 8,
+      "label_distribution": {
+        "non_complaint": 8
+      },
+      "samples": [
+        "Traveled today in #mumbaimetro felt so good. Total peace of mind and hasle free commute. #IndianRailways have done lovely job of on time train commute from Ghatkopar. Cheers #mumbaishining https://t.co/w2nyrKO1hC",
+        "Traveled after long in #Indianrailways. Took #Shatabadi 12040 from Delhi to Kathgodam. The service &amp; quality of food was very good in E1 compartment. @AshwiniVaishnaw @RailMinIndia",
+        "Happiness  #IndianRailways way. A scene from Train #12777 . #family #holiday #India #Dance #music #life https://t.co/ejcsoL3x7C"
+      ]
+    },
+    "experience/opinion": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Journey thread #3: Nearby unle ji is talkingn on phone. By his conversation I can tell he is from Delhi. He seems to be a history lover. All his sentences include BC #IndianRailways"
+      ]
+    },
+    "fac": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways first indigenously manufactured aluminum good strain rake was flagged off by Railway\nMinister @AshwiniVaishnaw from Bhubaneswar in Odisha on Sunday.\nhttps://t.co/cKLBe26gww"
+      ]
+    },
+    "facilities": {
+      "total_count": 4,
+      "label_distribution": {
+        "complaint": 3,
+        "non_complaint": 1
+      },
+      "samples": [
+        "I guess today instead of TC #IndianRailways sent someone else!  @RailwaySeva  @AshwiniVaishnaw @Central_Railway \nVisuals from Kalyan to Dadar 11.22 AM Fast AC Local https://t.co/bdBAAEU0I1",
+        "AC for coach C1 of train Lucknow Banaras Intercity is not at all functioning since the Train started from Lucknow and still the condition is same. The condition of all the passengers is pathetic and passengers include 6 months children to old age people #indianrailways #pathetic https://t.co/mQlIpeO7aC",
+        "He is out of sense. Behaving abnormally. How he is travelling in train from Chhapra(Bihar) to Bhusawal(Maharashtra)? #IndianRailways #irctc @RailMinIndia @SCRailwayIndia @Central_Railway"
+      ]
+    },
+    "facility": {
+      "total_count": 196,
+      "label_distribution": {
+        "complaint": 142,
+        "non_complaint": 54
+      },
+      "samples": [
+        "#IndianRailways no response from IRCTC",
+        "Such a poor service can and will only be expected from #IndianRailways .... this is sheer harassment",
+        "Train 12444 has been diverted to Patna route and Gaya passengers have no idea. Now we got information that we have to manage from Patna. Don't you think train should  cover Patna - gaya line so that Gaya passengers can have some relief #ashwinivaishnaw #IndianRailways"
+      ]
+    },
+    "facility for women with special needs": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#Ashwinivaishnaw\n#rrbntpc\n#indianrailways\nNTPC cbt2 exam city intimation is 844 km away from my https://t.co/jjtbSAvOGh it a joke that everytime Rrb will send us to another state for an https://t.co/1xoqXWI8Xv it an example of #DigitalIndia ?\nwhats the need of selecting my zone?"
+      ]
+    },
+    "facility upgrade": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Rajdhani Express-Like Coach Facility in 3 Trains Originating From Odisha @NewsroomOdisha @EastCoastRail #IndianRailways \n https://t.co/mig364L3hq"
+      ]
+    },
+    "fact check": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "A claim has been going viral along with a PDF that the Indian Railways are resuming the ticket pricing concessions that they had removed for senior citizens, effective from July 1, 2022. The viral claim is false.\n\n#factcheck #Indianrailways #tickets #seniorcitizen #concession https://t.co/IHmgjAJXnG"
+      ]
+    },
+    "fare charges": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "@AshwiniVaishnaw @IRCTCofficial Do not understand exorbitant dynamic charges of Suvidha Express\nTicket price 2K, Dynamic fare 4500\nFrom Ratlam to Bengaluru\nPlease relook at the fare algorithm sir, This is overpricing by any means #IRCTC #suvidhaexpress #IndianRailways https://t.co/YZI7OlgJK9"
+      ]
+    },
+    "feedback": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Onboard the #Darjeeling Mail Sleeper Train from #Kolkata to #NewJalpaiguri \u00f0\u0178\u0161\u02c6\u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b3 The random #IndianRailways generator has put us in a compartment of 4 in #FirstClass for tonight's 10 hour trip which costed around \u00e2\u201a\u00ac25 each \u00f0\u0178\u0152\u0178 #India #NonstopEurotrip https://t.co/lPcszcnf6c"
+      ]
+    },
+    "feedback mechanism": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@indianrailway__ should start taking feedback from each passenger after completion of their journey. @IRCTCofficial Can we do it? \n#irctc #IndianRailways"
+      ]
+    },
+    "festive trains": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Indian Railways Announces Ganpati Festival Special Trains From Mumbai And Karnataka \nhttps://t.co/XE4xJPJ8x4\n\n#IndianRailways"
+      ]
+    },
+    "financial": {
+      "total_count": 9,
+      "label_distribution": {
+        "non_complaint": 9
+      },
+      "samples": [
+        "#IndianRailways registers an increase of 71% in total approximate earnings in passenger segment. \n\nIts revenue increases during April to December 2022 to 48,913 crore rupees from 28,569 crore rupees during the same period previous year. https://t.co/OPpS0H6WxH",
+        "#IndianRailways: The #revenue generated from unreserved passenger segment during the period 1st April to 31st December 2022 is 10,430 crores rupees as compared to 2169 crores during the same period previous year, showing an increase of 381 percent.",
+        "#IndianRailways earns over Rs. 1.20 lakh crore from freight loading in the current financial year till last month. \n\nRailway Ministry says, the freight earnings has increased by 16 per cent as compared to the same period of last year.\n@RailMinIndia https://t.co/bAXLnGZYW7"
+      ]
+    },
+    "fine collection by western railways from ticketless driver": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "WR Collects Fine Of INR 65.66 Crores in 3 Months From Ticketless Driver\n\n#IndianRailways @WesternRly \n\nhttps://t.co/AOkQjK3tax"
+      ]
+    },
+    "fire accident": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Bihar: Fire broke out in the engine of a DMU train near Bhelwa railway station today. The train was going from Raxaul to Narkatiaganj.\n\n#BiharNews #Bihar #DMU  #BhelwaRailwayStation #IndianRailways #TheFirstIndia https://t.co/aXUHG4QfV5"
+      ]
+    },
+    "first commercial run of train": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#Mumbai First commercial run from today #VandeBharatExpress #Pune #Solapur #IndianRailways \nVideo: https://t.co/8NMzadvOik"
+      ]
+    },
+    "food": {
+      "total_count": 22,
+      "label_distribution": {
+        "complaint": 16,
+        "non_complaint": 6
+      },
+      "samples": [
+        "It was very disappointing last night to receive dinner from IRCTC, was booked using IRCTC App. Order no. 85739712. Food was rotten and we had to throw in bin. Starved through night with kids. Please provide us quality food.\n#IndianRailways #IRCTC #AshwiniVaishnaw https://t.co/7FkA0IwBOC",
+        "BUT WHEN ABOLISHING MEALS IN TRAIN &amp; SERVE MEALS THROUGH #IRCTC TAKING HIGH PRICES &amp; WORST QUALITY FOOD FROM, PAASSENGER WITHOUT ANY CASH MEMO ,IS NOT IT CALLED \"CHEATING\" WITH PUBLIC ? WHY #INDIANRAILWAYS CHEATING WITH PUBLIC?WHY STILL NOW SR CITIZENS CONCESSION NOT YET RESUMED?",
+        "There is no railway policy that seems to seize the food that is served to #RajdhaniExpress passengers and verify the quality from the Lab.\n\nFood Inspector or @fssaiindia what are they doing!!\n\n@RailMinIndia @AshwiniVaishnaw  @DarshanaJardosh \n#food #IndianRailways is horrible https://t.co/AzIHzv7ZA6"
+      ]
+    },
+    "food quality": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "I sincerely request IRCTC to please improve your food quality \nI was traveling from Kolkata to Ahmedabad and i really got to know about your fake appreciation\nFood are very expensive and not in eatable condition \n#irctc #IndianRailways"
+      ]
+    },
+    "fraud/fake news": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways\n\nThere are fraud websites in the name of irctc claiming to refund for canceled tickets which I was prey to today. Thankfully I saved myself from this fraud. Pl refer screenshots of these fraud websites and be aware #IndianRailways #irctc #railwayminister https://t.co/yNJpxaAEd4"
+      ]
+    },
+    "freight traffic": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Railways takes initiatives to increase share of freight traffic from current percentage of 27% to 45% by 2030\n\nRead more...https://t.co/D4y2fMwSn2\n \n@dfccil_india \n\n#DFCCIL #indianrailways #railway #electrical #parcel #goods #freight #infrastructure #traffic #construction https://t.co/6hLe0IGiGl"
+      ]
+    },
+    "fun": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "New Co-Passenger from #Kanpur ! \n\nCISF German Shepherd baby going for training!\n\n#IndianRailways #Dog https://t.co/ZqsLsbWFc9"
+      ]
+    },
+    "general": {
+      "total_count": 14,
+      "label_distribution": {
+        "non_complaint": 14
+      },
+      "samples": [
+        "Is Indian railway really need to earn from advertise.? Is Indian railway does not satisficed with revenue from railway? its weird for IRCTC site users.\n@IndianRailUsers @Indianrailway18 @AshwiniVaishnaw \n#IndianRailways @IRCTCofficial @irctc_app @PMOIndia @RailMinIndia https://t.co/ZnLnVM0RNN",
+        "Brindivan express Lovely Departing from KJM with beautiful climate \n\n#climate #WAP7 #indianrailways #train #trains #trending #post #newpost #viralpost #viral https://t.co/E79caR7q30",
+        "keep your masks on to stay protected from Covid.  #IndianRailways @RailMinIndia @gmwcrailway @wc_railway @drmkota @drmjabalpur @AshwiniVaishnaw @DarshanaJardosh @raosahebdanve https://t.co/1h3rNxr3CK"
+      ]
+    },
+    "general comment": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "An aerial view of harmonious movement of five freight trains on EDFC in Bihar.The Eastern dedicated freight corridor built by #IndianRailways is 1,839km-long freight line extending from Ludhiana in the Indian state of Punjab to Dankuni near Kolkata,the capital city of West Bengal https://t.co/h8FUHXkkf2",
+        "Being a railway enthusiast, I can relate how big a feat is this\nYes, we are late in the high speed rail party, but the party is far from getting over\nWith #wap7 and #lhb rakes more to come\n#IndianRailways #Railways\nhttps://t.co/aUKwBkbc3Q"
+      ]
+    },
+    "general comment/achievement": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Creating a history of sorts, Shreyas G. Hosur, became the first officer from the #IndianRailways to complete the gruelling \u00e2\u20ac\u02dcIronman\u00e2\u20ac\u2122 Triathlon, considered to be the toughest single-day sports event in the world. https://t.co/3xjfvlDEYF"
+      ]
+    },
+    "general comment/announcement": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "He will flag off the extension of 08429/08430 Bhubaneswar-Mahipur-Bhubaneswar passenger Special up to Nuagaon Road from Nuagaon Road Station. The Railway Minister will announce new train towards Puri and stoppage of Sewa Express at Bolagarh PH.\n\n#indianrailways #odisha"
+      ]
+    },
+    "general comment/suggestion": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "@VIA_Rail How about some #VistaDomeTrains from India which will Add charm to the Journey of Far West Canada\n@RailMinIndia \n@Central_Railway\n#IndianRailways",
+        "Time to go for concrete sleeper? Just like #indianrailways did in 1980s. There could be some lessons learnt taken from them. May be concrete can handle better in Canadian winters. @Metrolinx @CanadianPacific https://t.co/kH503WkRsE"
+      ]
+    },
+    "general info": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways is all set to start the new bridge, expecting operational from March 2023."
+      ]
+    },
+    "general information": {
+      "total_count": 11,
+      "label_distribution": {
+        "non_complaint": 11
+      },
+      "samples": [
+        "ERS 4D 40172 wearing the home colors negotiates the S curve at Thippasandra pulling the Solapur bound express from Hassan.\n#IndianRailways #SWR #Tumkur #Hassan #Solapur #maharastra #Karnataka #Kunigal #Ernakulum #ERS4D #WDP4D #diesel #TRAIN #canonphotography #PicOfTheDay https://t.co/xSHK0sY9ik",
+        "Ula Rail is a premiere tourist train from TN to destinations across Indian sub-continent. The venture aims to promote domestic tourism &amp; allows people to explore through a curated itinerary.\n\n#ULA #Tourism #TamilNadu #train #IndianRailways #traveltimes\nhttps://t.co/eoHnrbvTT5",
+        "S.C.Railway Update: Cement loading commences from three new industries in the current financial year\n\nRead more...https://t.co/Dz5rzM15X5\n\n#SCR #indianrailways #railway #infrastructure #southcentralrailway #freight #stations #financialyear #project #transportation https://t.co/gX5oVjO6wa"
+      ]
+    },
+    "general praise": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Mera Tiranga meri jaan, lehraye har ghar mein, yehi hai isski shaan! In the 75th year of our independence, let's bring home our National Flag &amp; fly it proudly from 13th to 15th August with this sentiment  #HarGharTiranga #AzadiKaAmritMahotsav #IndianRailways @RailMinIndia https://t.co/qZCIrfrlkG",
+        "Handsome looking BGKT WDP-4D 40185 in the trending 'TKD' uniform rumbles over the Tungabhadra River Bridge near Harihar pulling the Bangalore bound express from Jodhpur.\n#IndianRailways #Jodhpur #Bangalore #BGKT #TKD #WDP4D #Tungabhadra #riverbridge #PicOfTheDay #PhotoOfTheDay https://t.co/tztjj0uBIS"
+      ]
+    },
+    "general tweet about indian railways": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Earth from sky \n\n#IndianRailways #EDFC"
+      ]
+    },
+    "general update": {
+      "total_count": 5,
+      "label_distribution": {
+        "non_complaint": 5
+      },
+      "samples": [
+        "First service of Bharat Gaurav Train starts from Coimbatore North to Sainagar Shirdi \n\nRead more...https://t.co/hlCM8THx9J\n\n#bharatgauravtrains #indianrailways #railway #infrastructure #southernrailway #coimbatorestation #stations #sainagarshirdistation https://t.co/pZO4M6LkBT",
+        "First Bharat Gaurav depart from Coimbatore to Shirdi #Trending #RolexSir #IndianRailways",
+        "The Reincarnated #Sapthagiri Loco with thunderbolts \u00f0\u0178\u2019\u203a\u00f0\u0178\u2019\u0161\n\nA P4 22665 from AJJ ELS slides towards MAS \u00f0\u0178\u02dc\u008d \n\n#IndianRailways #SouthernRailway\n#GoodMorningTwitterWorld https://t.co/mOPeBJypNJ"
+      ]
+    },
+    "generosity": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "I am traveling from rewa to Rani kamlapati,\nI have one plate of fried daal and two tandoori roti. \nIf anyone need dinner in this train, can come to me and collect the items.\nThank you.\nSeat no. H1-19\n#IndianRailways \n@RailMinIndia"
+      ]
+    },
+    "good service": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "It was a nice experience after a long time to travel in #VandeBharat 22436 from PRYJ to BSB. Cleaning, catering, and staff service was too good. Thanks to #IndianRailways and #Ministryofrailway @AshwiniVaishnaw"
+      ]
+    },
+    "governance/policy decision": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Result of 60 years of trust on Congress government. Just an example #IndianRailways, #ISRO, #HAL, #NHAI etc were all running on loss with typical government employees mindset. How do they all now showing profits from 2015 or 2016 onwards."
+      ]
+    },
+    "green initiatives": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways,has been seen implementing several green initiatives. Among one of their water conservation initiatives,they launched the 'Meghdoot' project in 2019, aiming to generate water from  air in sustainable &amp; eco-friendly ways.\n#railway\nhttps://t.co/XX5yNlAH0d"
+      ]
+    },
+    "greetings": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Good \u00e2\u02dc\u201d\u00ef\u00b8\u008f Morning from #Bengal ! \n\n#Asansol #Durgapur #IndianRailways #AzadiKaAmritMahotsav https://t.co/cVNASnamgV"
+      ]
+    },
+    "heritage run": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "The trial run of the 1855 manufactured EIR-21.\nIt was the first loco to haul a train from Howrah to Delhi in 1866. \nIt will run on August 15th on the occasion of Azadi Ka Amrit Mahotsav. #IndianRailways @OdishaRail @AshwiniVaishnaw @RailMinIndia https://t.co/74Zd8g34Mw",
+        "Please watch this moment when the trial run was organised for EIR-21 on the eve of the special heritage run on 15-08-2022. The beautiful sound of the whistle will send you back to the times of the steam locomotive from the days gone by. #IndianRailways #AzadiKaAmritMahotsav https://t.co/8fXTIDwvks",
+        "The trial run of the 1855 manufactured EIR-21.\nIt was the first loco to haul a train from Howrah to Delhi in 1866. \nIt will run on August 15th on the occasion of Azadi Ka Amrit Mahotsav. #IndianRailways  @RailMinIndia #azadikaamritmahotsav2022 https://t.co/AZQqUJup9L"
+      ]
+    },
+    "historical": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "It was on this day in 1925 that the first EMU service with four cars was flagged off by Sir Leslie Wilson, the then Governor of Bombay, from Bombay VT to Kurla, this marking the first electric train service on #IndianRailways. Today, the EMU service in #Mumbai is 98 years old.",
+        "The steam locomotive WP 7000 is ready to depart from Nagpur, hauling the Delhi Janata Express - shot on 20th January 1983. Photo courtesy, Terry Case! #IndianRailways #vintage #History https://t.co/VKn5soskii",
+        "T202 : 03.02.1925 - India inaugurated the services of its First electric train. It ran from Bombay VT and Kurla Harbour.\n#ThisDayInHistory #ThisDayThatYear #trains #TechnologyNews #IndianRailways #mumbaicity #Mumbai https://t.co/YxdVBBmbGY"
+      ]
+    },
+    "historical facts": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Unique Tramway constructed by Maharaja Gaekwad of Baroda. from the Illustrated London News, 1863 check out the thread for more information\n@MulaMutha #History #Baroda #IndianRailways @RailMinIndia @WesternRly https://t.co/QRazwwbcrn"
+      ]
+    },
+    "historical info": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#DidYouKnow Another railway company in Bengal called East Bengal Railway, was formed in 1857. It first constructed a single line from Calcutta to Ranaghat in September, 1862. It's network expanded from the western bank of the Hooghly into Eastern Bengal. #IndianRailways #History"
+      ]
+    },
+    "historical information": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Railway ticket from Pakistan to india  by  AC - 3 coach  for only Rs  4 \nA pic of train ticket  issued  after independence on 17 - 09 - 1947 \u00f0\u0178\u02dc\u00b1\n\n#IndianRailways https://t.co/qefGxeP0Uf",
+        "This is the brave lady, Alice Tredwell, who took over the Bhor Ghat railway contract from her late husband. Using the services of her managers, Swainston Adamson and George Louis Clowser to manage the construction, she successfully completed the project in 1863. #IndianRailways https://t.co/vFdK5j2AIb"
+      ]
+    },
+    "humorous": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Learn how to be a failure in life after doing everything right. #IndianRailways DOJ 05/12/2022 running delayed by more than 5 hours after it's scheduled departure from origin station. Very pathetic...."
+      ]
+    },
+    "hygiene issue": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "The Railways has sought feedback from its running staff on urinals to be installed in locomotives, after complaints were raised over the unhygienic conditions under which they have to answer nature's call while driving trains.\n#Trains #IndianRailways\n\nhttps://t.co/TButMsdTlJ"
+      ]
+    },
+    "inauguration": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "The Prime Minister, Shri Narendra Modi flagged off Vande Bharat Express connecting Nagpur and Bilaspur from platform number 1 of the Nagpur Railway Station today.\n#bjp\n#VandeBharatExpress \n#IndianRailways",
+        "PM #NarendraModi, who is currently in Maharashtra to inaugurate various developmental projects, flagged off the new #VandeBharatExpress from #Nagpur  Railway station. India's sixth Vande Bharat Express will run between Nagpur and Bilaspur.\n#VandeBharat #Bilaspur\u00c2\u00a0#IndianRailways https://t.co/eEsIaEacZ9",
+        "#WATCH: PM @narendramodi flagged off the next-gen #VandeBharat Express between Nagpur-Bilaspur from Nagpur Railway Station in Maharashtra.\n\n#RailInfra4Maharashtra #MahaSamruddhi #VandeBharatExpress #India #Nagpur #EknathShinde #DevendraFadnavis #NarendraModi #IndianRailways #News https://t.co/2CEVCiFZQS"
+      ]
+    },
+    "inauguration of bharat gaurav tourist train": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Hon'ble Union Minister Sh @kishanreddybjp Ji along with Minister of Railways, Sh @AshwiniVaishnaw Ji flagged off the Bharat Gaurav Tourist Train from Delhi Safdarjung Railway Station today.\n\n#IndianRailways\n\nhttps://t.co/1HmmsaMvFv https://t.co/CZL0ykFIdn"
+      ]
+    },
+    "incident": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Five bogies of the Satyagraha Express train detached from the engine near Majhaulia Station in Bihar's Bettiah.\n\n#Bihar #BiharNews #Satyagraha #easternrailway #IndianRailways \n\nhttps://t.co/miNiIPQkHh",
+        "Bihar: Five bogies of the Satyagraha Express Train got detached from the engine near Bettiah Majhaulia station on the Muzaffarpur-Narkatiaganj railway. No injuries to any passengers.\nCc: @ANI \n@IRCTCofficial \n\n#Bihar #BiharNews #BreakingNews #news  #Indian  #IndianRailways https://t.co/WiSowqL1I7"
+      ]
+    },
+    "indian railways": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "#IndianRailways will finally begin operations at #Bengaluru's #Byappanahalli from June 6. India\u00e2\u20ac\u2122s first AC railway terminal was built at a cost of \u00e2\u201a\u00b9315 crore, and was completed over 1.5 years back\n\nhttps://t.co/ubxKATxTHv",
+        "Railways to charge extra for excess luggage as per the new rules from the Ministry of Railways.\n\n#macrotraveller #indianrailways #railways #baggage #newrules #rules #travel #tourism #travelindia\n\nhttps://t.co/TVLkZ3usrD",
+        "@RailMadad traveling today from train no 12003 from kanpur to Delhi pnr no 2822644617  coach no K1 seat no. 1-2\nLoved the service, would surely travel again.\nRuby did great job \u00e2\u02dc\u00ba\u00ef\u00b8\u008f\n#IndianRailways \n#IRCTC"
+      ]
+    },
+    "indian railways revenue from freight transportation": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "\u00e2\u20ac\u02dcHungry for Cargo\u00e2\u20ac\u2122: #IndianRailways earns Rs 1,35,387 crore from #freight transportation in FY 2022-23 till January\nhttps://t.co/Jh7vDgdVwK",
+        "\u00e2\u20ac\u02dcHungry for Cargo\u00e2\u20ac\u2122: #IndianRailways earns Rs 1,35,387 crore from #freight transportation in FY 2022-23 till January\n\n@RailMinIndia \n\nhttps://t.co/VSjmsuATA6"
+      ]
+    },
+    "information": {
+      "total_count": 115,
+      "label_distribution": {
+        "non_complaint": 115
+      },
+      "samples": [
+        "#IndianRailways increases the limit of online booking of tickets through @IRCTCofficial website/app from 12 tickets in a month to 24 tickets \n\n\u00f0\u0178\u201c\u2122https://t.co/fT1t96NTQQ\n\n@RailMinIndia @ddsahyadrinews @airnews_mumbai",
+        "Erode-Jolarpettai Passenger train via Salem to Resume from 14.7.22\n#rail #railway #train #indianrailway #IndianRailways #indianrailways #indianrailwaystation https://t.co/sut2wKEAsp",
+        "#IndianRailways has come up with an initiative to showcase the cultural &amp; Spiritual Heritage of  Gujarat by running its Bharat Gaurav Deluxe AC Tourist Train. This train, operated by IRCTC, will depart on Feb 28 from Delhi Safdarjung Railway Station on a 8 day tour."
+      ]
+    },
+    "information about indian railways": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Did you know?\n\nIndian Railways has received 297 proposals from startups as a part of the \"StartUps for Railways\" initiative!\n\n #startups #indianrailways #tcwnewsroom #tcw #indiabusiness"
+      ]
+    },
+    "information request": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        ".@Sukhendusekhar\u00e2\u20ac\u2122s #SupplementaryQuestion, asking for the number of the permanent posts that have been abolished in the #IndianRailways from 2014 till today\n\n#employment #RajyaSabha #ParliamentOfIndia https://t.co/yJ4QFMh3LZ"
+      ]
+    },
+    "information sharing": {
+      "total_count": 5,
+      "label_distribution": {
+        "non_complaint": 5
+      },
+      "samples": [
+        "Check this post from Neena on Koo App:\n\n\" #indianrailways \u00e0\u00a4\u00a8\u00e0\u00a4\u00bf\u00e0\u00a4\u00b5\u00e0\u00a5\u2021\u00e0\u00a4\u00a6\u00e0\u00a4\u00a8 \u00e0\u00a4\u00b9\u00e0\u00a5\u02c6 \u00e0\u00a4\u2022\u00e0\u00a5\u2039\u00e0\u00a4\u0161 \u00e0\u00a4\u00ae\u00e0\u00a5\u2021\u00e0\u00a4\u201a \u00e0\u00a4\u00ad\u00e0\u00a5\u20ac \u00e0\u00a4\u00af\u00e0\u00a4\u00be\u00e0\u00a4\u00a4\u00e0\u00a5\u008d\u00e0\u00a4\u00b0\u00e0\u00a5\u20ac\u00e0\u00a4\u00af\u00e0\u00a5\u2039\u00e0\u00a4\u201a \u00e0\u00a4\u2022\u00e0\u00a5\u20ac \u00e0\u00a4\u00b8\u00e0\u00a5\u0081\u00e0\u00a4\u00b5\u00e0\u00a4\u00bf\u00e0\u00a4\u00a7\u00e0\u00a4\u00be\u00e0\u00a4\u201d\u00e0\u00a4\u201a \u00e0\u00a4\u2022...\"\nhttps://t.co/IOmLO2qIlp\n\nDownload Koo App: \nhttps://t.co/nK3LDtG1Qj",
+        "Two #BharatGaurav trains for #Shirdi, one each for Shakti Peeth, Mahashivaratri Jyotirlinga Yatra, Ramayan Yatra and Sri Jagannath Yatra, besides one special for visiting Coromandel Coast are being planned for visitors from 24 Dec.\n#IndianRailways #railway #assortedrailfanning",
+        "#IndianRailways  helps to transport rice from #koppal  to Bangladesh\n#koppala   #freightfriendlyrailways\n@timesofindia  \nhttps://t.co/d6V5ybOYld https://t.co/LfpApDW7er"
+      ]
+    },
+    "information sharing/heritage": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Ticket dated 21st January 1937 of Great Indian Peninsula Railway of third class from Masjid to Byculla costing 9 pies ( 12 pies = 1 Anna &amp; 16 Annas =1 Rupee )\n\n#Heritage \n#CentralRailway \n#IndianRailways \n#\u00e0\u00a4\u2026\u00e0\u00a4\u00a4\u00e0\u00a5\u0081\u00e0\u00a4\u00b2\u00e0\u00a5\u008d\u00e0\u00a4\u00af\u00e0\u00a4\u00ad\u00e0\u00a4\u00be\u00e0\u00a4\u00b0\u00e0\u00a4\u00a4 \n\n@Central_Railway https://t.co/G6wfFYDx0h"
+      ]
+    },
+    "information/achievement": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "IRFC posts annual profit growth of 37.90% and 28.71% growth in revenue from operations for the financial year 2021-2022 \n\nRead more...https://t.co/dY5K5Zf2Ma\n\n#indianrailways #railway #infrastructure #construction #financialyear #IRFC https://t.co/Yh5Ow8pO97"
+      ]
+    },
+    "information/advertisement": {
+      "total_count": 4,
+      "label_distribution": {
+        "non_complaint": 4
+      },
+      "samples": [
+        "If you have been to #Chennai Central station lately, you would see these new unique HVLS (High Volume Low Speed) fans in both the concourses. The diameters are of 18 feet and 16 feet respectively and they are unique because they aren't suspended from the ceiling. #IndianRailways",
+        "#DidYouKnow The first contract in the history of Indian Railways was awarded to the English construction firm, Faviell &amp; Fowler by the Great Indian Peninsula Railway in 1851 for laying the 34km railway line from Boribunder to Thana. #IndianRailways #History",
+        "Vande Bharat Express has become India's first train to be selling 100% vegetarian meals. Taking away all the food worries of people travelling from Delhi to Katra.\n\n#railnews #indianrailways #trainbookingapp #foodontrain #besttrainbookingapp #trainschedule #vandebharatexpress https://t.co/4l06ILfBRe"
+      ]
+    },
+    "information/announcement": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "People of #Rajasthan and #Gujarat are eagerly waiting for the #Ahmedabad to #Udaipur trains to start operations from #August15, 2022 onwards.. the #AzadiKaAmritMahotsav from the prestigious #IndianRailways https://t.co/SvF4GkNI0r"
+      ]
+    },
+    "information/entertainment": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "From where else can one enjoy such beautiful scenes?\n\nIt has to be from inside a #IndianRailways train...\n\n#farming \n#Scenery \n#India \n.\n.\n.\n. https://t.co/LxldPuMf4t",
+        "\u00f0\u0178\u00a4\u00a8 Would you like to take ride on a railway train without an engine?? Check out this video clip from #indianrailways #India #ViralVideo https://t.co/m8CFnD0bSD",
+        "Person with Disabilities- \"Stories from a Railway Station\"- Pt-1\n.\n.\n.\n#patna #bihar #biharspecial #biharexplore #indianrailways #streetphotography https://t.co/pZVDlaPYa0"
+      ]
+    },
+    "information/news": {
+      "total_count": 4,
+      "label_distribution": {
+        "non_complaint": 4
+      },
+      "samples": [
+        "#RRBGroupD exam schedule announced. Phase 1 exam to be conducted from Aug 17 to 25. Check here.\nhttps://t.co/5fxJsnrmL9\n#RRBC #IndianRailways #Rrbguwahati https://t.co/Kod1AmZWl0",
+        "Titagarh Wagons Limited bags single largest order ever worth Rs.7,838 crore from Indian Railways for 24,177 wagons\n\nRead more...https://t.co/Kz7XSzUppD\n\n#indianrailways #titagarhwagonslimited #wagons https://t.co/rknCszoG5M",
+        "Linen Service Update :\nLinen service will be restored on #Train No. 12253/54 Yesvantpur - Bhagalpur Anga Express from 28.05.2022\n#IndianRailways \n\n@drmsbc @drmmalda @EasternRailway @ddchandanabng @airnewsalerts @airnews_bang @PIBBengaluru"
+      ]
+    },
+    "information/opinion": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#dekhoapnadesh #keralatourism \n#IndianRailways #PhotoOfTheDay  \nNature always wears marvellous colors!!! \n\nBeautiful view of Kakkadampoyil(a tourist destination in Kerala)in the mountain ranges of Western Ghats from Nilambur Railway Station\n\nPhoto Courtesy: Shri Vijith V https://t.co/1rdSeXGoIF"
+      ]
+    },
+    "information/sharing": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Mitali Express: Third India-Bangladesh \u00c2\u00a0train service to begin from 1 June #Bangladesh #BangladeshRailways #India #indianrailways #mitaliexpress https://t.co/U76z40ekr3\nhttps://t.co/Y9JxZADGkC"
+      ]
+    },
+    "information/update": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "See the answer from Indian Railway!!! #RailwaySewa #IndianRailways #IRCTC #NERailways #AshwaniVaishnaw https://t.co/Grbyw3PGPk"
+      ]
+    },
+    "informational": {
+      "total_count": 188,
+      "label_distribution": {
+        "non_complaint": 188
+      },
+      "samples": [
+        "Scenes from the higher standards #durontoexpress #indianrailways\n\n@PMOIndia \n@RailMinIndia \n@Central_Railway \n@WesternRly \n@Railway https://t.co/uiJZil17RI",
+        ".@RailMinIndia's @rlda_india invites proposals from eligible bidders for the development of Chandigarh Railway Station. \u00f0\u0178\u0161\u201a\n\nFor details, visit https://t.co/5uF1zBoe2z\n\n#IndianRailways #Chandigarh @AshwiniVaishnaw https://t.co/ZKHAtJHy55",
+        "How about identifying the wagon number along with the container information that too from a moving train?\n\nVisit: https://t.co/Bd4mgHCCzr for more details.\n\n#WDFC #adaniports #freight #logistics #supplychain #indianrailways #fois @shipmin_india https://t.co/CF6KIlza4y"
+      ]
+    },
+    "informational content": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "For @GlobalRailway, Anisha Pandeya &amp; Raman Arora from @amofficialCRIS explain how #IndianRailways is set to revolutionise #passenger communication thanks to a centralised display control system. Read more here: https://t.co/BsRXTykDJ3 https://t.co/1yPImDz5Dp"
+      ]
+    },
+    "informational/advertisement": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Always Buy Railway Tickets from Railway Ticket Counters / Authorized Travel Agents #SafetyFirst #HarGharTringa #AzadiKaAmritMahotsav #IndiaAt75 #MainBharatHoon #MomentsWithTiranga #IndianRailways @RailMinIndia @wc_railway @drmkota @drmjabalpur @AshwiniVaishnaw @DarshanaJardosh https://t.co/vzHmRZ9nW8",
+        "\"Kochi's Tangerine with the Highest Priority Express Train exiting from its Capital City\"\n\nIn Frame: Ernakulam WDP4D with Trivandrum Central - Hazrat Nizamuddin Rajdhani Express exiting from Trivandrum City\n\n#Railways #IndianRailways #railwayphotography #trivandrum #TRAIN #Rails https://t.co/mf2pXXg89Z"
+      ]
+    },
+    "informational/neutral": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "TRAI has released a consultation paper on spectrum requirements of NCRTC seeking inputs from stakeholders.\n@TRAI \nKnow more about the consultation paper, here: https://t.co/ONKMwqL5Mm\n#spectrum #railcorridors #consultationpaper #technology #indianrailways #NCRTC #infrastructure",
+        "In the face of criticism from several quarters, the Railways is mulling the restoration of senior citizen concessions but for general and sleeper classes only, sources said.\n\n#IndianRailways #Railways \nhttps://t.co/qxPLcneeCE"
+      ]
+    },
+    "informational/news": {
+      "total_count": 4,
+      "label_distribution": {
+        "non_complaint": 4
+      },
+      "samples": [
+        "The Narrow Gauge train from Choranda to Dabhoi passes right in front of the Dabhoi Fort overlooking the Hira Bhagol Gate as seen here is ZDM5-540. This is now remaining only in images and the route abandoned. #IRFCA #IndianRailways #Gujarat #Heritage https://t.co/H73RTTiSTl",
+        "#Ganeshotsav2022: WR Announces 6 Pairs Various Special Trains; 3 To/From #Mumbai\n\n@WesternRly #IndianRailways #Transportation\n\nhttps://t.co/5qBcSsMmuU",
+        "Sri Chandra Prakash Rao freedom fighter of the region interacted and shared his experiences during the freedom struggle with #IndianRailways from Hyderabad Railway Station through Video conferencing  #AzadiKiRailGadiAurStation\n@AmritMahotsav @RailMinIndia @MinOfCultureGoI https://t.co/rVMdmPclkv"
+      ]
+    },
+    "informational/opinion": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Greetings from DSE!\nWe are pleased to announce the upcoming expert talk of our faculty, Dr. Pankaj Yadav at the International Conference of Rail Tech-2022 organized by The Associated Chambers of Commerce and Industry of India (ASSOCHAM). \n#indianrailways #irctc #energy https://t.co/fVrbJxTCI1",
+        "The First train of the day from #Amreli towards #Junagarh darts through one of the many stone arch viaducts across the #MeterGauge network of #Saurashtra in #India approximately half a decade ago. #IndianRailways #IRFCA https://t.co/Jh2klBgA2z"
+      ]
+    },
+    "informational/positive": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "#Unite2FightCorona #IndiaFightsCorona \nThree Golden Rules that help break the chain of Corona.\n\n1. Always wear a mask \n2. Wash hands thoroughly and frequently with soap and water\n3. Maintain a 2-meter distance from others. #IndianRailways @RailMinIndia @gmwcrailway @wc_railway https://t.co/MTU1rvUt32",
+        "https://t.co/fuJw7vkkGs\nTrial run of Double Stack freight train was successfully conducted between DFC\u00e2\u20ac\u2122s New Palanpur &amp; New Chadotar stations in Gujarat, giving new thrust to container traffic from #Mundra, #Kandla &amp; #Tuna ports. \n\n#IndianRailways",
+        "Elderly and ailing people can now enjoy the benefits of e-carts and wheelchairs from the #HowrahStation taxi stand.\n\n@IRCTCofficial\n\n#IndianRailways #HowrahRailwayStation #CivicAmenities #WheelchairAtHowrahStation #Kolkata #MyKolkata #TheTelegraph\n\nhttps://t.co/xgoYeeF70Z"
+      ]
+    },
+    "informational/update": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "\u00f0\u0178\u0161\u201a MUMBAI EXPRESS \u00f0\u0178\u0161\u2030 Departure From Hyderabad Deccan Railway Station ( Night View ) - \u00e0\u00a4\u00ad\u00e0\u00a4\u00be\u00e0\u00a4\u00b0\u00e0\u00a4\u00a4\u00e0\u00a5\u20ac\u00e0\u00a4\u00af \u00e0\u00a4\u00b0\u00e0\u00a5\u2021\u00e0\u00a4\u00b2\u00e0\u00a4\u00b5\u00e0\u00a5\u2021 \u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b3\n#mumbaiexpress #train #indianrailways #winfotainer \n@RailMinIndia @IRCTCofficial https://t.co/1dAS4Z8Jf8",
+        "The Swarna Shatabdi Express is expected to follow its original route from Saturday\nhttps://t.co/9HkYRX7IGq\n#swarnashatabdiexpress #trains #irctc #indianrailways",
+        "13245  New Jalpaiguri - Rajendra Nagar Terminal ( Patna ) CAPITAL EXPRESS Waiting To Start The Journey from New Jalpaiguri Junction \nLocomotive : Newly Repainted WDP4 #20070  Of Diesel Loco Shed Siliguri \n\n#IndianRailways \n#CapitalExpress\n#NJP\n\n@drm_kir \n@RailNf \n@GM_ECRly https://t.co/5PCRfMfkIl"
+      ]
+    },
+    "infrastructure": {
+      "total_count": 5,
+      "label_distribution": {
+        "non_complaint": 5
+      },
+      "samples": [
+        "#BuildingNewIndia\n\nThe new line will shorten the distance between Hubli-Ankola and facilitate bulk cargo movement from the vast hinterland of Karnataka to the West Coast.\n\nExplore more: https://t.co/6mRjFUAIiH\n\n#InvestInIndia #InvestInKarnataka #IndianRailways  @IsraelinIndia https://t.co/oxaWWAGZlL",
+        "The #IndianRailways is preparing to make travel to and from #Ayodhya more convenient and comfortable. The Ayodhya railway station in #UttarPradesh is being built in two stages, according to the national transporter.\nhttps://t.co/3bEGN7gpMZ",
+        "People have been asking what's being done to increase the speed of Vande Bharat train from Chennai to Mysuru. Well, this is one such work - replacing steel girders with PSC girders on bridge no.298 near Katpadi. This will improve the speeds from 110 to 130kmph. #IndianRailways https://t.co/sgEOU5QhXR"
+      ]
+    },
+    "initiative/program": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Fancy initiative from Indian Railways\n#IndianRailways #handcrafted \nhttps://t.co/fpPeloohGN"
+      ]
+    },
+    "innovation": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Taking cue from #IndianRailways, \n\nNow #BEST develops #SleepingPods at Bus Stops in #Mumbai..\nin jv between @mybest @mybmcwardGN.. even provides space for storing luggage &amp; built in toilet bathroom.\n\nPilot project at BEST Shitladevi Temple bus stop no.19330 on LJ Road  Mahim. https://t.co/6Eq8KxW4Z6",
+        "Southern Railway\u00e2\u20ac\u2122s IT innovations implementation finds top place in \u00e2\u20ac\u02dcInnovations In Public Administration\u00e2\u20ac\u2122 event from Capacity Building Commission \n\nRead more...https://t.co/yBcTdm8r90\n\n#southernrailway #indianrailways #railway #innovations #stations #electrical #technology https://t.co/lxpiHNAhY6"
+      ]
+    },
+    "inspection": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Shri Suvomoy Mitra, #CRS ,N.F. Circle conducting the #trolleyinspection of the #MetroLine (#OrangeLine) from Kavi Subash to Satyajit Ray station of Orange Line today on 30.01.2023.#IndianRailways #metrorail #track #WestBengal #Travel https://t.co/wir1un9nSM"
+      ]
+    },
+    "instructions on how to reach a destination by train": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "How To Reach LPU From Jalandhar City | Jalandhar Cantt | Phagwara Jn Railway Station | By Train \u00f0\u0178\u02dc\u008d\u00f0\u0178\u201d\u00a5\u00f0\u0178\u0161\u2020\n.\nWatch This Video On YouTube:\nhttps://t.co/10XfvoDr7d\n.\n#lpu #lovelyprofessionaluniversity #lpuuniversity #train #IndianRailways #phagwara #jalandhar https://t.co/iUzdAbET5I"
+      ]
+    },
+    "interesting railway station fact": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "\u00e0\u00b0\u00a6\u00e0\u00b1\u2021\u00e0\u00b0\u00b6\u00e0\u00b0\u201a\u00e0\u00b0\u00b2\u00e0\u00b1\u2039\u00e0\u00b0\u00a8\u00e0\u00b0\u00bf \u00e0\u00b0\u02c6 \u00e0\u00b0\u00b0\u00e0\u00b1\u02c6\u00e0\u00b0\u00b2\u00e0\u00b1\u008d\u00e0\u00b0\u00b5\u00e0\u00b1\u2021 \u00e0\u00b0\u00b8\u00e0\u00b1\u008d\u00e0\u00b0\u0178\u00e0\u00b1\u2021\u00e0\u00b0\u00b7\u00e0\u00b0\u00a8\u00e0\u00b1\u008d \u00e0\u00b0\u00a8\u00e0\u00b1\u0081\u00e0\u00b0\u201a\u00e0\u00b0\u0161\u00e0\u00b0\u00bf \u00e0\u00b0\u2022\u00e0\u00b0\u00be\u00e0\u00b0\u00b2\u00e0\u00b0\u00bf\u00e0\u00b0\u00a8\u00e0\u00b0\u00a1\u00e0\u00b0\u2022\u00e0\u00b0\u00a8 \u00e0\u00b0\u00b5\u00e0\u00b0\u00bf\u00e0\u00b0\u00a6\u00e0\u00b1\u2021\u00e0\u00b0\u00b6\u00e0\u00b0\u00be\u00e0\u00b0\u00b2\u00e0\u00b0\u2022\u00e0\u00b1\u0081 \u00e0\u00b0\u00b5\u00e0\u00b1\u2020\u00e0\u00b0\u00b3\u00e0\u00b1\u008d\u00e0\u00b0\u00b2\u00e0\u00b0\u00b5\u00e0\u00b0\u0161\u00e0\u00b1\u008d\u00e0\u00b0\u0161\u00e0\u00b1\u0081... - You Can Go Abroad On Foot From This Railway Station In The Country.   #Bangladesh #IndianRailways #Inida #mytriexpress #Nepal #Railway #Telugu #TeluguStop\n\nhttps://t.co/ZuWK6FOJ8g"
+      ]
+    },
+    "introduction of new train with pilgrimage tour": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "The Indian Railway Catering and Tourism Corporation (IRCTC) is all set to introduce a new train with a 12-day pilgrimage tour from Kolkata. \n\n@IRCTCofficial @EasternRailway\n\n#IndianRailways #IRCTC #Pilgrimage #NewTrain #Kolkata #MyKolkata #TheTelegraph\n\nhttps://t.co/DbZvEaWUi0"
+      ]
+    },
+    "livery": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "A humble request to the @AshwiniVaishnaw &amp; @RailMinIndia to change the ICF coaches livery from Utkrisht back to the normal Blue ICF livery\u00e2\u20ac\u00a6 @PMOIndia @narendramodi Hope you take some action on this\u00f0\u0178\u2122\u008f\u00f0\u0178\u008f\u00bd\u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b3 #75azadikaamritmahotsav #IndianRailways"
+      ]
+    },
+    "logistics": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "@AshwiniVaishnaw @RailMinIndia \n#Railways is planning to capture business thru rail #transport.\nBut the way is #unique \n@amazonIN This is why few of ur #product gets #damaged during transit and #customers #claim for #refund. Ideally u shud claim it from railways.\n#IndianRailways https://t.co/n8V5ULXYSr"
+      ]
+    },
+    "loss/found": {
+      "total_count": 15,
+      "label_distribution": {
+        "complaint": 14,
+        "non_complaint": 1
+      },
+      "samples": [
+        "@RailMinIndia @railwayseva My phone got stolen in 13010 train last time after in onboard in train, I even don't know where to compain about this or from which place I can report an FIR. Can you please help me as soon as possible.\n#IndianRailways",
+        "Today while traveling in train no 12790 from tirur to gooty my bag with valuable got theft near erode railway station. My coach no is A1 and seat no is 4 #TamilnaduPolice #salempolice #railwayminstry #IndianRailways",
+        "I have forgot my one packet which having two gift packs containing cookies that I bought for my 2 years old daughter from New Delhi Airport, in 12034 NDLS-CNB Shatabdi Above CE2-54 SEAT PNR IS  2558934146 #indianrail #IndianRailways #ashwinivaishnav #cproncr #GMNCR1 #drmncrald"
+      ]
+    },
+    "lost and found": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "One of my family member was traveling from Gomia to Patratu in the train no 03361 Gomoh Barwadih passanger.\n.By mistakenly the bag has been exchanged,requesting @RailMinIndia @IRCTCofficial to help .So that the other person also get their luggage as well\n#railway #IndianRailways",
+        "I forgot my specs during my journey on 11 January ,12009, C3,4 from BVi to BRC. Is it possible to get it back ? #IndianRailways"
+      ]
+    },
+    "lost and found request for a passengers coatpant and color description with train details given": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "We are travelling from #14521 from #Delhi to #Ambala. A passanger left the train at #MeerutCity and forget to take his Coatpant. That man was waering a yellow color shirt.\nOf he asks: Someone can collect it from the train.\n28-08-2022 14:30.\n#IndianRailways\n#Railways https://t.co/Er6RI3ERtt"
+      ]
+    },
+    "lost item": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways I left my wireless bluetooth sony headphone in train no:-18623 IPR HATIA EXP \nPNR no:-6612631493\nCoach AW berth -5\nKindly support me to find that head phone..I will collect it from Hatia station or from Ranchi station\nMy contact number is:-7079445908"
+      ]
+    },
+    "lower than expected service for increased prices": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "I am travelling by train after long and I had higher expectations from the current govt since we have been paying much more and we were given very big promises. Train number:20915; PNR: 4334093953\n#BJP #PMO #railway_minister_Ashwini_Vaishnaw #IndianRailways #NarendraModi"
+      ]
+    },
+    "maintenance": {
+      "total_count": 67,
+      "label_distribution": {
+        "complaint": 64,
+        "non_complaint": 3
+      },
+      "samples": [
+        "Ndls to amritsar shatabadi 12029 air conditioning is not working from last one hour in C10 coach... People are feeling suffocated and kids are feeling very uneasy. Please get it rectified on an urgent basis..#IndianRailways  #railwayminister #AshwaniVaishnaw",
+        "Travelled from Ahmedabad to Mumbai by #GujaratMail 12902 today in B2, seat 70. There's a constant hammering noise from the wall making sure that you don't sleep and don't miss your station.This needs to be addressed.\n#indianrailways #westernrailways",
+        "Train no. 16585\nSBC MAQ EXP, S7 coach, there is water leak and water dripping from the roof #indianrailways \u00c3\u00a2\u00c2\u00a6@RailwaySeva\u00c3\u00a2\u00c2\u00a9 \u00c3\u00a2\u00c2\u00a6@RailMinIndia\u00c3\u00a2\u00c2\u00a9, please resolve the issue. Thank you https://t.co/a3Kue3cZp7"
+      ]
+    },
+    "management/lack of communication": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "We got a confirmation sms from indian rail on 14/8/22 at around 1.30pm.\nTrain was scheduled  at 3.40pm from PRR.\nWe reached station ar 3pm. We asked about the train on railways enquiry. They told us \"abhi time hay, announce ho jayga\".\n#IndianRailways"
+      ]
+    },
+    "marketing": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Become a part of the 5th InnoRail India 2022 from 17-19 November 2022 in Lucknow and connect with key people from the railways sector from across the globe.\n\nLocation: RDSO Stadium Ground\n\nKnow more at https://t.co/XuQZiILGyN\n\n#IndianRailways #TradeFair #IndiaExpo #RailExpo https://t.co/xZCCdsEXob"
+      ]
+    },
+    "marketing/promotion": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "New Vlog!!! Vande Bharat experience from New Delhi Railway Station to Chandigarh Station! Please support \u00e2\u009d\u00a4\u00ef\u00b8\u008f\u00f0\u0178\u0161\u201a #IndianRailways \n\nLINK: https://t.co/8Ih75SIbUD https://t.co/JUh2OxELvf"
+      ]
+    },
+    "mathura junction station": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Mathura Junction railway station is the largest railway station. There are 7 emerging railway routes from Mathura Junction, the total number of platforms at this station is 10.\nTo know more interesting facts about #indianrailways follow @olfstores\n#olf #olfstores #mathura #irctc https://t.co/Byd3pgj450"
+      ]
+    },
+    "medical assistance": {
+      "total_count": 27,
+      "label_distribution": {
+        "non_complaint": 16,
+        "complaint": 11
+      },
+      "samples": [
+        "This is to inform #Railwayminister_Helpus #IndianRailways that my fellow passenger Dr.(Mrs. ) Sarita is traveling from Varanasi to Delhi in Vande Bharat express, seat number C3- 15. She is suffering from severe dehydration and need immediate medical assistant.",
+        "I am travelling from Adi To Dbg,my train no.19165,PNR: 8758479373. My one family member is suffering from vomiting and we have no medicine. I request @IRCTCofficial @AshwiniVaishnaw to provide us medicine #IndianRailways",
+        "On behalf of Anshul Agarwal. Pathetic @indianrailway__ services - 9th Jun #critical medicine goods in transit from MFP Station to RKMP Station (Tr. No. 19484) destination crossed &amp; no single response.\n@RailMinIndia\n@Indianrailway18\n#IndianRailways"
+      ]
+    },
+    "miscellaneous": {
+      "total_count": 240,
+      "label_distribution": {
+        "complaint": 177,
+        "non_complaint": 63
+      },
+      "samples": [
+        "@IRCTCofficial  @AshwiniVaishnaw #IndianRailways being HQ of Eastern railway, Bhubaneswar (Odisha) has not received a single #VandeBharatExpress but Telagana has already getting 3 more apart from 1 existing.",
+        "The violent #DrSanjayShrivastav at the service of #gangsters, hardcore #Misogynist ..Harassed a #epilepsy suffering #female employee to resign from #IndianRailways on revealing his #criminal act of framing false documents.\n\nLast heard to be under @drmljn !\n\n@MoHFW_INDIA @DRM_BVP https://t.co/rKs7VNxHxG",
+        "@AshwiniVaishnaw we are traveling in train 15017 from Mumbai to prayagraj and we are not been provided with lenin instead railway workers are selling blanket. Although we received message stating Lenin supply restarted.\nCould you look why Lenin are not provided.\n#IndianRailways"
+      ]
+    },
+    "misinformation": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "From fake news around Maharashtra political crisis to misleading claims revolving around Nupur Sharma, we brought you the top 7 fake news which was circulated on social media last week. Check it out now.\n#factcheck #fakenews #Nupursharma #fastag #IndianRailways #Azamkhan https://t.co/q0FT7O7TqV"
+      ]
+    },
+    "missing curtain in train compartment": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "PNR-6203048490\nTrn:18410\nDt:14-08-22\nFrm PURI to SHM\nCls:2A\nP1-A1,35\nP2-A1,36\nChart Prepared\nFor Enquiry/Complaint/Assistance,please dial 139\n#IndianRailways... Where is the curtain in Puri Shalimar 18410. We expect the basic services from #IndianRailways..when we are paying for. https://t.co/SqNYYKa4uD"
+      ]
+    },
+    "missing person during train journey": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "One of my relatives missed Sunday 14 Aug22, traveling from Rajkot to Vadodara via Indian Railway. Requesting Indian railways to involve to investigate.\nName - Alok Pratibhu Jena.\nAge - 29 Yrs.\n\nPls contact Hari- 8588828171\n\n#IndianRailways\n#RajkotRailway\n#Ashwini_Vaishnaw \n#RPF https://t.co/eFKDvpAoZT"
+      ]
+    },
+    "modernization": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Transformation of Railways \u00f0\u0178\u2018\u008f\nFrom paper listing to hand held terminals for TTE. #IndianRailways\nCredit: Ministry of Railways https://t.co/gFJGZSXtPA"
+      ]
+    },
+    "natural disaster": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Terrible pictures from the damage to the track due to landslides and rain in the Lumding-Badarpur section of @RailNf! Hope the traffic is restored at the earliest! #IndianRailways #AssamFloods https://t.co/36JIunSZQb"
+      ]
+    },
+    "new service announcement": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways: IRCTC to begin Shri Jagannath Yatra train under Bharat Gaurav from January 25\n\n#IRCTC \n\nhttps://t.co/f83NuJQGx9"
+      ]
+    },
+    "new tourist train": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Shri Ram-Janaki Yatra: Ayodhya to Janakpur\u00e2\u20ac\u2122 will start from Delhi on 17 February 2023 and this initiative will strengthen the bilateral relations and also promote the cultural relations between the two countries. https://t.co/ZhEDaNMzoP #RamMandir #Hindus #IndianRailways",
+        "Indian Railways To Launch 'Bharat Gaurav' Tourist Train From Ayodhya To Janakpur On 17 February https://t.co/gU7JW1xd3t #indianrailways"
+      ]
+    },
+    "new train experience": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "On the way back, we took the Vande Bharat, a new train that seeks to redefine the Rajdhani experience! 8 hrs flat from Banaras to Delhi, with a Japanese-inspired yen for punctuality. #thread #IndianRailways @RailMinIndia https://t.co/MCZ9LoNH6C"
+      ]
+    },
+    "news": {
+      "total_count": 28,
+      "label_distribution": {
+        "non_complaint": 28
+      },
+      "samples": [
+        "#Siemens has secured the single largest-ever order worth \u00e2\u201a\u00b926,000 crore from #IndianRailways to deliver 1,200 locomotives. |@chit_ranjan \n\nhttps://t.co/89aXkfc0hy\n\n#Siemensshares #neworder #freightlocomotives #freighttransport",
+        "BREAKING NEWS: Passenger train services between India and Bangladesh to resume from May 29 https://t.co/MSRJcTopDL #Bangladesh #Dhaka #IndianRailways #TrainServices",
+        "The government will sell 5% stake in #IRCTC at a #floorprice of \u00e2\u201a\u00b9680 per share, a discount of 7.4% from Wednesday\u00e2\u20ac\u2122s closing price of \u00e2\u201a\u00b9734.70 on the #BSE. |@chit_ranjan \n\nhttps://t.co/RzcP5ELP9Z\n\n#IRCTCshareprice #IRCTCOFS #IndianRailways #stakesale #Railways #PSUstock"
+      ]
+    },
+    "news about vista dome coaches": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Vista Dome coaches on Mumbai-Goa and Mumbai-Pune route receive an overwhelming response from passengers\n\nRead more...https://t.co/cxZ25JXBZd\n\n@Central_Railway \n\n#indianrailways #centralrailway #vistadomecoaches https://t.co/JZZS9MwWO2"
+      ]
+    },
+    "news announcement": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "RVNL bags new contract from Southern Railway for signalling work at Arakkonam Junction \u00e2\u20ac\u201c Nagari section of Chennai Division\n\nRead more...https://t.co/hrJr5Qi8dG\n \n#rvnl #southernrailway #indianrailways #railway #electrical #track #signalling #telecom #infrastructure #construction https://t.co/9SRPJ17AIk"
+      ]
+    },
+    "news article": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Routes of over 100 trains starting from New Delhi station to be changed from April\n\n#NewDelhi #RailwayStation #Redevelopment #Routes #Trains #IndianRailways #Changed \n\nhttps://t.co/H7Ii8PuNBV",
+        "A lawyer who won a 22-year court battle for compensation from Indian Railways after being overcharged 20 rupees ($0.25) says that his quest for justice was worth the effort.\n\n#IndianRailways\n\nhttps://t.co/4JJRYj4ORG"
+      ]
+    },
+    "news article link about floods in assam": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Assam is devastated by flood again .\nScenes from Haflong Railway station.\n\n#AssamFloods #Assam #IndianRailways https://t.co/E2tXug070v",
+        "Dima Hasao Railway station in Assam. Flash floods have cut off the district from rail communication ! The saddest picture in assam.\n#IndianRailways\n #AssamFloods https://t.co/IaKKMjJSPm",
+        "Assam is devastated by flood again . Scenes from Haflong Railway station. #AssamFloods #Assam #IndianRailways https://t.co/Ydlhkfifi7"
+      ]
+    },
+    "news article link about senior citizen concession": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways has generated an additional revenue of over Rs 1,500 crore from senior citizen travellers\n\nhttps://t.co/28oo0iMULq"
+      ]
+    },
+    "news article link about ticket concession revenue": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#indianrailways\nIndian Railways generate Rs 1500 cr from suspension of ticket concession for senior citizens\n\nhttps://t.co/ttmSHLqOOk"
+      ]
+    },
+    "news/announcement": {
+      "total_count": 5,
+      "label_distribution": {
+        "non_complaint": 5
+      },
+      "samples": [
+        "Indian Railways To Launch 'Bharat Gaurav' Tourist Train From Ayodhya To Janakpur On 17 February https://t.co/2k0liw6aE6 #indianrailways",
+        "Today Vande Bharat Express From  Secunderabad Railway Station. \n\nThis train will be the eighth Vande Bharat Express to be introduced by IndianRailways and will be the first one connecting the two  states of Telangana and Andhra Pradesh.\n\n#vandebharth \n#IndianRailways \n#sajaikumar https://t.co/U1dZc64xvS",
+        "The Indian Railways has decided to enhance the max permissible speed of trains to 75 km per hour from the present 60 km per hour to combat delays during the foggy winter months, the national transporter said. @RailMinIndia #Winters #Fogg #IndianRailways \nhttps://t.co/ipEUSQnCo4"
+      ]
+    },
+    "news/crime/suicide": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "17 yr old boy jumps in front of train after failing in supplementary exams, dead body recovered from railway track\n#Suicide #Bhopalnews #Bhopal #SupplementaryExamination #Examination #Crimenews #Misrod #Train #IndianRailways \nhttps://t.co/RB9NhL0pdR"
+      ]
+    },
+    "news/information": {
+      "total_count": 11,
+      "label_distribution": {
+        "non_complaint": 11
+      },
+      "samples": [
+        "A train ticket examiners (TTE)\u00c2\u00a0checking the ticket of the passengers by tablet in a train starting from Charbagh railway station, in #Lucknow #UttarPradesh #IndianRailways @AshwiniVaishnaw https://t.co/dn8HHduNnr",
+        "Bharat Gaurav Train to start service from Chennai to Chingavanam for Sabarimala pilgrims https://t.co/a9zxLmWhSo #IndianRailways #BharatGauravTrain #SouthernRailways",
+        "Indian railways starts its first Bharath Gaurav Tourist train to cover all Rama-inspired place from June 21 \n#IndianRailways https://t.co/Toup4lN6rU"
+      ]
+    },
+    "news/update": {
+      "total_count": 8,
+      "label_distribution": {
+        "non_complaint": 8
+      },
+      "samples": [
+        "Special train from #Mumbai to #Kanyakumari \n\n#Transportation #indianrailways \n\nhttps://t.co/GWpgUPJOYT",
+        "PINAKA launched from Chunar. For the very first time in NCR, a long haul of 4 trains plied. Measuring 2.7 km, the Pinaka, destined for the coal loading sites of East Central Railway was formed at Chunar today with 4 empty BOXN rakes: North Central Railway. #IndianRailways https://t.co/taPY0XT2ro",
+        "RailTel bags order worth Rs. 186.19 crore from South Eastern Coalfields Ltd. for the work of Multi-Protocol Label Switching-Virtual Private Network Connectivity\n\nRead more...https://t.co/IYbQnSn6fi\n \n#railtel #indianrailways #railway #electrical #infrastructure #stations #MPLSVPN https://t.co/9uuLxOz6kt"
+      ]
+    },
+    "ngo volunteers promoting nature conservation": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Our NGO Volunteers motivating the #Trainees\nThanks to #ZRTI of #IndianRailways\nEvery next generation need #Nature, #Water, #Food, #NatureEcoSystem and #Food\nPlease protect this #Earth from #pollution \n@indianrailway__ \n#SouthCentralRailway \n#IndianRailway \n@Indianrailway18 https://t.co/hvBIeMHl8L"
+      ]
+    },
+    "no confirmed seat for family on train": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Boarding from Rampur Hat (RPH) to Dhanbad Jn (DHN).\nTO ALL THE MENTIONED MEMBER IN THE TRAIL TWEET, KINDLY DO THE NEEDFUL. I AM WITH MY FAMILY -INCLUDING SPOUSE AND CHILDRENS WITH NO CONFIRMED SEAT. TRAIN WILL START ON 11:42PM TODAY'S NIGHT. #IndianRailways #railwaystation https://t.co/J9flCCvTz6"
+      ]
+    },
+    "noncomplaint": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "#ICYMI | Indian Railways received an alarming tweet from a passenger travelling in a Karnataka-Delhi train, claiming it was hijacked. \n\nHere's what happened\u00e2\u00ac\u2021\u00ef\u00b8\u008f\nhttps://t.co/sEtyrEEwqQ\n\n#IndianRailways #IRCTC #Trains",
+        "#IRCTCLatestNews | Mumbai-Pune Pragati Express Will resume Services From July 25. Check Full Schedule and Other Details  \n#PragatiExpress #IndianRailways  \n\nhttps://t.co/x8hNr7GoNR"
+      ]
+    },
+    "not applicable": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@DRMBRCWR @RailwaySeva Many thanks for your kind feedback\n\nThus, we will refrain from using online parcel booking across #IndianRailways network until it is fully ready! Hope, soon this #DigitalTransformation could take place"
+      ]
+    },
+    "occupancy rate": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@ValmikiNaik https://t.co/vwUlTNRXHa\n\nMumbai bound Vande Bharat Express from Gandhinagar station has maximum occupancy rate with 127.67 per cent\n#VandeBharatExpress #IndianRailways"
+      ]
+    },
+    "opinion": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Did #KareenaKapoor's Geet from #JabWeMet increase revenues of #IndianRailways? Here's what netizens feel\n\nhttps://t.co/k1b6aAFGRC"
+      ]
+    },
+    "opinion/experience": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Get this picture from son preparing his lunchbox at home, while I am on the Chennai-Bangalore Shatabdi, sipping #IndianRailways tea looking at Katpadi from my window seat.\n\nMoral of the story:\n#Mothers of #India should roam more often.\n\n@IRCTCofficial\n#diary of a #workingwoman https://t.co/sCHxFTismt"
+      ]
+    },
+    "opinion/feedback": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "If you are against privatisation of Indian railways then I would prefer you to please take a journey on Pawan express or swatantra express from jaynagar to Delhi and you will definitely get the reason to support privatisation of Indian railways.\n#IndianRailways \n#AshwiniVaishnaw"
+      ]
+    },
+    "opinion/request": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "@VikasPronamo #IndianRailways should claim damages from the states where the trains and railway properties were damaged.",
+        "Diverted from #NupurSharama to #AgnipathScheme few days back @SuvenduWB @DilipGhoshBJP @jdhankhar1 was saying @MamataOfficial is unable to control the situation of #Howrah #Uluberia now they are silent... #Indiaburning #IndianRailways . Plz stop \u00f0\u0178\u2122\u008f"
+      ]
+    },
+    "opinion/suggestion": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@akhileshsharma1 @vijayrana @RailMinIndia &amp; #IndianRailways is not foolish, they can arrange trolleys in 24 hours from #SAIL   but they are thinking about porter job also, many families of porter or coolies run by this heavy job, machines can do many jobs but we need to think about people earning also."
+      ]
+    },
+    "opposition to the silverline project and ecological impact": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "The fraud #SilverLine or the normal evolutionary growth of the #IndianRailways? Here is a sensible upgradation from the @RailMinIndia. An opportunity where Kerala can avoid an ecological &amp; economic disaster. Scrap the #SilverLine project. @pinarayivijayan @AshwiniVaishnaw https://t.co/istcL5K4eT"
+      ]
+    },
+    "organizational chart": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Revised Organisational chart of Railway Board from ED &amp; above level as on 19th December 2022\n#indianRailways https://t.co/mFFPB4IONT"
+      ]
+    },
+    "other": {
+      "total_count": 7,
+      "label_distribution": {
+        "non_complaint": 7
+      },
+      "samples": [
+        "So now we will get calls from oyo.. Sir delhi ja rahe hai na aap.. Hamare hotel mein rahiye.. Or a call from a builder.. Sir haridwar mein ghumne k saath sath ek permanent flat kharid lijiye.. Lol.\n\n#Monetisation #IndianRailways",
+        "A Beautiful Tricolor \u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b3 Locomotive From Tughlakabad Shed at Agra Fort Railway station\n\n@RailMinIndia @incredibleindia @AshwiniVaishnaw \n#IndianRailways #AzadiKaAmritMahotsav https://t.co/ndQrneFHXM",
+        "India's most scenic train travel - Vistadome Train Travel from Bangalore to Mangalore\n\n#Bangalore #Mangalore \n#Vistadome #IndianRailways\n#PINKVENOM #BLACKPINK\n#PonniyinSelvan #CholaChola\n#internetdown\n\nhttps://t.co/fxl0DQMy3o"
+      ]
+    },
+    "others": {
+      "total_count": 414,
+      "label_distribution": {
+        "non_complaint": 346,
+        "complaint": 68
+      },
+      "samples": [
+        "Shameful !!\nWe r from a country where a minister's son is bailed &amp; an outstandingly talented teacher is jailed..\n#khansir is'nt instigator of any violence..\n@Khansir__\n#khansir \n#khansirpatna\n#StandWithKhanSir\n#RRBNTPC_\n#IndianRailways\n@PMOIndia\n@NitishKumar https://t.co/mEtZ3zNAam",
+        "From gate, So, requesting #IndianRailways #indianrailway to look into the issue.",
+        "@AshwiniVaishnaw #IndianRailways @RailMinIndia Superfast Trains leaving From Mumbai  always skips Kalyan  then don't  call Kalyan  is an important  junction at Mumbai  doorstep  as per your records. ALL Superfast trains should  hault at Kalyan"
+      ]
+    },
+    "parcel booking inquiry": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#railmadad #IndianRailways #indianparcel \nI have booked parcels from bikaner to vadodara pls kindly look that it's not damaged reached destination safely without any damages any shortage of material as last time i had missing stuffs complaint so I was informed at time of booking https://t.co/loza9GXB4u"
+      ]
+    },
+    "patriotism and promotion": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "One nation, one identity- Our Tiranga!\nIn the 75th year of our independence, let's bring our National Flag home, proudly fly it from 13th to 15th August and show the world we are one! #HarGharTiranga\n#IndianRailways @BhopalDivision @drmkota @drmjabalpur https://t.co/9xzOPdiyvj"
+      ]
+    },
+    "personal": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Train \u00f0\u0178\u0161\u201a journey to Surat from Jodhpur #IndianRailways",
+        "With Dr Yadunath Pandey Ji of BJP (Ex-MP from 9th LokSabha) \u00f0\u0178\u2122\u201a\n\nReturning after inviting Modiji for a family function :) \n\n#IndianRailways #BJP https://t.co/36BxAbhFjq"
+      ]
+    },
+    "personal account of train journey": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "A short account of my trip from Bangalore Cantt. to Jolarpettai on the inaugural Mysore-Chennai #VandeBharatExpress\n\nHappy reading!!! #IndianRailways\n\n@SWRRLY @RailMinIndia @ManiSudhanshu58 @rajtoday @RailPostIN @GMSRailway @Ananth_IRAS \n\nhttps://t.co/JpUsCBn10E"
+      ]
+    },
+    "personal opinion": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "@leaningcowboy @cameronmcraig @CBCNews Users made similar complaints to #IndianRailways longtime ago &amp; #IndianMedia caught the replies provided by Railways.\n\nBack then, it was hilarious!\n\nThey still get such tweets from time to time\u00f0\u0178\u02dc\u20ac\n\nLet's say Network sharing may cause this as well\u00f0\u0178\u02dc\u2030 https://t.co/U4Lp6gIyjH",
+        "I do love travelling by train anywhere, but especially in South Asia. This was a particularly long journey from Chennai to Delhi - about 35 hours.\n\n#india #indiantrains #trainjourney #indianrailways https://t.co/CjCQYxzLx1"
+      ]
+    },
+    "petrol theft during vehicle parceling": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "This way how Indian Railway workers dealing with our vehicles\nWhen we do parcel our vehicles. And they took more than 2 letter petrol from my vehicle, while doing packing. #IndianRailways, #ongolerailwaystation,\n#southcentralrailways https://t.co/i2tyG3b9wZ"
+      ]
+    },
+    "photography": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Today's #railway #photo - the enchanting beauty of the scenic landscape, as seen from the train, near Lovedale station on the Nilgiri Mountain Railway, in the jurisdiction of @SalemDRM in @GMSRailway! Pic courtesy, Ali Jauhar! #IndianRailways #trains #photography @SandipGhose https://t.co/FLAb5iCgTA",
+        "Today's #railway #photo - a beautiful capture of the golden sunset over the Kali river from the train, with the Western Ghats in the background near Karwar station on the @KonkanRailway route! Pic courtesy, Gautham Karthik! #IndianRailways #trains #photography @DrDeepakKrishn1 https://t.co/YSmB5kPqfE",
+        "One of my favs from the solo photowalk I did back in Jan.\n19-01-2022\n\nShot on @NikonIndia d5600\nGraded using LR Classic CC\n\n#Photowalk #NightPhotography #IndianRailways https://t.co/gsYeCsgJ2K"
+      ]
+    },
+    "pol": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Has the #IndianRailways encroached or has the people living there encroached? There will be many places in this country where Indian Railways has to deal with this situation. This view is from the eastern part of Bandra. @WesternRly #Mumbai #India https://t.co/TrojMkyOND"
+      ]
+    },
+    "political": {
+      "total_count": 55,
+      "label_distribution": {
+        "complaint": 52,
+        "non_complaint": 3
+      },
+      "samples": [
+        "#IndianRailways has generated an additional revenue of over Rs 1,500 crore from senior citizen travellers by suspension of concessions.\nDisgusting Isn't it @AshwiniVaishnaw",
+        "@PiyushGoyal \nDecision of doing away senior citizen concession of ticket is not good. These people live by their pension n this will not help the cause. On the other hand, there has been increase in payment of ministers n they r spared from it!\nAbsolutely wrong\n#IndianRailways",
+        "An #IndianRailways Thug in company of #gangsters transfers an #employee who seeks 'knowledge' out of the city, instigates a #Doctor &amp; asks @RPF_INDIA personnel to put the former in #jail &amp; concurrently also removes him from #governmentofindia employment ! \u00f0\u0178\u02dc\u201a\u00f0\u0178\u02dc\u201a\n\n@PMOIndia @IR_CRB"
+      ]
+    },
+    "poor condition": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "Even after 75 years of Independence and various big big claims from various so called ministers such poor and pathetic condition of Indian Railways is unbearable. Not in some local dabba, this is Sleeper Coach #railmadad #IndianRailways @AshwiniVaishnaw @IndianRailMedia https://t.co/atDbuB3pLW"
+      ]
+    },
+    "positive": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "It's been an great experience to travel on #VandeBharatexpress from #Durg to #Nagpur \nFood quality was good and hygiene that I can give them 9/10\nTrain neatness -9/10\nStaff behaviour - 10/10\nSeat comfort - 7/10 \nToilet - 10/10\n#IRCTC \n#IndianRailways \n#indianrailwaycatering https://t.co/lzsaPXJLiO",
+        "It's been an great experience to travel on #VandeBharatexpress from #Durg to #Nagpur \nFood quality was good and hygiene that I can give them 9/10\nTrain neatness -9/10\nStaff behaviour - 10/10\nSeat comfort - 7/10 \nToilet - 10/10\n#IRCTC \n#IndianRailways \n#indianrailwaycatering"
+      ]
+    },
+    "positive experience": {
+      "total_count": 6,
+      "label_distribution": {
+        "non_complaint": 6
+      },
+      "samples": [
+        "This view of the rail bridge emerging from the lush Western Ghats awakens onlookers.\n@SaveATrain \n\n#vistadome #indianrailways https://t.co/xfaG6e8FmV",
+        "Begampura Express departing from Varanasi Railway Station #trains #indianrailways #shorts - https://t.co/IrmpxFVBoX https://t.co/vqzPUwnNMB",
+        "Traveled via #vandebharat train from delhi to katra   @narendramodi ji and @PiyushGoyal and it was amazing experience. Nothing less than flight. The food was superb #IndianRailways #jaimatadi https://t.co/Ol5tS8kNWH"
+      ]
+    },
+    "positive experience/ appreciation": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "A few days back, I took a train from Delhi to Lko. And it became a once-in-a-lifetime experience.I booked one seat but I got the whole coach there wasn't anyone except me in my coach,I walked,I slept,I did everything I couldn't Imagine so,I just wanted to thnks\u00f0\u0178\u02dc\u201a #IndianRailways https://t.co/5qgMjtbw8h"
+      ]
+    },
+    "positive feedback": {
+      "total_count": 15,
+      "label_distribution": {
+        "non_complaint": 15
+      },
+      "samples": [
+        "Today feeling great and got excellent support from Railway protection force. I met my parents with the help of RPF. Thank you for your services. Got best assistance by Sri. Venkata babu sir and Sri. Parvati madam. #RPF #IndianRailways",
+        "@IRCTCofficial \nToday i was travelling in duronto express 22209 from mumbai central to new delhi coach no.B-1 \nBerth No. 22,30,32.\nPnr =8659877301\nFACILITIES Provided  BY RAJESH MAURYA IN DURONTO IS TOO GOOD #INDIANRAILWAYS\n#duranto",
+        "It's been an great experience to travel on #VandeBharatexpress from #Durg to #Nagpur \nFood quality was good and hygiene that I can give them 9/10\nTrain neatness -9/10\nStaff behaviour - 10/10\nSeat comfort - 7/10 \nToilet - 10/10\n#IRCTC \n#IndianRailways \n#indianrailwaycatering https://t.co/J6uaaNCq2t"
+      ]
+    },
+    "positive news": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Indian Railways to resume passenger trains services between India-Bangladesh from May 29 #IndianRailways #trainsservices #India #Bangladesh #News #NationalNews #Travelnews https://t.co/j4EpdPghPZ",
+        "The Railway Board has issued orders to resume Kolkata-Dhaka Maitree Express from Dhaka by Bangladesh Railway rake\n\n#IndianRailways \nhttps://t.co/16fP5yOUpl"
+      ]
+    },
+    "positive review": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Travelling in 2S from Trichy to Chennai in Vaigai express. The new LHB coach is spacious and seats are very comfortable. Kudos to the #IndianRailways \n#irctc"
+      ]
+    },
+    "praise": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Really astonished by the food quality and the cleanliness of Shatabdi Express from malda Town to Howrah Station, Train No-12042. The staff in the First Class Compartment are also so good and cooperative. Satisfied\u00f0\u0178\u2018\u008d\u00f0\u0178\u008f\u00bb.\n#IndianRailways @RailMinIndia #shatabdi #northfrontierrailway"
+      ]
+    },
+    "pricing": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "The Indian Railways has imposed a fine of Rs 1 lakh on a contractor of IRCTC for charging Rs 5 in addition to the listed price of Rs 15 for a water bottle.\nReposted from @indiatoday #IndianRailways #WatterBottle https://t.co/gQEOddOndi"
+      ]
+    },
+    "procurement": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "why? India railway places an order to purchase wheels from a Chinese company!   \nWe have the largest private train coach factory in Telangana  #IndianRailways \n@KTRTRS @kishanreddybjp @narendramodi"
+      ]
+    },
+    "procurement of power": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "REMC Limited, on behalf of #IndianRailways, has invited bids to procure 1 GW of round-the-clock (RTC) power from grid-connected #renewableenergy projects with or without #energystorage across India for 25 years.\n\nhttps://t.co/m5igLwMN1C\n@RailMinIndia @RITESLIMITED"
+      ]
+    },
+    "promotion": {
+      "total_count": 6,
+      "label_distribution": {
+        "non_complaint": 6
+      },
+      "samples": [
+        "Indian Railways: Group 'D' (Posts in Level\u00e2\u20ac\u201c1) Recruitment Exam Guide\n\nBuy From Here At Lowest Price\nAmazon- https://t.co/mIGe8rLHw6\nFlipkart- https://t.co/E6JbebzBnk\n\nCall Us: +91-011-23261567, 23275124, 23275224\n#IndianRailways #GroupDPosts #RecruitmentExamGuide\n#UPSCExams #gk https://t.co/UgC75npzqr",
+        "Indian Railways: Group 'D' (Posts in Level\u00e2\u20ac\u201c1) Recruitment Exam Guide\n\nBuy From Here At Lowest Price\nAmazon- https://t.co/RdOK1dZS0V\nFlipkart- https://t.co/mDfkQU2SeG\n\nCall: +91-011-23261567, 23275124, 23275224\n#IndianRailways #GroupDPosts #RecruitmentExamGuide\n#UPSCExams #gk https://t.co/73WVH49W8M",
+        "Order the best food from the best e- Catering website.\nhttps://t.co/tMNYAEOx8V\nOrder Via Call: 8263-940-940\n.\n#dibrail #healthyfood #dibrailblog #Dibrail_e_Catering_Service #foodie #foodpics #offer #BestDeals #indianfood #pizza #FoodInTrain #IndianRailways #foodlover #irctc https://t.co/SSZd9xO8bQ"
+      ]
+    },
+    "promotion of railway signaling solutions": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Experience our Smart Solutions. We are exhibiting our smart #RailwaySignaling Solutions in IRSE International Technical Seminar &amp; Exhibition 2022  from 30th June - 2nd July at Dr. Ambedkar International Centre in New Delhi.@ Booth no.1 - 3. \n#irse #IndianRailways  #Delhi https://t.co/RjeH6PpPca"
+      ]
+    },
+    "punctuality": {
+      "total_count": 900,
+      "label_distribution": {
+        "complaint": 783,
+        "non_complaint": 117
+      },
+      "samples": [
+        "Balurghat is suffering from unnecessary late of the following  train (13161) continuously. #IndianRailways is incessantly ignoring the sufferings. How does a train take 7 hours for 350 kms &amp; almost  5 hours for rest 100 kms despite auto signal and crossing? Shame #ashwinivaishnaw https://t.co/kG03fPuO3y",
+        "#IndianRailways 02563 BJU NDLS Running late by 4:30 hrs , bad service . I am in this train and I need to recieve my wife and Kid from Nizamuddin station at 9:55 am .",
+        "Thinking of whether it is passenger train or express\u00c3\u00b0\u00c5\u00b8\u00e2\u201e\u00a2\u00e2\u20ac\u017e....#Lalbagh 12607   (Nov25,2022) 15:30pm departure from Chn---Bang.... its take 1:30 hours to reach Arakonam junction\u00c3\u00b0\u00c5\u00b8\u00c2\u00a4\u00c2\u00b7\u00c3\u00b0\u00c5\u00b8\u00c2\u008f\u00c2\u00bb\u00c3\u00a2\u00e2\u201a\u00ac\u00c2\u008d\u00c3\u00a2\u00e2\u201e\u00a2\u00e2\u20ac\u0161\u00c3\u00af\u00c2\u00b8\u00c2\u008f #IRCTC #IndianRailways"
+      ]
+    },
+    "query": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@WesternRly @RailMinIndia @RatlamDRM May i know the near tentative date for the run of Indore Jaipur Vandebharat express from Indore.. #VandeBharatexpress #Indore #jaipur #Jabalpur #IndianRailways"
+      ]
+    },
+    "question": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Indian Railways started running India's first full Economy AC-3 tier train from 29 October 2021. What is the name of the train?\n\n#IRCTC #IndianRailways  #quiztime",
+        "Is it true?!...\nI've never received a bill for anything I bought from the train...\n#IRCTC #IndianRailways #food @IRCTCinfo https://t.co/4ai7TcWsFc",
+        "Question for #Twitter users from #India \u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b3\n\nWhich is your favourite Indian train?\n\n#IndianRailways #Trains \u00f0\u0178\u0161\u2030"
+      ]
+    },
+    "rail enthusiasm": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Right from Palace...\nWatch full video on YouTube channel. Link in bio.\n.\n.\nFor more follow: @vlog.rail\nGear: @canonindia_official Canon 200D mark II \n.\n.\n#irfca #vlograil \n#railfan #wdg4 \n#longhood #longhoodfront #lhf #indianrailways #wdp4 #palace #emd #railphoto #railfans__ https://t.co/vFxT6Jyzfq"
+      ]
+    },
+    "rail news/update": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "[Nagaland Railways Update]\n\nNagaland CM flag-off Donyi Polo Exp. from Shokhuvi station to Naharlagun station \nRead here: https://t.co/SaYFfEIjKI\n\n#ArunachalPradesh #IndianRailways #NaharlagunRailwaystation #NeiphiuRio #NorthEasternRegion #MetroRailNews https://t.co/T8laZbuF7W"
+      ]
+    },
+    "railtel order": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "#RailTel has bagged an order from Bengal for capacity enhancement of the West Bengal State Data Centre (WB-SDC) at an estimated cost of Rs 98.56 crore. \n\n#WestBengal #WBSDC #DataCentre #CustomerBase #IndianRailways #IndianRailway #Railways #News #NewsAlert #TheFirstIndia https://t.co/mF0bkXINWQ",
+        "RailTel bags order from Webel Technology Ltd. for Capacity Enhancement of West Bengal State Data Centre\n\nRead more...https://t.co/FwBl8EvjXr\n \n#railtel #indianrailways #railway #electrical #infrastructure #stations #construction #webeltechnology #electronic #project https://t.co/9fFjNiEoXx"
+      ]
+    },
+    "refund": {
+      "total_count": 55,
+      "label_distribution": {
+        "complaint": 55
+      },
+      "samples": [
+        "@RailwaySeva @IRCTCofficial @EasternRailway @GMSRailway \nOn 21st May 2022, Coromandel Express got cancelled. Tickets were booked from railway counter before months. Both tickets were confirmed. How to claim refund of ticket fare (\u00e2\u201a\u00b9) ?\n#IndianRailways",
+        "@SWRRLY @CMofKarnataka #indianrailways Why Sir, 60 rupees u r debiting if waiting list is cancelled from your end ? why your not refunding complete amount. what is the reason and it really looks stupid and injustice to common people. #loot #moneytheft #CORRUPTION",
+        "@koutuk @RailMinIndia @AshwiniVaishnaw Not a single reply nor remorse shown by anyone from #IndianRailways shows sheer arrogance.Ppl depend on trains for work,emergencies,imp functions &amp; not for fun.The country uses money paid by taxpayers &amp; can\u00e2\u20ac\u2122t leave them in predicament &amp; loss like this.Give refunds. #TravelNews"
+      ]
+    },
+    "request": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Mr. #AshwiniVaishnaw ji it is humble request pls run a exam special train between indore to bikaner on 10 June from indore to bikaner and bikaner to indore in 14 June...pls sir #IndianRailways"
+      ]
+    },
+    "request for direct train connectivity": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@ZeeNewsEnglish @RailMinIndia Can we have this train running from #Mumbai to #Velankanni . Its is a holy place for believers, its flocked by ppl from all faiths but no direct connectivity. Request #IndianRailways to have direct trains from diff parts of India.\n@AshwiniVaishnaw"
+      ]
+    },
+    "request for improved infrastructure": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "@GMSRailway \nSir. \nRequest to consider to operate couple of trains from Tambaram @TBM to @CBE and @SBC \nHelpful for South #Chennaimates\n#IndianRailways",
+        ".@drmsdah @EasternRailway @AshwiniVaishnaw @MamataOfficial\n We need new railway line between Krishnanagar to berhampore court via tehatta, karimpur, domkal, islampur. Atleast we need rail connectivity from knj to karimpur, bussesand roads are overcrowded. Please.\n#IndianRailways",
+        ".@drmsdah @EasternRailway @AshwiniVaishnaw @MamataOfficial\n\n We need new railway line between Krishnanagar to berhampore court via tehatta, karimpur, domkal, islampur. Atleast we need rail connectivity from knj to karimpur, bussesand roads are overcrowded. Please.\n#IndianRailways"
+      ]
+    },
+    "request for new railway facilities": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#AswiniVaishnab #IndianRailways  Sir, Please plan and implement from Puri to Satapada Railway facilities."
+      ]
+    },
+    "request for new train route": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Hello Sir @AshwiniVaishnaw \n\nRequest u to please start a train from Delhi to Rameshwaram \u00f0\u0178\u2122\u008f\u00f0\u0178\u2122\u008f as there is not any train available from Delhi to RMM.\n\nSo sir please start a train asap. \u00f0\u0178\u2122\u008f\u00f0\u0178\u2122\u008f\n\n#Rameswaram #Tamilnadu #Delhi #IndianRailways #AshwiniVaishnaw #RMM",
+        "I would like to request Railway Minister to start a train route from Hyderabad to Nashik, with the current train service only reaching Manamad. \n#Ministry of Railways\n@RailMinIndia #Indian Railway IRCTC\n@irctc_app #IndianRailways\n@indianrailway__"
+      ]
+    },
+    "request for service": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Madam @drmpune @DarshanaJardosh,\nSir @PMOIndia @drmubl @GM_CRly @GMSWR @RailMinIndia @raosahebdanve this is daily travlers passengers status from #Belagavi to #Pune #Mumbai\nSo only @Irannakadadi_MP ji Requested Mumbai train #IndianRailways @AshwiniVaishnaw kindly do the needful\u00f0\u0178\u2018\u008f https://t.co/pIpyqkWhbm"
+      ]
+    },
+    "request/feedback": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Request to you pls we want re again start Varuna Express from Varanasi to Kanpur Junction .\nMe and Many people daily going from kanpur to varanasi so please restart again from Varanasi to Kanpur, \nRight now run as a Nam of shuttle exp -20401/02\n#IndianRailways #ashvinivaishnaw"
+      ]
+    },
+    "request/suggestion": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "Dear @RailMinIndia There should also be a train from Patna to Sealdah. Many people will benefit from this. \n#IndianRailways"
+      ]
+    },
+    "reservation issue": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "I want to draw attention from indian railways.\nWe reserved 2seats on 6th july 2022.\nPnr no -6205873142\nTrain no-12884 \nDate-14/8/22\nOur reservation was from PRR to VSU\nClass-CC\nSeat no-c1,8 c1,9\n#IndianRailways"
+      ]
+    },
+    "reservation system": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "@RailMinIndia @IRCTCofficial\n@IndianRailUsers @IR_CRB @AshwiniVaishnaw @RailwaySeva\n#IndianRailways Make Berth/Seat reservation system more open &amp; transparent by displaying the total &amp; vacant Berth/Seat along with layout plan on #IRCTC Website to select from for a rail traveller.",
+        "@RailMinIndia @IRCTCofficial\n@IndianRailUsers @IR_CRB @AshwiniVaishnaw @RailwaySeva\n#IndianRailways Make Berth/Seat reservation system more open or transparent with #IRCTC by displaying the available vacant inventory along with layout plan on IRCTC Website to select from for all."
+      ]
+    },
+    "reservation system improvement": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@RailMinIndia @IRCTCofficial\n@IndianRailUsers @IR_CRB @AshwiniVaishnaw @RailwaySeva\n#IndianRailways Make Berth/Seat reservation system more open &amp; transparent by displaying the total &amp; vacant Berth/Seat along with layout plan on #IRCTC Website to select from for a Rail traveller."
+      ]
+    },
+    "retrospective photo of a retiring train driver": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "During the steam traction days, the drivers retiring from service used to take pride in the machines which sustained their career in #IndianRailways! Here is the photo of one such retiring driver, posing with his YP class steam loco at Bangalore in 1986. @SachinKalbag @aparanjape https://t.co/pY7l6hGoD8"
+      ]
+    },
+    "revenue": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Indian Railways has recorded a growth of 17.65% in revenue generated from the Sale of Scrap in FY 2022-23, which is Rs 3,411.90 Cr. from April to November as compared to Rs 2,900 Cr. in FY 2021-22 for the same period: #IndianRailways"
+      ]
+    },
+    "revenue generation": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Central Railway\u00e2\u20ac\u2122s Mumbai division registers ticket checking revenue of Rs. 81.70 crore from April to December-2022\n\nRead more...https://t.co/hwfJoX54lt\n \n#centralrailway #indianrailways #railway #electrical #infrastructure #ticketing #technology #safety #security #electronic https://t.co/L1XzD58j4c"
+      ]
+    },
+    "safety": {
+      "total_count": 34,
+      "label_distribution": {
+        "non_complaint": 21,
+        "complaint": 13
+      },
+      "samples": [
+        "This is Indian train from DLI to Jodhpur PNR-2508615337 Trn:22995\nDt:09-09-22 Cls:SL Seat -S8,1\nMore local passenger. I have questions to Indian railways ministry that where are security of reservation passenger??? \n#IndianRailways #PMOIndia #rpf https://t.co/sUzuNIhgt2",
+        "Hi, i am a passenger from train no. 12904 at seat no. 26 coach S7. There are three people smoking in the train. The smell is disgusting. Please help.\nMy PNR no.: 2435095102.\nMy parents are seated at seat 1 and 3.\n\n#IndianRailways #indianrailseva #westernrailways",
+        "#India badly needs a low-cost solution to restrict access to it railway corridors. \n\n#IndianRailways needs to seriously pursue this not only because of the accidents but also from a security point of view."
+      ]
+    },
+    "safety advice": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "https://t.co/f53ilHDw0L #IndianRailways #Train #Accident \n\nNever board and alight from a moving train as it is dangerous to life. Engine is 12,000 hp, how much is yours's?\n\n\u00e0\u00a4\u2022\u00e0\u00a4\u00ad\u00e0\u00a5\u20ac \u00e0\u00a4\u00ad\u00e0\u00a5\u20ac \u00e0\u00a4\u0161\u00e0\u00a4\u00b2\u00e0\u00a4\u00a4\u00e0\u00a5\u20ac \u00e0\u00a4\u0178\u00e0\u00a5\u008d\u00e0\u00a4\u00b0\u00e0\u00a5\u2021\u00e0\u00a4\u00a8 \u00e0\u00a4\u00b8\u00e0\u00a5\u2021 \u00e0\u00a4\u00a8 \u00e0\u00a4\u0161\u00e0\u00a4\u00a2\u00e0\u00a4\u00bc\u00e0\u00a5\u2021\u00e0\u00a4\u201a \u00e0\u00a4\u201d\u00e0\u00a4\u00b0 \u00e0\u00a4\u00a8 \u00e0\u00a4\u2030\u00e0\u00a4\u00a4\u00e0\u00a4\u00b0\u00e0\u00a5\u2021\u00e0\u00a4\u201a \u00e0\u00a4\u2022\u00e0\u00a5\u008d\u00e0\u00a4\u00af\u00e0\u00a5\u2039\u00e0\u00a4\u201a\u00e0\u00a4\u2022\u00e0\u00a4\u00bf \u00e0\u00a4\u00af\u00e0\u00a4\u00b9 \u00e0\u00a4\u0153\u00e0\u00a5\u20ac\u00e0\u00a4\u00b5\u00e0\u00a4\u00a8 \u00e0\u00a4\u2022\u00e0\u00a5\u2021 \u00e0\u00a4\u00b2\u00e0\u00a4\u00bf\u00e0\u00a4\u008f \u00e0\u00a4\u2013\u00e0\u00a4\u00a4\u00e0\u00a4\u00b0\u00e0\u00a4\u00a8\u00e0\u00a4\u00be\u00e0\u00a4\u2022 \u00e0\u00a4\u00b9\u00e0\u00a5\u02c6\u00e0\u00a5\u00a4 \u00e0\u00a4\u2021\u00e0\u00a4\u201a\u00e0\u00a4\u0153\u00e0\u00a4\u00a8 12,000 hp \u00e0\u00a4\u00b9\u00e0\u00a5\u02c6, \u00e0\u00a4\u2020\u00e0\u00a4\u00aa\u00e0\u00a4\u2022\u00e0\u00a4\u00be \u00e0\u00a4\u2022\u00e0\u00a4\u00bf\u00e0\u00a4\u00a4\u00e0\u00a4\u00a8\u00e0\u00a4\u00be \u00e0\u00a4\u00b9\u00e0\u00a5\u02c6?"
+      ]
+    },
+    "safety reminder": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "This may seem hilarious and is not an incident from our own country but it just shows how dangerous it is to trespass on the track, especially at level crossings, whether vehicles or humans. Please respect the sanctity of a closed level crossing. #IndianRailways #SafetyFirst"
+      ]
+    },
+    "safety/accident": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Many passengers sustained minor injuries after four wheels of a coach of an express train on its way from Bilaspur to Jodhpur derailed in #Gondia district of #Maharashtra after it hit a goods train from behind in the early hours of Wednesday, #IndianRailways said. https://t.co/3txRYBibwi"
+      ]
+    },
+    "scenic photo of train journey": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Today's #railway #photo - the lovely aerial capture of the scenic landscape as a train rolls down from Joginder Nagar to Baijnath on Kangra valley railway line, in the jurisdiction of @drm_fzr in @RailwayNorthern! Pic courtesy, @gbenhur! #IndianRailways #photography @hp_tourism https://t.co/xDTs5AAi4g"
+      ]
+    },
+    "schedule": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Revised Train Schedule on Lucknow Mailani Section with a new train 05491/92 between Sitapur-Mailani\nWith effect from 04-February-2022\n#IndianRailways \n@nerailwaygkp @drmljn https://t.co/PuqjKiKAaZ"
+      ]
+    },
+    "schedule update": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Restoration of train services of Train No. 61633/64634 Bina-Bhopal-Bina Memu Train.\nDaily services of this train will start from 30.06.2022 as per the details given below.\n#IndianRailways \n@BhopalDivision https://t.co/fnAmQCRR2H",
+        "Restoration of train services of Train No. 22174/22173 Jabalpur-Chanda Fort-Jabalpur Tri-Weekly Superfast Expres Train. \nServices will start from 30.06.2022 as per the details given below.\n#IndianRailways @drmjabalpur https://t.co/urAD3BBcen",
+        "IRCTC: Swadesh Darshan Special Train to Start From Madhya Pradesh Soon. Check Ticket Fare, Itinerary Details\n#SwadeshDarshanSpecialTrain\n#IRCTC #IndianRailways  \n\nhttps://t.co/9BBnCR9e2f"
+      ]
+    },
+    "schedule/route": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "If you need political motivation then I would like to tell you lakhimpur has recently been a hot centre of #FarmersProtest(?). We have all the 8 MLAs and 2 MPs from your party. One of the MP also happens to be Union Minister. We deserve better.\n#IndianRailways #Needmoretrains"
+      ]
+    },
+    "seat allocation": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "A young boy #travelling with his grandfather place complaint at #Railways against two old couples occupied their seats . Meanwhile police came and sent away the old couples .\nI dont know the #conclusion but that frequent response from #IndianRailways quite impressive \u00f0\u0178\u0152\u02c6"
+      ]
+    },
+    "security": {
+      "total_count": 196,
+      "label_distribution": {
+        "complaint": 129,
+        "non_complaint": 67
+      },
+      "samples": [
+        "My old parents are currently travelling in this train from LTT to GHY. There's been some issues with their Co-passengers and the TC is nowhere to be found nor any RPF personnel. Please Help! @IRCTCofficial #IRCTC #IndianRailways #railwaypolice https://t.co/LL4HUUIKPH",
+        "Why railway is not taking action regarding these types of disturbances in trains .from morning to night they start chanting and they won't care about there fellow passengers. #IndianRailways #RPF #ministryofrailway #PMOIndia https://t.co/608qMS8cAc",
+        "HELP!\nLaptop Backpack with Belongings worth Rs.1,72,799 was stolen from LUR-YPR EXP Tr.no16584 on 21/08/2022.PNR8656030784, Seat24,A2.Second AC\n\nMakes me question how safe #IndianRailways is for the common man.\n #FINDMYBAG \n@RailMinIndia\n \n@AshwiniVaishnaw\n \n@SWRRLY\n \n@RPF_INDIA"
+      ]
+    },
+    "service": {
+      "total_count": 198,
+      "label_distribution": {
+        "complaint": 180,
+        "non_complaint": 18
+      },
+      "samples": [
+        "Train no 12627 is just 10 min away from Manmad still coach number and location not displayed #IndianRailways @AshwiniVaishnaw @raosahebdanve #railway https://t.co/QkQHjFtvah",
+        "As expected no response from any railway dept. #railwayministries #IndianRailways \n#low #Governance work only in Show-off, ground reality zero. #VandeBharatExpress",
+        "Why there is very less train for Delhi from Siwan people always face ticket problem government should start more trains in this route #indianrailways #ministryofrailways"
+      ]
+    },
+    "service announcement": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "The #railway ministry has also earmarked #NewDelhi-#Mumbai and New Delhi-#Howrah routes for metal fencing all along the track apart from vulnerable locations on other route\n\n#VandeBharat\n#IndianRailways \n\nhttps://t.co/PK4Hps3Iyx",
+        "Vande Bharat (6 coaches, mini version) to be launched very soon on Tracks of Bengal. Proposed Routes:- NJP-Balurghat, Howrah - Balurghat Howrah - Gaya, Howrah - Ranchi , NJP- Guwahati. All projects launching starts from this March. #IndianRailways"
+      ]
+    },
+    "service complaint": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Good Morning, freinds ! \nHas @PMOIndia ordered removal of #AshutoshBipinbihariMathur from #IndianRailways employment for embezzlement of #OriginalNotingSheet_1 of Case No. #ED_308_2007_07 of #FIRNo_25_10 under @SPBhavnagar ?\n\n@IGP_BHR_RANGE @BMSkendra @IR_CRB @Gmwrly @DRM_BVP https://t.co/UjWrQVId8S"
+      ]
+    },
+    "service complaint  train service suspended temporarily": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "With #AgnipathProtest turning violent, train services in #Bihar will remain temporarily suspended from 8 pm on June 18.\n\nRead more \u00e2\u008f\u00ac\nhttps://t.co/TVqVdhSIZ8\n\n#AgnipathRecruitmentScheme #IndianRailways"
+      ]
+    },
+    "service disruption": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Traveller's be aware of these Cancelled trains \n\nTrain No.18520: LTT Mumbai-Visakhapatnam train will be diverted via Pune-Meeraj-Wadi stations from 25th of this month to 9th of next month, South Central Railway said in its announcement.\u00c2\u00a0\n\n#IndianRailways #SouthCentralRailways https://t.co/94s5iCaNTl",
+        "#IndianRailways received an alarming tweet from a passenger who was travelling in a Karnataka-Delhi #train claiming that the train was #hijacked. The alerted Railway authorities responded stating that it was not hijacked and the train was only diverted due to a #maintenance work. https://t.co/Zs2dsNy161"
+      ]
+    },
+    "service feedback": {
+      "total_count": 4,
+      "label_distribution": {
+        "non_complaint": 3,
+        "complaint": 1
+      },
+      "samples": [
+        "STAY SAFE FROM\nTOUT'S TRAP\nNEVER BUY TICKET FROM TOUTS\nREPORT IF YOU SPOT A TOUT\nAVOID TOUTS...\nMake your journey pleasant  #IndianRailways @RailMinIndia @gmwcrailway @wc_railway @drmkota @drmjabalpur @AshwiniVaishnaw @DarshanaJardosh @raosahebdanve https://t.co/Ao1rGWUfNF",
+        "@RailMinIndia @AshwiniVaishnaw @incredibleindia @tourismgoi @tourism Best experience ever from #IndianRailways",
+        "Today my hometown welcomes first Broad Gauge train. Artists from Bhil tribes performed a special session of Gavri on this occasion on the platform.\n#IndianRailways #udaipur https://t.co/5eJZvcMABE"
+      ]
+    },
+    "service improvement": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Hey #IndianRailways , It's a suggestion for you that One train set of Vande Bharat Train Should run from #Bhopal &lt;-to-&gt; #Pune via #Burhanpur , #Jalgaon districts\n@Central_Railway @RailMinIndia #VandeBharatTrain",
+        "New India!\n\nTransformation of Railways. From paper listing to hand held terminals for TTE. #IndianRailways https://t.co/pyl9x11r3V"
+      ]
+    },
+    "service information": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Apart from being extremely quick, it's also eco-friendly as it consumes less power than an electric train and doesn't really have any emissions unlike an aircraft or a diesel locomotive.\n#iitmadras #IndianRailways #IRCTC https://t.co/kUVzBssSjF"
+      ]
+    },
+    "service issue": {
+      "total_count": 2,
+      "label_distribution": {
+        "complaint": 1,
+        "non_complaint": 1
+      },
+      "samples": [
+        "tried booked ticket from irctc offical app on 22December . My payment got deducted from my account but transaction failed and my ticket not booked  . What should I do? Where is my refund? \n#IRCTC   \n@IRCTCofficial\n\n   #IndianRailways  \n@RailMinIndia\n \n@Central_Railway https://t.co/BSbIqJZFoO",
+        "#Agnipath_Protests:\n#IndianRailways has so far incurred losses of over Rs 1,000 crore, including damage &amp; reimbursement to passengers for ticket cancellations in the past few days.\nIt should be recovered from the #State_Government and/or the protesters!\n@PMOIndia @RailMinIndia https://t.co/BR5ldpazNc"
+      ]
+    },
+    "service quality": {
+      "total_count": 4,
+      "label_distribution": {
+        "non_complaint": 3,
+        "complaint": 1
+      },
+      "samples": [
+        "#IRCTC #IndianRailways \nPlace inside Howrah Station clean complex\nAs per rate chart Urinals FREE and Lavetory 2 Rupees,  but taken from passenger Urinals 5 Rupees and Lavetory 10 Rupees. https://t.co/AyrNBWQXWb",
+        "I don't know from where this is! But hope @AshwiniVaishnaw @RailMinIndia will definitely take action on this man We have trust on you @AshwiniVaishnaw Sir hope he will get justice. #IndianRailways",
+        "Due to ongoing students' agitation, eight trains cancelled, six trains have been rescheduled in the zone: East Central Railway (From Agencies)\n\n@ECRlyHJP @RailMinIndia @AshwiniVaishnaw #AgnipathScheme #IndianRailways https://t.co/KSwfGqudSJ"
+      ]
+    },
+    "service request": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "#IndianRailways  I forget my phone on my seat in train 14217 A1 coach seat number 1. I was boarded the train from Kanpur and left the train at Ghaziabad. Please help me 9719418801.",
+        "Dear @AshwiniVaishnaw sir,  we are candidate of rrc group d (lev-1) exams. Exam centre is around 1000 km from home. So, Please arrange special train for railway student. @PiyushGoyal #IndianRailways @narendramodi"
+      ]
+    },
+    "service update": {
+      "total_count": 4,
+      "label_distribution": {
+        "non_complaint": 4
+      },
+      "samples": [
+        "Six passenger trains to recommence services in Kerala from Monday https://t.co/9BAJ2a7g4p #kerala #trains #passengertrains #IndianRailways",
+        "Indo-Bangladesh train service, the \"Mitali Express\", is scheduled to begin its journey from West Bengal's New Jalpaiguri station in India to Dhaka in Bangladesh, from June 1 onwards.\n\n#MitaliExpress #Dhaka #Bangladesh #IndianRailways \n\nhttps://t.co/GhbKQ3m3wI",
+        "India-Bangladesh train services to resume from May 29 \n\n#IndiaBangladesh #trainservices #IndianRailways https://t.co/VdzZNKB0iA"
+      ]
+    },
+    "service/facilities management": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Indian Railways to operate two trains with LHB coaches from Mumbai #indianrailways #LatestNewsonIndianRailways #LHBcoaches #Trainnews #Trainupdates https://t.co/8G2gIEUDZC\nhttps://t.co/Ukv4ldlCwl",
+        "@IRCTCofficial had a great experience after a long time being away from trains, the way India travels, all courtesy your wonderful staff especially Mr SK Sarfaraz on the 22202 Puri Sealdah Duronto Exp.\nPNR - 6103013047\n#trains #IndianRailways",
+        "The Flagging Off of the Restored Service of the Train No. 1981/1984 Kota-Etawah-Kota Express by Shri Krishnapal Singh Yadav, Hon\u00e2\u20ac\u2122ble MP, Guna, Madhya Pradesh was done from Guna on 22.05.22.\n #IndianRailways #Services #FacilitiesMgmt https://t.co/ow4nQU7Eer"
+      ]
+    },
+    "service/infrastructure": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "#IndianRailways cancelled 226 trains including Sainik Express from #Delhi to #Jaipur.\n\nCheck Full List Here: https://t.co/ZwE2FF6A5B",
+        "#IndianRailways I have forgotten my laptop bag in Train no 12303 Poorva express in today\u00e2\u20ac\u2122s morning\u00e2\u20ac\u2122my pnr no is 6112893567\u00e2\u20ac\u2122 please let me know on 9811115493,travelling from ARA TO NEW DELHI",
+        "Sixth #VandeBharatExpress to run from Secunderabad in #Telangana to Vijaywada in #AndhraPradesh from new year. \n\n#VandeBharatTrain #highspeed #Railways #IndianRailways \n\nhttps://t.co/OJlI2IWBPd"
+      ]
+    },
+    "service/operational": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Pls don\u00e2\u20ac\u2122t change the time of #shakti punj Express because huge students &amp; people take this train with connectivity of janshatabdi express from bhopal\nUP/MP/Bihar/JH people are travelling by Shakti punj express\n#railway #IndianRailways #ministryofrailways @AshwiniVaishnaw",
+        "Experienced the professionalism of  third largest railway network in the world. Great service from the customer support, a query has been closed in 14 minutes that too early in the morning with proper follow-up and immediate action.\n\nCustomer care number - 139\n\n#IndianRailways https://t.co/708qWzOIwK",
+        "@AshwiniVaishnaw @RailMinIndia @PMOIndia @narendramodi @PIB_India @DDNewslive Pls don\u00e2\u20ac\u2122t change the time of #shakti punj Express because huge students &amp; people take this train with connectivity of janshatabdi express from bhopal\nUP/MP/Bihar/JH people are travelling by Shakti punj express\n#railway #IndianRailways #ministryofrailways @AshwiniVaishnaw"
+      ]
+    },
+    "service/punctuality": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "\u00f0\u0178\u0161\u201a Vanchi Maniyachi Junction\n\u00f0\u0178\u0152\u201e The Golden Hour shot\n@GMSRailway #IndianRailways\n\nSource: From my archives. No filter.\nhttps://t.co/waOCIqnDZp https://t.co/whm0LZLedN"
+      ]
+    },
+    "service/schedule": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Kindly add trains in morning hours to Tirupur from  coimbatore as it may help us to reach our destination on time, kindly help us... #BJP #IndianRailways"
+      ]
+    },
+    "servicerelated": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@RailMinIndia @IRCTCofficial\n@PMOIndia @IR_CRB @narendramodi @AshwiniVaishnaw @RailwaySeva #IndianRailways to make Berth/Seat reservation system more open &amp; transparent by displaying the total &amp; vacant Berth/Seat with layout plan on #IRCTC Website to select from by rail traveller"
+      ]
+    },
+    "sharing experience/photo": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "View From The Train... Near Nipania, Madhya Pradesh, India. https://t.co/aAMLgu1tDY . \n#IndianRailways #MadhyaPradesh #India"
+      ]
+    },
+    "sharing video/experience/photo": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#WATCH: #Netizens are convinced that the #Bengaluru-#Udupi railway line, from #Sakleshpur to #KukkeSubramanya in #Karnataka is the most scenic #railroute in #India \n\n#viral #Trending #ViralVideo #IncredibleIndia #indianrailways #tourism #greenery #GreenIndia https://t.co/Fd6cUtAYlN"
+      ]
+    },
+    "smooth and comfortable ride": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Journey on railway strech from Lonavala to Talegaon feels very much comfortable. No jerks at all when train is in motion. Thanks to the track upgradation work done by @Central_Railway in the last few years. Passengers now enjoy a smooth cum comfortable ride\n#IndianRailways #Pune"
+      ]
+    },
+    "special trains": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways will operate a #Sankranti #SpecialTrains to clear the extra rush of passengers from #Visakhapatnam &amp; #Secunderabad. People can book their advance tickets on the special train starting from today by no. 08505/06 Sankranti special train.\nhttps://t.co/AwkwIRzI9H"
+      ]
+    },
+    "speed": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "The speed trial of the #VandeBharat trainset - initially the chirping of the birds can be heard louder than the sound of the train! And the speed trial view from the inside as well! #IndianRailways #speed https://t.co/EZGdULaNhv",
+        "Another video of the #VandeBharat trainset speed trial from inside a coach! And yes, even at 180 kmph, not a drop of water spills over! Cynics may say that there shouldn't be ripples in the water as well, but hey, we have come this far! #IndianRailways #speedLimits https://t.co/YkiDgYzWX3"
+      ]
+    },
+    "speed trial": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#SpeedTrial from Kavi Subhas station to Hemanta Mukhopadhyay station of the #OrangeLine going on in presence of Shri Suvomoy Mitra, #CommissioneroRailwaSafety ( CRS) , N.F. Circle. #metrorail #Kolkata #India #WestBengal #IndianRailways https://t.co/ASQqT0C0ze"
+      ]
+    },
+    "spotting/photography": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "KJM WDP-4D twins, one in normal livery and other one in police bus livery, curve out of Sampige road station pulling the Bangalore City bound Jan Shatabdi express from Shimoga town.\n#IndianRailways #SWR #Tumkur #SampigeRoad #Shimoga #shivamogga #PicOfTheDay #photography https://t.co/A5CRgb82jh",
+        "Visitor from North Western Railway.\n\nAbu Road WDM-3A 16788R arrived Guwahati Railway Station with some Parcel Express.\n\n~February 2021\n\n\u00f0\u0178\u201c\u00b8: Aniket Das \n\n#railfansofnfr #nfr #IndianRailways #wdp4d #wdm3a\n\nFollow us on Instagram: https://t.co/XWSw87pEpd https://t.co/ORjnWSej9u"
+      ]
+    },
+    "staff behaviour": {
+      "total_count": 138,
+      "label_distribution": {
+        "complaint": 86,
+        "non_complaint": 52
+      },
+      "samples": [
+        "So Many cockroaches in Train no 12792.\nNo Response from cleaning staff.\n#IndianRailways https://t.co/MY1HQiRDtl",
+        "I'm in gangadamodar express,I'm travelling from patna to Dhanbad,I booked my ticket from Paytm,I get my ticket confirmation message at 19:36 IST,when i go to my seat there is already a person,I had already tell this problem to TTE,but I'm not getting any response\n#IndianRailways",
+        "#IndianRailways #indianrailway \nThis is the ticket photo of one of ticket of one of my relative travelling from Delhi to Darbhanga. But he lost his ticket but TT is harassing him and told him came down from train if you are not able to me original ticket.\nShame on Indian Railway https://t.co/J84EqLnEV4"
+      ]
+    },
+    "station upgrade": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "So citing this faraway distance, I observed the nearest railway station is Pernem (PERN). So I request #IndianRailways @RailMinIndia @KonkanRailway to redevelop and upgrade Pernem station to airport class, and introduce MEMUs/DEMUs from Vasco (VSG) and Madgaon (MAD)  ...(2/3)"
+      ]
+    },
+    "stock market": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "#IRFC share price zooms 9%: #IndianRailways stock shines in weak market - should you buy? | \n\nIRFC #share price zoomed 9% on December 20. The #PSU stock traded under pressure in the past few days as profit booking dragged the stock more than 20% from its 52-week high of Rs 37.10 https://t.co/6vUHzxg1re",
+        "The #IndianRailways #stock opened in green at Rs 32.30 apiece on #NSE, up nearly 1 per cent from previous close of Rs 32.10. Strong buying in the counter lifted it to hit day's high of Rs 33.25.  \n\nhttps://t.co/k7A9s4Kc0Z",
+        "#LIC raises #stake in #IRCTC. Should you buy IRCTC #shares?\n\nLIC of India has raised stake in  IRCTC. The #IndianRailways' PSU informed Indian #StockMarket  exchanges about the development and said that the LIC has raised its stake in IRCTC from existing\n 5.005 % to 7.278% https://t.co/acAisfPD2Z"
+      ]
+    },
+    "suggestion": {
+      "total_count": 23,
+      "label_distribution": {
+        "non_complaint": 23
+      },
+      "samples": [
+        "@RailMinIndia @IRCTCofficial\n@PMOIndia @IR_CRB @narendramodi @AshwiniVaishnaw @RailwaySeva #IndianRailways  Make Railway reservation system more open &amp; transparent by displaying total &amp; realtime vacant Berths/Seats on #IRCTC website with layout plan to let travellers select from.",
+        "Try it to be make permanent as there is not a single train running to south india from katihar. \n#katihar\n#IndianRailways @tarkishorepd @RailNf @RailMinIndia",
+        "@RailMinIndia @IRCTCofficial\n@IndianRailUsers @IR_CRB @AshwiniVaishnaw @RailwaySeva\n#IndianRailways Make Berth/Seat reservation system more open &amp; transparent by displaying the total &amp; vacant Berth/Seat along with layout plan on #IRCTC Website to select from for a Rail traveller."
+      ]
+    },
+    "suggestion for train name change": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@RailMinIndia @RailwayNorthern  please change Train No. 12420 name from \"Gomti Express\" to \"Gomti Passenger Train\"\n#IndianRailways #railwaynewvacanydo"
+      ]
+    },
+    "suggestion/feedback": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "@RailMinIndia @IRCTCofficial\n@AshwiniVaishnaw #IndianRailways must display total &amp; available realtime vacant Seat/Berths with their Layout Plan on #IRCTC website to let a traveller to make a choice of Seat/Berth from remaining vacant before proceeding to make reservation payment.",
+        "@RailMinIndia @IRCTCofficial\n@PMOIndia @IR_CRB @narendramodi @AshwiniVaishnaw @RailwaySeva #IndianRailways  Make Railway reservation system more open &amp; transparent by displaying total &amp; realtime vacant Berths/Seats on #IRCTC website with layout plan to let travellers select from."
+      ]
+    },
+    "suggestion/request": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Need some train line from Barauni Jn (BJU) to Barkakana (BRKA) or Ramgarh Cantt (RMT) &amp; vice-versa...\n\n@narendramodi @PMOIndia @AshwiniVaishnaw @HemantSorenJMM   @RailMinIndia @serailwaykol @ECRlyHJP  @DarshanaJardosh\n\n#IndianRailways"
+      ]
+    },
+    "suggestion/request for new train": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "..Stn as well soon in future. Wished if I had direct train between #Mysuru (MYS) to SMVB via K.S.R Bengaluru (SBC). Wish more and more trains begin from this new station !! Towards different parts of #karnataka and #India  !! #IndianRailways #railways..(2/2)"
+      ]
+    },
+    "sustainability": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "On 15 June 2022, launching #evcharging services on the most #inclusive EV charging point network of India - REVive Point at #Vadodara #Gujarat, with support from #IndianRailways. #DriveElectric #electricvehicles https://t.co/6VOaC0riyv",
+        "Use of Blended cement will be an imperative if India wants to achieve net zero by 2070.Spoke at a workshop organised by @GCCA and #IndianRailways where we had very engaged discussion with senior engineers and officials from Indian railways.@MyDalmiaCement @DalmiaBharat https://t.co/PSdyPCCXxz"
+      ]
+    },
+    "technological achievement": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Western Railway becomes first zonal railway on Indian Railways to migrate from IPv4 to IPv6 in communication and IT\n\nRead more...https://t.co/8ntPydHh0M\n\n#indianrailways #westernrailway #technology #digitalindia #railway #communication #IT #network https://t.co/M2tnO5b6I2"
+      ]
+    },
+    "thanking rpf and indian railways for recovering lost item": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways\nThanks RPF and Indian railways. I lost my laptop bag with many valuable things today morning at Bharatpur railway station. They recovered it from Mathura junction within an hour. \nHC- Sandeep Sisodiya helped a lot. Thanks a lot. \nPNR- 8454518640 https://t.co/lnlRJE6j8J"
+      ]
+    },
+    "theft": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#Bihar: Thieves Steal Oil From Moving Goods Train. #Video goes #viral\n@RailMinIndia @AshwiniVaishnaw\n\n#Oil #IndianRailways #news #UnMuteIndia\n\nSubscribe to our YouTube page: https://t.co/bP10gHsZuP https://t.co/M5FtD8DfjC"
+      ]
+    },
+    "ticket": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Anyone wants to go Patna from Delhi? I have a tatkal ticket but can't leave due to some urgent work. If so, leave a reply here. Train leaves from NDLS at 9 pm. \n#TRAIN #IndianRailways #tickets #tatkal"
+      ]
+    },
+    "ticket availability": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "1 ticket available from Hyderabad to Vizag for tomorrow (11-01-2023)..Godavari Express\u00e2\u20ac\u00a6#IndianRailways #Sankranti2023 #sankranti"
+      ]
+    },
+    "ticket booking": {
+      "total_count": 77,
+      "label_distribution": {
+        "complaint": 75,
+        "non_complaint": 2
+      },
+      "samples": [
+        "#UTS app wants me to be away at certain distance from railway station to book ticket\n\nIf I want to switch trains like from a sf express to MMTS it's hard to go out of station for booking\n\n@amofficialCRIS please implement an appropriate solution for this\n#goonline #IndianRailways",
+        "Sir, this is the condition of ticket booking counter, Guwahati Railway Station.The working hour of evening start from 2:15 pm to 8:00 pm but there is no person on the counter. #IndianRailways #indianrail #ashwanivaishnav https://t.co/eXIW677eKe",
+        "#IndianRailways \nFrom 10th June till date no tickets/MST are issued at Bangain(BGAN) Railway Station. @GM_NRly\nPlease see what can be done.\n@RailMinIndia @AshwiniVaishnaw @PMOIndia @drmljn @ANINewsUP @Republic_Bharat @ZEEUPUK"
+      ]
+    },
+    "ticket booking charge": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "@IRCTCofficial worst website designed to take money from consumers giving them waiting ticket during tatkal booking. These guys earns 100-200 inr(ticket booking charge) for giving anxiety and aggression not the confirm ticket.\n\n#privatisation #IndianRailways"
+      ]
+    },
+    "ticket fraud": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "Never Buy Rail Tickets From Tout  #IndianRailways @RailMinIndia @gmwcrailway @wc_railway @drmkota @drmjabalpur @AshwiniVaishnaw @DarshanaJardosh @raosahebdanve https://t.co/7aQKSPWafm",
+        "#SafetyFirst #IndianRailways \nBe Wary of Touts!\nMake sure to buy your journey tickets from Railway Reservation counters, official website or authorized travel agents only.\n@wc_railway @drmjabalpur @BhopalDivision https://t.co/oaAVqJA0cZ"
+      ]
+    },
+    "ticket purchase": {
+      "total_count": 2,
+      "label_distribution": {
+        "non_complaint": 2
+      },
+      "samples": [
+        "STAY SAFE FROM\nTOUT'S TRAP\nNEVER BUY TICKET FROM TOUTS\nREPORT IF YOU SPOT A TOUT\nAVOID TOUTS...\nMake your journey pleasant  #IndianRailways @wc_railway @BhopalDivision @drmjabalpur https://t.co/EPaS0seRWj",
+        "Please buy railway tickets from authentic sources.  #IndianRailways @RailMinIndia @gmwcrailway @wc_railway @drmkota @drmjabalpur @AshwiniVaishnaw @DarshanaJardosh @raosahebdanve https://t.co/OjaZPg47YO"
+      ]
+    },
+    "ticket/ seat availability": {
+      "total_count": 1,
+      "label_distribution": {
+        "complaint": 1
+      },
+      "samples": [
+        "We Are traveling via train from Delhi to surat on train no 12472 swaraj express on RAC 18, 19, 20, 21, Ticket collector is not clearing RAC but giving tickets to other who are traveling without reservation. Please help. #IndianRailways #IRCTC #ministryofrailway #PMOIndia"
+      ]
+    },
+    "tourism": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Major tourism boost for India as Govt to start #Monsoon special trains from June 10; Here's the full list\n\n#IndianRailways #MonsoonSpecialTrain\nhttps://t.co/UVU2oWsFI3"
+      ]
+    },
+    "tourist train": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "The 'Bharat Gaurav' tourist train will start on August 9 from Safdarganj railway station in Delhi for the South India tour. \n#IndianRailways #Tourism https://t.co/f5ZpcwnsML"
+      ]
+    },
+    "train cancellation": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "246 trains cancelled today by #IndianRailways. This includes #Shatabdi from New Delhi to Kanpur, Intercity Express from Bareilly to New Delhi, and Patna to Banaras Janshatabdi.\n\nCheck Full List Here: https://t.co/O9FN4qCjnG"
+      ]
+    },
+    "train crossing": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "A regular single line section scenario.\n\n1. 15644 KYQ PURI Exp crossing with 13149 SDAH APDJ Kanchankanya Exp at Gulma.\n\n2. 13149 SDAH APDJ Kanchankanya Exp departing from Gulma.\n\n#IndianRailways #Dooars \n@drm_apdj @drm_kir @RailNf @gm_nfr @RailMinIndia @tourismgoi https://t.co/fPwofbPNoh"
+      ]
+    },
+    "train delay": {
+      "total_count": 3,
+      "label_distribution": {
+        "complaint": 2,
+        "non_complaint": 1
+      },
+      "samples": [
+        "Discomforting journey!\n#garibrath Train No 22407 from BSBS to ANVT is delayed by more than 5 hrs from its scheduled arrival.\n\n#IndianRailways #northenrailways\n#IRCTC\n@PiyushGoyal @PiyushGoyalOffc @RailMinIndia @RailwayNorthern \n@aajtak @ndtv @IRCTCofficial",
+        "#IndianRailways #railway #railwayministry\nTrain 14114 is already running  9:45 hrs late and it's been standing only 6 km away from destination for about 1 hr. Please sort out the matter quickly as many passangers are getting frustrated. \n@RailMinIndia @AshwiniVaishnaw",
+        "Was on the new Vande Bharat Express from Gandhinagar to Mumbai Central. Due to some issues on Dhanu Road Station, the train got late for an hour and is shockingly stopping at Andheri Station. #VandeBharatexpress\n#Mumbai #IndianRailways #VandeBharat @TheMetroRailGuy\n@RoadsOfMumbai"
+      ]
+    },
+    "train journey": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Taking the Intercity from Palakkad Junction. #IndianRailways https://t.co/3kMoSUzUZ8"
+      ]
+    },
+    "train photo": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Ranakpur Express Curving Out From Bikaner Jn \n.\n.\n#IndianRailways #ranakpurexpress #bikaner #junction  #railway #photo #photography #travel \n\n@NWRailways @GMNWRailway @drmbikaner https://t.co/OfGSBeVRbp"
+      ]
+    },
+    "train schedule": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Please start AC local from thane by 8.30 AM @RailMinIndia #IndianRailways",
+        "Jaimatadi\nsir i want a urgent information is local passenger train is running from delhi to HARIDWAR. \n#IndianRailways \n@indianrailway__ \n@Indianrailway18",
+        "Indian Railways to run 205 special trains for #JagannathRathYatra 2022 from July 1 \n\nCheck full list here: \n#IndianRailways @EastCoastRail @RailMinIndia\n\nhttps://t.co/MlHIbAH5we"
+      ]
+    },
+    "train spotting": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "16-07-22\n#Alco coming down with Departmental rake towards #karjat from #Lonavala #shotoniphone12promax #apple #loveit #missyousachin #instatailfans #trainspotting #trains #indianrailways #instarail #irfca #lovetrains https://t.co/O4yH0RyRRA"
+      ]
+    },
+    "train video": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "purushotam Express departing from Puri railway station #indianrailways #trains #shorts - https://t.co/nJ7AhvvFQ3 https://t.co/1sMDhmTdhY"
+      ]
+    },
+    "transformation/progress": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "India Marching Ahead!\n\nTransformation of Railways. From paper listing to hand held terminals for TTE.\n#IndianRailways https://t.co/tFSKQXVnso"
+      ]
+    },
+    "travel": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "#IndianRailways | Intercity Express running from Bahraich gets direct connectivity to Ayodhya and Varanasi\n\nhttps://t.co/DxnDElm9IL"
+      ]
+    },
+    "travel content": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "New upload!\n\nSevagram express early morning run through rural Maharashtra! Enjoy the acceleration of WAP-7 with heavy 24 coach rake &amp; ICF track sounds. Acceleration from Lasalgaon is brilliant\n\nDo watch &amp; subscribe if you liked it!\n\n#IRFCA #IndianRailways \nhttps://t.co/HHhLKyO5oH"
+      ]
+    },
+    "travel experience": {
+      "total_count": 9,
+      "label_distribution": {
+        "non_complaint": 9
+      },
+      "samples": [
+        "Railway Stations have transformed from being mere points to board / alight from trains.\n\nYou can do a lot with the Free Wi-Fi there.\n\nMany of them are Green Places too as they are powered by Solar Energy!\n\n#GoGreen #GreenRailways #solarenergy #IndianRailways #SOLAR\n\n#8YearsOfSeva https://t.co/VoOqL9akw1",
+        "Here is the journey video From #Mumbai to #Surat in #VandeBharat #Express which face a Cattle run over at Atul station\n\nhttps://t.co/lstt7cK9c8\n\n#VandeBharatexpress #Train18 #VandeBharat #train #IndianRailways #Railway",
+        "Finally departed after 1hr 51 minutes from Varanasi city\nTrain number 14007\n\nThanks #IndianRailways \nProud to be an Indian. \n#Budget2023 #financeminister #nirmalasitharaman #pmo any penalty criteria if the train is running late or getting delayed during journey. \n#timeismoney"
+      ]
+    },
+    "travel feedback": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "It's been an great experience to travel on #VandeBharatexpress from #Durg to #Nagpur \nFood quality was good and hygiene that I can give them 9/10\nTrain neatness -9/10\nStaff behaviour - 10/10\nSeat comfort - 7/10 \nToilet - 10/10\n#IRCTC \n#IndianRailways \n#indianrailwaycatering https://t.co/WQUM4HxePJ"
+      ]
+    },
+    "travel inquiry": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@RailwaySeva I have an returning ticket in Mahananda express,train no.15483 from Siliguri jn. to Danapur jn. In 6 june. Kindly tell me that this train is cancel in that date or running as usual on time.. @IRCTCofficial #indianrailways"
+      ]
+    },
+    "travel observations": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Points from recent travel.\n1) The #VandeBharat is much smoother than the #shatabdi by miles .\n2) #IndianRailways now sends notifications via SMS .\n3) TCs with handheld devices , no more paper reams .\n4) Visible &amp; welcome upgrade in food quality.\n\nhttps://t.co/R7B4JCUOyI"
+      ]
+    },
+    "travel option": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Allocate dedicated daily trains from Andhra &amp; Odisha to Bangalore, so that people have sustainable travel options at affordable prices, rather than taking flights always. Win win for all - irctc, people and planet #Indianrailways #nitingadkari #sustainabletravel"
+      ]
+    },
+    "tweet with photo of a delayed train": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Utter pradesh in Varanasi station from 45 mint wetting time 12.30 in station but train no. 19091  late 30 mint wetting and at time Today photo #IndianRailways #UttarPradesh #ministryofrailway  aage vikas ho raha hai isliye late ho raha hai sayad https://t.co/Pb90XYowAw"
+      ]
+    },
+    "unavailability of ac trains": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "@AmitDaryanani @Central_Railway @RailMinIndia @AshwiniVaishnaw Very disappointed to see this new AC local time table no AC trains in peak hours Morning from Badlapur, Ambernath, it's injustice for us. Kindly start so that we can use services. #IndianRailways"
+      ]
+    },
+    "unprofessional behavior": {
+      "total_count": 1,
+      "label_distribution": {
+        "non_complaint": 1
+      },
+      "samples": [
+        "Time pass by playing cards ( gambling) in #NFRailway by #RBI employees in #Guwahati . At kolongpar passenger from Thakurkuchi railway station to Guwahati railway station . #PMOIndia #IndianRailways #Northeastfrontierrailway #RBI https://t.co/l0GvaotNkl"
+      ]
+    },
+    "update": {
+      "total_count": 5,
+      "label_distribution": {
+        "non_complaint": 5
+      },
+      "samples": [
+        "As a part of Iconic Week Celebrations  'Azadi ki Rail Gadi aur Stations' from 18th July -23rd July over #IndianRailways to commemorate 75 years of #AzadiKaAmritMahotsav Flagging off of #RaniChennamma Exp by Shri. Shyam Singh DRM/SBC. https://t.co/kYWdusocRX",
+        "Gwalior - Bina Unreserved train will start again from 1st sept.\n#IndianRailways #Gwalior #railfan \n@gwl_rf\nhttps://t.co/cpUZuFT6cc",
+        "Chairman  &amp; CEO/Railway Board inaugurates Iconic Week Celebrations of \u00e2\u20ac\u02dcAzadi Ki Rail Gadi aur Stations\u00e2\u20ac\u2122 \n@RailMinIndia to organize week long celebrations from 18th July-23rd July.\n#AzadiKaAmritMahotsav\n#IndianRailways \n@AshwiniVaishnaw \n@DarshanaJardosh \n@raosahebdanve https://t.co/hNc5eSbZbe"
+      ]
+    },
+    "warning": {
+      "total_count": 3,
+      "label_distribution": {
+        "non_complaint": 3
+      },
+      "samples": [
+        "Never Buy Rail Tickets From Tout  #IndianRailways @RailMinIndia @gmwcrailway @wc_railway @drmkota @drmjabalpur @AshwiniVaishnaw @DarshanaJardosh @raosahebdanve https://t.co/iLHdWoqTEE",
+        "#SafetyFirst #IndianRailways \nBe Wary of Touts!\nMake sure to buy your journey tickets from Railway Reservation counters, official website or authorized travel agents only. https://t.co/LmdpwV97uO",
+        "DO NOT SPOIL YOUR JOURNEY,\nNEVER BUY TICKETS FROM TOUTS  #IndianRailways @RailMinIndia @gmwcrailway @wc_railway @drmkota @drmjabalpur @AshwiniVaishnaw @DarshanaJardosh @raosahebdanve https://t.co/A3lf4DPxS6"
+      ]
+    },
+    "water availability": {
+      "total_count": 59,
+      "label_distribution": {
+        "complaint": 45,
+        "non_complaint": 14
+      },
+      "samples": [
+        "No water in Coach S6, S8 in 12174 Udyog Nagari Express from Partapgarh-Lokmanya Tilak Terminus. Passengers inconvenienced and unable to use washroom for toilet.  Request @IRCTCofficial @RailwayNorthern @RailwaySeva to pls look into this on a priority #IndianRailways #Railservice",
+        "@IRCTCofficial train no 22537 which departed on 16th of june from Gorakhpur to LTT (KUSHINAGAR EXP) doesn't have water in toilet.. its a basic need!\nCan you please resolve the issue ASAP.\n\n#IndianRailways #waterissue",
+        "Train number 22404 Ac3 running from 15th May B6 passengers are suffering due to unavailability of water in toilet. No one ready to listen problem.PNR 2140201165 #ashwinivaishnaw  #IndianRailways"
+      ]
+    }
+  }
+}

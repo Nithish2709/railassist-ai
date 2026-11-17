@@ -1,0 +1,220 @@
+{
+  "version": "2.0.0",
+  "dataset_source": "https://huggingface.co/datasets/faizmubeen/indian_railways_complaint_tweets",
+  "dataset_commit": "f2a3e5f9491324a9acaf4210558ad413583860c5",
+  "last_updated": "2026-10-25",
+  "departments": {
+    "Operations & Traffic": "Operating Department (Traffic & Scheduling)",
+    "Passenger Grievance": "Commercial Department (Public Grievance Cell)",
+    "Housekeeping": "Environment & Housekeeping Management (EnHM) / OBHS",
+    "Security": "Security Department (Railway Protection Force - RPF)",
+    "Electrical": "Electrical Engineering Department (Train Lighting & AC)",
+    "Catering": "Catering & Vending Services Department (IRCTC / Commercial)",
+    "Coach Maintenance": "Mechanical Engineering Department (Carriage & Wagon - C&W)",
+    "Water & Sanitation": "Water Supply & Sanitation Department"
+  },
+  "target_categories": [
+    {
+      "id": "operations_traffic",
+      "name": "Operations & Traffic",
+      "department": "Operating Department (Traffic & Scheduling)",
+      "status": "supported",
+      "description": "Train delays, schedule disruptions, punctuality problems, unscheduled crossings, and train cancellations.",
+      "raw_types_mapped": [
+        "punctuality",
+        "train delay",
+        "cancelled train",
+        "delay"
+      ]
+    },
+    {
+      "id": "passenger_grievance",
+      "name": "Passenger Grievance",
+      "department": "Commercial Department (Public Grievance Cell)",
+      "status": "supported",
+      "description": "Staff misbehaviour, corruption or bribery demands by ticket examiners, unauthorized overcrowding in reserved coaches, ticketing booking failures, and refund disputes.",
+      "raw_types_mapped": [
+        "corruption / bribery",
+        "staff behaviour",
+        "crowding",
+        "ticket booking",
+        "refund",
+        "ticket booking charge",
+        "ticket/ seat availability",
+        "difficulty in booking tickets",
+        "fare charges"
+      ]
+    },
+    {
+      "id": "housekeeping",
+      "name": "Housekeeping",
+      "department": "Environment & Housekeeping Management (EnHM) / OBHS",
+      "status": "supported",
+      "description": "Coach cleanliness, dirty toilets, foul smell, pest/cockroach infestations, garbage disposal, and soiled/torn bedrolls and linen.",
+      "raw_types_mapped": [
+        "cleanliness",
+        "bed roll"
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "department": "Security Department (Railway Protection Force - RPF)",
+      "status": "supported",
+      "description": "Theft of luggage and valuables, harassment, safety threats, unauthorized persons entering compartments, and calls for RPF intervention.",
+      "raw_types_mapped": [
+        "security",
+        "safety"
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical",
+      "department": "Electrical Engineering Department (Train Lighting & AC)",
+      "status": "supported",
+      "description": "Air conditioning non-cooling or failure, non-functional fans, lights off/fused, and defective mobile charging sockets.",
+      "raw_types_mapped": [
+        "electrical equipment"
+      ]
+    },
+    {
+      "id": "catering",
+      "name": "Catering",
+      "department": "Catering & Vending Services Department (IRCTC / Commercial)",
+      "status": "supported",
+      "description": "Food quality, unhygienic pantry cars, overcharging for meals, missing meals, stale snacks, and poor beverage services.",
+      "raw_types_mapped": [
+        "catering & vending service",
+        "food",
+        "food quality"
+      ]
+    },
+    {
+      "id": "coach_maintenance",
+      "name": "Coach Maintenance",
+      "department": "Mechanical Engineering Department (Carriage & Wagon - C&W)",
+      "status": "supported",
+      "description": "Physical coach damage, broken window panes, leaking coach roofs, damaged berths, loose latches, and structural rattles.",
+      "raw_types_mapped": [
+        "maintenance",
+        "poor condition",
+        "bed"
+      ]
+    },
+    {
+      "id": "water_sanitation",
+      "name": "Water & Sanitation",
+      "department": "Water Supply & Sanitation Department",
+      "status": "supported",
+      "description": "Unavailability of water in coach washrooms, empty train water tanks, dry washbasins, and platform water tap failures.",
+      "raw_types_mapped": [
+        "water availability"
+      ]
+    }
+  ],
+  "raw_type_to_category": {
+    "punctuality": "Operations & Traffic",
+    "train delay": "Operations & Traffic",
+    "cancelled train": "Operations & Traffic",
+    "delay": "Operations & Traffic",
+    "cleanliness": "Housekeeping",
+    "bed roll": "Housekeeping",
+    "corruption / bribery": "Passenger Grievance",
+    "staff behaviour": "Passenger Grievance",
+    "crowding": "Passenger Grievance",
+    "ticket booking": "Passenger Grievance",
+    "refund": "Passenger Grievance",
+    "ticket booking charge": "Passenger Grievance",
+    "ticket/ seat availability": "Passenger Grievance",
+    "difficulty in booking tickets": "Passenger Grievance",
+    "fare charges": "Passenger Grievance",
+    "security": "Security",
+    "safety": "Security",
+    "electrical equipment": "Electrical",
+    "catering & vending service": "Catering",
+    "food": "Catering",
+    "food quality": "Catering",
+    "maintenance": "Coach Maintenance",
+    "poor condition": "Coach Maintenance",
+    "bed": "Coach Maintenance",
+    "water availability": "Water & Sanitation"
+  },
+  "excluded_types": {
+    "medical assistance": {
+      "count": 11,
+      "reason": "Excluded due to severe sample scarcity (only 11 genuine complaints in dataset; 0.6% representation) to maintain statistical evaluation rigor across fully-supported categories."
+    },
+    "engineering": {
+      "count": 0,
+      "reason": "Excluded because 0 civil engineering complaint records exist in the source dataset."
+    },
+    "service": {
+      "count": 180,
+      "reason": "Vague, highly diffuse complaints spanning policy, platform signs, or general customer support without specific domain clarity."
+    },
+    "miscellaneous": {
+      "count": 177,
+      "reason": "Catch-all label containing noisy, multi-topic, or idiosyncratic grievances that lack coherent semantic boundaries."
+    },
+    "facility": {
+      "count": 142,
+      "reason": "Generic observations about station waiting rooms or multi-service deficiencies without distinct operational target."
+    },
+    "others": {
+      "count": 68,
+      "reason": "Unspecified feedback, meme references, and social commentary."
+    },
+    "political": {
+      "count": 52,
+      "reason": "Political arguments, ministry criticism, senior citizen concession policy debates, and government privatization debates."
+    },
+    "loss/found": {
+      "count": 14,
+      "reason": "Inquiries regarding misplaced personal items rather than service complaints."
+    },
+    "facilities": {
+      "count": 3,
+      "reason": "Vague infrastructure remarks lacking department-specific resolution."
+    },
+    "service feedback": {
+      "count": 1,
+      "reason": "Generic non-actionable commentary."
+    },
+    "service quality": {
+      "count": 1,
+      "reason": "Single generic remark."
+    },
+    "service issue": {
+      "count": 1,
+      "reason": "Single generic remark."
+    },
+    "logistics": {
+      "count": 1,
+      "reason": "Freight/parcel handling query."
+    },
+    "child labor and begging on train": {
+      "count": 1,
+      "reason": "Single isolated social issue record."
+    },
+    "opposition to the silverline project and ecological impact": {
+      "count": 1,
+      "reason": "Political / ecological policy commentary."
+    },
+    "petrol theft during vehicle parceling": {
+      "count": 1,
+      "reason": "Isolated parcel theft claim."
+    },
+    "criticism": {
+      "count": 1,
+      "reason": "Generic political / institutional critique."
+    },
+    "request/suggestion": {
+      "count": 1,
+      "reason": "User suggestions rather than actionable complaints."
+    },
+    "employee": {
+      "count": 1,
+      "reason": "Internal HR dispute."
+    }
+  }
+}
